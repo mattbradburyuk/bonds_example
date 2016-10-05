@@ -28,6 +28,8 @@ You can't assign to a mapping outside of a function
 
 - Need to change contract helpers so they reference rpc
 
+- get deployer to prompt for password
+
 - need to get deployer to take a variable amount of gas (changed to 30000000 from 3000000)
 
 - need to change ethereumplay to hold a higher gas limit, look at --targetgaslimit geth option

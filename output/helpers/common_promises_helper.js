@@ -81,6 +81,22 @@ module.exports = {
         });
     },
 
+
+    // ********* log pass through *******************
+
+    log_pass_through: function (args){
+
+        return new Promise(function(resolve,reject){
+
+            console.log("Pass_through", args);
+
+            resolve(args)
+
+        });
+    },
+
+
+
     // *********end of promise chain markers **********
 
     end_success: function end_success(result) {

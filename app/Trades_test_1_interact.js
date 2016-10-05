@@ -38,21 +38,112 @@ var cb = web3.eth.coinbase;
 
 // Trades.get_trade_version(['trade_1',1, {}]);
 
-Trades.get_trade(['trade_2', {}]).then(display_trade_table);
+// Trades.get_trade(['trade_2', {}]).then(display_trade_table);
 
 
+
+log_trade_versions()
 
 // ************ define promises **************
 
 
+function log_trade_versions(){
 
 
+    var trade_id
+    var cv
+    var data
 
+    get_trade_from_user()
+        .then(get_trade_current_version)
+        .then(get_trade_versions)
+        // .then(log_vars)
+        .then(display_table)
+
+
+    function get_trade_from_user(){
+
+        return new Promise(function(resolve,reject){
+
+            var prompt = require('prompt');
+            var schema = {
+                properties: {
+                    trade_id: {message: 'Please enter a trade',required: true, default: 'trade_1'}
+                }
+            };
+            prompt.message = '';
+            prompt.start();
+            prompt.get(schema, function (err, result) {
+                console.log("trade_id: ", result.trade_id)
+                trade_id = result.trade_id
+                resolve()
+            });
+        });
+    }
+
+
+    function get_trade_current_version(){
+
+        return new Promise(function(resolve,reject){
+
+            Trades.get_trade_current_version([trade_id,{}])
+                .then(
+                    function(args){
+                        cv = parseInt(args)
+                        resolve()
+                    })
+        });
+    }
+
+    function get_trade_versions(){
+
+        return new Promise(function(resolve,reject){
+
+            var proms = [];
+            for (var i =1; i<= cv; i++) {
+                proms[i] = Trades.get_trade_version([trade_id,i,{}])
+            }
+
+            Promise.all(proms).then(function(args){
+                data = args
+                resolve()})
+        });
+    }
+
+    function log_vars(){
+        console.log("trade_id:",trade_id);
+        console.log("cv: ", cv);
+        console.log("data: ", data)
+    }
+
+    function display_table(){
+
+        return new Promise(function(resolve,reject){
+
+            var Table = require('cli-table');
+
+            // instantiate
+            var table = new Table({
+                head: ['Instrument', 'Buyer', 'Seller', 'Amount', 'Bond Price', 'Settlement Date', 'version']
+                , colWidths: [20, 20,20,20,20,20,20]
+            });
+
+
+            for (var i = 1; i<= cv;i++) {
+                table.push(data[i])
+            }
+
+            console.log(table.toString());
+
+            resolve()
+        });
+    }
+}
 
 
 function display_trade_detail(args){
 
-    new Promise(function(resolve,reject){
+    return new Promise(function(resolve,reject){
 
         console.log("instrument: \t", args[0]);
         console.log("buyer: \t\t", args[1]);
@@ -69,7 +160,7 @@ function display_trade_detail(args){
 
 function display_trade_table(args){
 
-    new Promise(function(resolve,reject){
+    return new Promise(function(resolve,reject){
 
         var Table = require('cli-table');
 
@@ -87,11 +178,7 @@ function display_trade_table(args){
         console.log(table.toString());
 
         resolve()
-
-
     });
-
-
 }
 
 

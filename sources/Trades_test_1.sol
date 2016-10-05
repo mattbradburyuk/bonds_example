@@ -51,6 +51,12 @@ contract Trades_test_1 {
         version = all_trades[t].versions[cv].version;
     }
 
+    function get_trade_current_version( string t) constant returns (uint cv){
+
+        cv = all_trades[t].current_version;
+
+    }
+
 
     function get_trade_version(string t, uint cv) constant returns (string instrument, string buyer, string seller, uint amount, uint bond_price, uint settlement_date, uint version){
 
