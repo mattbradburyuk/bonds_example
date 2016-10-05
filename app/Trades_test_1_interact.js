@@ -25,14 +25,8 @@ var url = 'http://'+contract_config.rpc.host+':'+ contract_config.rpc.port;
 web3.setProvider(new web3.providers.HttpProvider(url));
 var rpc_client = jayson.client.http(url);
 
-// check connection objects
-// console.log(web3._requestManager.provider.host);
-// console.log(rpc_client.options.host)
 
-
-
-
-var Trades = require(root+mushroom_config.structure.helper_output_directory+'Trades_helper.js')
+var Trades = require(root+mushroom_config.structure.helper_output_directory+'Trades_test_1_helper.js')
 var Comprom = require(root+mushroom_config.structure.helper_output_directory+'common_promises_helper.js')
 
 // console.log(Trades.get_dummy([{}]))
@@ -42,17 +36,29 @@ var Comprom = require(root+mushroom_config.structure.helper_output_directory+'co
 var cb = web3.eth.coinbase;
 
 
-Trades.get_trade([{}])
-    .then(Comprom.unlock_acc)
-    .then(set_args)
-    .then(Trades.set_trade)
-    .then(get_args)
-    .then(Trades.get_trade)
-    .then(set_args_proxy)
-    .then(Trades.proxy_set_trade)
-    .then(get_args)
-    .then(Trades.get_trade)
-    .then(Comprom.end_success,Comprom.end_error);
+// Trades.get_trade_version(['trade_1',1, {}]);
+
+Trades.get_trade(['trade_2', {}]).then(display_trade_detail);
+
+
+
+
+function display_trade_detail(args){
+
+    new Promise(function(resolve,reject){
+
+        console.log("instrument: \t", args[0]);
+        console.log("buyer: \t\t", args[1]);
+        console.log("seller: \t", args[2]);
+        console.log("amount: \t", args[3].toString());
+        console.log("bond_price: \t", args[4].toString());
+        console.log("settlement_date: ", args[5].toString());
+        console.log("version: \t", args[6].toString());
+
+        resolve()
+    });
+
+}
 
 
 function get_args(){

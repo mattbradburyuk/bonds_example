@@ -14,3 +14,20 @@ How to stamp time on to trade
 ##Solidity
 
 You can't assign to a mapping outside of a function
+
+
+
+
+
+
+#Changes to mushroom
+
+- Added common_promises_helper.js
+
+- Did something to reference helpers
+
+- Need to change contract helpers so they reference rpc
+
+- need to get deployer to take a variable amount of gas (changed to 30000000 from 3000000)
+
+- need to change ethereumplay to hold a higher gas limit, look at --targetgaslimit geth option
