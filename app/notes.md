@@ -31,3 +31,5 @@ You can't assign to a mapping outside of a function
 - need to get deployer to take a variable amount of gas (changed to 30000000 from 3000000)
 
 - need to change ethereumplay to hold a higher gas limit, look at --targetgaslimit geth option
+
+- added dependencies
