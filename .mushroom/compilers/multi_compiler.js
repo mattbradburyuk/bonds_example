@@ -7,6 +7,7 @@ var fs = require('fs');
 var solc = require('solc');
 var jsonfile = require("jsonfile");
 
+console.log("solc version: ",solc.version(),"\n")
 
 // ********* get the config files  ************
 
