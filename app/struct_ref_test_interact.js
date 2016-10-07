@@ -43,7 +43,7 @@ get_args()
 
 function get_args(){
     return new Promise(function (resolve,reject){
-        var args = [2,2,{from: cb}];
+        var args = [1,2,{from: cb}];
         resolve(args);
     });
 }

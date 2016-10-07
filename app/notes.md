@@ -8,6 +8,8 @@ How to stamp time on to trade
     
     
     
+current approach with log_trade_versions will end up with alot of duplicated code, can closures make it more efficient.
+    
     
 #Notes
 
@@ -22,16 +24,21 @@ You can't assign to a mapping outside of a function
 
 #Changes to mushroom
 
-- Added common_promises_helper.js
+- Added common_promises_helper.js - done
 
 - Did something to reference helpers
 
-- Need to change contract helpers so they reference rpc
+- Need to change contract helpers so they reference rpc - done
 
-- get deployer to prompt for password
+- get deployer to prompt for password - done
 
-- need to get deployer to take a variable amount of gas (changed to 30000000 from 3000000)
+- need to get deployer to take a variable amount of gas (changed to 30000000 from 3000000) - done
 
 - need to change ethereumplay to hold a higher gas limit, look at --targetgaslimit geth option
 
-- added dependencies
+- added dependencies - done
+
+
+
+
+"trade_0", "inst_1", "buyer_1", "seller_1", 100, 123, 123456789

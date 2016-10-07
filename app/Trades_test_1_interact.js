@@ -29,26 +29,26 @@ var rpc_client = jayson.client.http(url);
 var Trades = require(root+mushroom_config.structure.helper_output_directory+'Trades_test_1_helper.js')
 var Comprom = require(root+mushroom_config.structure.helper_output_directory+'common_promises_helper.js')
 
-// console.log(Trades.get_dummy([{}]))
-//
-// console.log(Trades.get_trade([{}]))
-
 var cb = web3.eth.coinbase;
 
+// ********** Promise chain *************
 
-// Trades.get_trade_version(['trade_1',1, {}]);
 
-// Trades.get_trade(['trade_2', {}]).then(display_trade_table);
+
+// can closures make this more efficient, with less duplicated code <----- think about this
+
 
 
 
 log_trade_versions()
 
+// Trades.get_trade_version(['trade_1',2,{}]).then(display_trade_table)
+
+
 // ************ define promises **************
 
 
 function log_trade_versions(){
-
 
     var trade_id
     var cv
@@ -138,70 +138,79 @@ function log_trade_versions(){
             resolve()
         });
     }
-}
-
-
-function display_trade_detail(args){
-
-    return new Promise(function(resolve,reject){
-
-        console.log("instrument: \t", args[0]);
-        console.log("buyer: \t\t", args[1]);
-        console.log("seller: \t", args[2]);
-        console.log("amount: \t", args[3].toString());
-        console.log("bond_price: \t", args[4].toString());
-        console.log("settlement_date: ", args[5].toString());
-        console.log("version: \t", args[6].toString());
-
-        resolve()
-    });
 
 }
 
-function display_trade_table(args){
-
-    return new Promise(function(resolve,reject){
-
-        var Table = require('cli-table');
-
-        // instantiate
-        var table = new Table({
-            head: ['Instrument', 'Buyer', 'Seller', 'Amount', 'Bond Price', 'Settlement Date', 'version']
-            , colWidths: [20, 20,20,20,20,20,20]
-        });
-
-        // table is an Array, so you can `push`, `unshift`, `splice` and friends
-        table.push(
-            [args[0], args[1], args[2], args[3], args[4], args[5], args[6]]
-        );
-
-        console.log(table.toString());
-
-        resolve()
-    });
-}
 
 
-function get_args(){
-    return new Promise(function (resolve,reject){
-        var args = [{}];
-        resolve(args);
-    });
-}
-
-function set_args_proxy(){
-    return new Promise(function(resolve,reject){
-        var args = [{from:cb}];
-        resolve(args)
-    });
-}
 
 
-function set_args(){
-        return new Promise(function(resolve,reject){
-            var args = ["bond_2", "seller_2", 'buyer_2',{from:cb}];
-            resolve(args)
-    });
-}
+
+
+
+
+
+// function display_trade_detail(args){
+//
+//     return new Promise(function(resolve,reject){
+//
+//         console.log("instrument: \t", args[0]);
+//         console.log("buyer: \t\t", args[1]);
+//         console.log("seller: \t", args[2]);
+//         console.log("amount: \t", args[3].toString());
+//         console.log("bond_price: \t", args[4].toString());
+//         console.log("settlement_date: ", args[5].toString());
+//         console.log("version: \t", args[6].toString());
+//
+//         resolve()
+//     });
+//
+// }
+//
+// function display_trade_table(args){
+//
+//     return new Promise(function(resolve,reject){
+//
+//         var Table = require('cli-table');
+//
+//         // instantiate
+//         var table = new Table({
+//             head: ['Instrument', 'Buyer', 'Seller', 'Amount', 'Bond Price', 'Settlement Date', 'version']
+//             , colWidths: [20, 20,20,20,20,20,20]
+//         });
+//
+//         // table is an Array, so you can `push`, `unshift`, `splice` and friends
+//         table.push(
+//             [args[0], args[1], args[2], args[3], args[4], args[5], args[6]]
+//         );
+//
+//         console.log(table.toString());
+//
+//         resolve()
+//     });
+// }
+//
+//
+// function get_args(){
+//     return new Promise(function (resolve,reject){
+//         var args = [{}];
+//         resolve(args);
+//     });
+// }
+//
+// function set_args_proxy(){
+//     return new Promise(function(resolve,reject){
+//         var args = [{from:cb}];
+//         resolve(args)
+//     });
+// }
+//
+//
+// function set_args(){
+//         return new Promise(function(resolve,reject){
+//             var args = ["bond_2", "seller_2", 'buyer_2',{from:cb}];
+//             resolve(args)
+//     });
+// }
 
 

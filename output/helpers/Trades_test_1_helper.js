@@ -14,7 +14,7 @@ web3.setProvider(new web3.providers.HttpProvider(url));
 // ******** module variables (closed over when module required - I think) ************
 
 var abi = JSON.parse('[{"constant":true,"inputs":[{"name":"t","type":"string"}],"name":"get_trade","outputs":[{"name":"instrument","type":"string"},{"name":"buyer","type":"string"},{"name":"seller","type":"string"},{"name":"amount","type":"uint256"},{"name":"bond_price","type":"uint256"},{"name":"settlement_date","type":"uint256"},{"name":"version","type":"uint256"}],"payable":false,"type":"function"},{"constant":false,"inputs":[],"name":"create_dummy_trades","outputs":[],"payable":false,"type":"function"},{"constant":true,"inputs":[{"name":"t","type":"string"},{"name":"cv","type":"uint256"}],"name":"get_trade_version","outputs":[{"name":"instrument","type":"string"},{"name":"buyer","type":"string"},{"name":"seller","type":"string"},{"name":"amount","type":"uint256"},{"name":"bond_price","type":"uint256"},{"name":"settlement_date","type":"uint256"},{"name":"version","type":"uint256"}],"payable":false,"type":"function"},{"constant":true,"inputs":[{"name":"t","type":"string"}],"name":"get_trade_current_version","outputs":[{"name":"cv","type":"uint256"}],"payable":false,"type":"function"},{"inputs":[],"type":"constructor"}]');
-var address = '0x226ef6bb126658baabc282d5dacba5b297623ebe';
+var address = '0xd97e4e0d100b670ecae46c4f2c3d3dffa35a68ca';
 var contract = web3.eth.contract(abi).at(address);
 
 function Contract(){
