@@ -1,3 +1,23 @@
+
+/*
+* for use with Trade_test_2.sol
+*
+* 1) Creates a new trade
+*
+* 2) Checks number of trades
+*
+* 3) Edits the trade to provide trade details
+*
+* 4) reads the trade details from the blockchain
+*
+*
+* note, this always gives the same trade name (trade_0) so doesn't test multiple trades
+*
+* */
+
+
+
+
 // ********** imports ****************
 
 var Web3 = require('web3');
@@ -32,18 +52,16 @@ var Comprom = require(root+mushroom_config.structure.helper_output_directory+'co
 var cb = web3.eth.coinbase;
 
 
-console.log(cb)
-
 
 Comprom.unlock_acc()
     .then(set_args_1)
     .then(Trades.new_trade)
     .then(set_args_none)
     .then(Trades.get_num_trades)
-    // .then(set_args_2)
-    // .then(Trades.edit_trade)
-    // .then(set_args_3)
-    // .then(Trades.get_trade_detail)
+    .then(set_args_2)
+    .then(Trades.edit_trade)
+    .then(set_args_3)
+    .then(Trades.get_trade_detail)
     .then(Comprom.end_success,Comprom.end_error);
 
 
@@ -56,14 +74,14 @@ function set_args_none(x){
 
 function set_args_1(x){
     return new Promise(function(resolve,reject){
-        var args = ["trade_0",{from:cb}];
+        var args = ["trade_0",{from:cb,gas:300000}];
         resolve(args)
     });
 }
 
 function set_args_2(x){
     return new Promise(function(resolve,reject){
-        var args = ["trade_0", "inst_1", "buyer_1", "seller_1", 100, 123, 123456789,{from:cb}];
+        var args = ["trade_0", "inst_1", "buyer_1", "seller_1", 100, 123, 123456789,{from:cb,gas:300000}];
         resolve(args)
     });
 }

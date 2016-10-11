@@ -20,7 +20,11 @@ contract Trades_test_2 {
     string[] all_trades_names;
 
 
-    function Trades_test_2(){}
+    function Trades_test_2(){
+        //all_trades_names.length = 1;
+        //all_trades_names[0] = 'dummy';
+
+    }
 
     function get_trade_name(uint t) constant returns (string){
         return all_trades_names[t];

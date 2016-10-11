@@ -198,7 +198,7 @@ function deploy_contract(contract_json){
 
         var contract_obj = web3.eth.contract(iface);
 
-        var gas = contract_json.gasEstimates.creation[0]+contract_json.gasEstimates.creation[1];
+        var gas = contract_json.gasEstimates.creation[0]+ contract_json.gasEstimates.creation[1]+200000;
         console.log(" ---> Gas provided to deploy: ", gas);
 
 
