@@ -46,5 +46,5 @@ console.log(con.get_array_item.call(0))
 //     console.log("callback:", e,r)
 // }
 
-My_array.add_array_item([{from: cb, gas: 300000}])
+My_array.add_array_item([{from: cb, gas: 300000}]).then(Comprom.end_success,Comprom.end_error)
 
