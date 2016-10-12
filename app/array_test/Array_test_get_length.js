@@ -35,16 +35,6 @@ var con = My_array.get_contract()
 
 // console.log(con);
 
-console.log(con.get_array_len.call())
+console.log("Array length: ", con.get_array_len.call())
 
-// console.log(con.get_array_item.call(0))
-
-// con.add_array_item.sendTransaction({from: cb, gas: 300000}, callback)
-//
-//
-// function callback(e,r){
-//     console.log("callback:", e,r)
-// }
-
-My_array.add_array_item([{from: cb, gas: 300000}]).then(Comprom.end_success,Comprom.end_error)
 
