@@ -41,6 +41,8 @@ You can't assign to a mapping outside of a function
 
 
 
+# scratch pad:
+
 "trade_0", "inst_1", "buyer_1", "seller_1", 100, 123, 123456789
 
 

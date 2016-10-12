@@ -62,12 +62,4 @@ function callback(error, result) {
     }
 }
 
-// // Or pass a callback to start watching immediately
-// var event = Contract.get_contract().My_message({fromBlock:0, toBlock: 'latest'}, function(error, result) {
-//     if (error){
-//         console.log("error: ", error)
-//     }else {
-//         console.log("result: ",result);
-//     }
-// });
-
+// note can also pass a callback to watch immediately

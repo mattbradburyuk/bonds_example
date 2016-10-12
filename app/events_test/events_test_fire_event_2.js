@@ -36,7 +36,5 @@ var cb = web3.eth.coinbase;
 
 
 
-// ************
-
-Contract.send_message([{from:cb, gas:300000}]).then(Comprom.end_success,Comprom.end_error);
+Contract.trigger_event_2([{from:cb, gas:300000}]).then(Comprom.end_success,Comprom.end_error);
 
