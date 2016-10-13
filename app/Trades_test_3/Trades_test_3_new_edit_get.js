@@ -2,11 +2,11 @@
 /*
  * for use with Trade_test_3.sol
  *
- * // check Trades created through logs, not by scanning data
+ *
+ * Creates a new trade (trade_0) , edits the trade to add trade details then reads the trade details back
+ *
+ *
  * */
-
-
-
 
 // ********** imports ****************
 
@@ -53,6 +53,7 @@ Comprom.unlock_acc()
     .then(set_args_3)
     .then(Trades.get_trade_detail)
     .then(Comprom.end_success,Comprom.end_error);
+
 
 
 
