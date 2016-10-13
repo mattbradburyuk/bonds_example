@@ -34,12 +34,20 @@ var Comprom = require(root+mushroom_config.structure.helper_output_directory+'co
 
 var cb = web3.eth.coinbase;
 
-//
+// New_trade_event() must take 3 arguments in the correct order or it won't work
+// arg 1: filters for values in ***INDEXED*** fields, it won't work without the index in the solidity event declaration
+
+// Note: Indexing does not work directly on array types (eg dynamic string), there's something about using sha3 hash but I didn't dig into that, i just used a uint instead, ie:in .sol:
+// 'event New_trade_event(address indexed sender, uint indexed trade_no, string trade_id);'
+
+// arg 2: event filter object
+// if left blank it doesn't go back and get historic blocks therefore need to specify block range eg : {fromBlock:0, toBlock:'latest'}
+
+// arg 3: callback
+// callback gets fired for each event found, in contrast to allEvents which returns an array of events
+
+
 var events = Contract.get_contract().New_trade_event({trade_no: '2'},{fromBlock:0, toBlock:'latest'},callback)
-
-// console.log("events" ,events);
-
-// events.watch(callback)
 
 function callback(e,r){
 
