@@ -46,6 +46,8 @@ var cb = web3.eth.coinbase;
 // arg 3: callback
 // callback gets fired for each event found, in contrast to allEvents which returns an array of events
 
+// ueful link: https://media.consensys.net/2016/06/06/technical-introduction-to-events-and-logs-in-ethereum/
+
 console.log("Retrieve a single filtered trade:")
 var events = Contract.get_contract().New_trade_event({trade_no: '2'},{fromBlock:0, toBlock:'latest'},callback)
 
