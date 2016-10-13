@@ -46,8 +46,12 @@ var cb = web3.eth.coinbase;
 // arg 3: callback
 // callback gets fired for each event found, in contrast to allEvents which returns an array of events
 
-
+console.log("Retrieve a single filtered trade:")
 var events = Contract.get_contract().New_trade_event({trade_no: '2'},{fromBlock:0, toBlock:'latest'},callback)
+
+
+// Alternatively could retrieve all trades:
+// var events = Contract.get_contract().New_trade_event(null,{fromBlock:0, toBlock:'latest'},callback)
 
 function callback(e,r){
 
@@ -56,7 +60,7 @@ function callback(e,r){
     }else{
         // console.log("r", r );
 
-            console.log(r.event,"for",r.args.trade_id, "in block", r.blockNumber)
+            console.log( " --->", r.event,"for",r.args.trade_id, "in block", r.blockNumber)
     }
 
 }
