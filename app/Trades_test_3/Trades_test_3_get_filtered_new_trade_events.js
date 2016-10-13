@@ -35,7 +35,7 @@ var Comprom = require(root+mushroom_config.structure.helper_output_directory+'co
 var cb = web3.eth.coinbase;
 
 //
-var events = Contract.get_contract().New_trade_event({trade_id: 'trade_0'},{fromBlock:0, toBlock:'latest'},callback)
+var events = Contract.get_contract().New_trade_event({trade_no: '2'},{fromBlock:0, toBlock:'latest'},callback)
 
 // console.log("events" ,events);
 

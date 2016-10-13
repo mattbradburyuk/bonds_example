@@ -3,7 +3,7 @@ pragma solidity ^0.4.2;
 
 contract Trades_test_3 {
 
-    event New_trade_event(address indexed sender, string trade_id);
+    event New_trade_event(address indexed sender, uint indexed trade_no, string trade_id);
     event Edit_trade_event(address indexed sender, string trade_id);
 
     struct Trade_detail {
@@ -57,7 +57,7 @@ contract Trades_test_3 {
         all_trades_names[sl] = trade_id;
         all_trades_details[trade_id] = blank_td;
 
-        New_trade_event(msg.sender, trade_id);
+        New_trade_event(msg.sender, sl ,trade_id);
 
     }
 

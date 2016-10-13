@@ -13,8 +13,8 @@ web3.setProvider(new web3.providers.HttpProvider(url));
 
 // ******** module variables (closed over when module required - I think) ************
 
-var abi = JSON.parse('[{"constant":false,"inputs":[{"name":"trade_id","type":"string"}],"name":"new_trade","outputs":[],"payable":false,"type":"function"},{"constant":true,"inputs":[{"name":"t","type":"uint256"}],"name":"get_trade_name","outputs":[{"name":"","type":"string"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"get_num_trades","outputs":[{"name":"","type":"uint256"}],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"trade_id","type":"string"},{"name":"instrument","type":"string"},{"name":"buyer","type":"string"},{"name":"seller","type":"string"},{"name":"amount","type":"uint256"},{"name":"bond_price","type":"uint256"},{"name":"settlement_date","type":"uint256"}],"name":"edit_trade","outputs":[],"payable":false,"type":"function"},{"constant":true,"inputs":[{"name":"trade_id","type":"string"}],"name":"get_trade_detail","outputs":[{"name":"instrument","type":"string"},{"name":"buyer","type":"string"},{"name":"seller","type":"string"},{"name":"amount","type":"uint256"},{"name":"bond_price","type":"uint256"},{"name":"settlement_date","type":"uint256"},{"name":"version","type":"uint256"}],"payable":false,"type":"function"},{"inputs":[],"type":"constructor"},{"anonymous":false,"inputs":[{"indexed":true,"name":"sender","type":"address"},{"indexed":false,"name":"trade_id","type":"string"}],"name":"New_trade_event","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"sender","type":"address"},{"indexed":false,"name":"trade_id","type":"string"}],"name":"Edit_trade_event","type":"event"}]');
-var address = '0x4bf5604acb954b0d7669ab07054277b37d9debd0';
+var abi = JSON.parse('[{"constant":false,"inputs":[{"name":"trade_id","type":"string"}],"name":"new_trade","outputs":[],"payable":false,"type":"function"},{"constant":true,"inputs":[{"name":"t","type":"uint256"}],"name":"get_trade_name","outputs":[{"name":"","type":"string"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"get_num_trades","outputs":[{"name":"","type":"uint256"}],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"trade_id","type":"string"},{"name":"instrument","type":"string"},{"name":"buyer","type":"string"},{"name":"seller","type":"string"},{"name":"amount","type":"uint256"},{"name":"bond_price","type":"uint256"},{"name":"settlement_date","type":"uint256"}],"name":"edit_trade","outputs":[],"payable":false,"type":"function"},{"constant":true,"inputs":[{"name":"trade_id","type":"string"}],"name":"get_trade_detail","outputs":[{"name":"instrument","type":"string"},{"name":"buyer","type":"string"},{"name":"seller","type":"string"},{"name":"amount","type":"uint256"},{"name":"bond_price","type":"uint256"},{"name":"settlement_date","type":"uint256"},{"name":"version","type":"uint256"}],"payable":false,"type":"function"},{"inputs":[],"type":"constructor"},{"anonymous":false,"inputs":[{"indexed":true,"name":"sender","type":"address"},{"indexed":true,"name":"trade_no","type":"uint256"},{"indexed":false,"name":"trade_id","type":"string"}],"name":"New_trade_event","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"sender","type":"address"},{"indexed":false,"name":"trade_id","type":"string"}],"name":"Edit_trade_event","type":"event"}]');
+var address = '0x81960ab9dfcdab746d7da8b058fe295633d2db5a';
 var contract = web3.eth.contract(abi).at(address);
 
 function Contract(){
@@ -187,11 +187,11 @@ Contract.get_trade_detail = function (args) {
 Contract.New_trade_event = function (args) {
         
         console.log("\nNew_trade_event called")
-        console.log(" ---> args[0]:", args[0]," ---> args[1]:", args[1]," ---> args[2]:", args[2])
+        console.log(" ---> args[0]:", args[0]," ---> args[1]:", args[1]," ---> args[2]:", args[2]," ---> args[3]:", args[3])
 
         return new Promise(function (resolve, reject) {
 
-            contract.New_trade_event.sendTransaction(args[0],args[1],args[2], callback);
+            contract.New_trade_event.sendTransaction(args[0],args[1],args[2],args[3], callback);
 
             var timer;
 

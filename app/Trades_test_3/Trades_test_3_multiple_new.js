@@ -47,8 +47,8 @@ var cb = web3.eth.coinbase;
 Comprom.unlock_acc()
     .then(new_incr_trade)
     .then(new_incr_trade)
-    // .then(new_incr_trade)
-    // .then(new_incr_trade)
+    .then(new_incr_trade)
+    .then(new_incr_trade)
     .then(Comprom.end_success,Comprom.end_error);
 
 
