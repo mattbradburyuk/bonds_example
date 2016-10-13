@@ -1,10 +1,7 @@
 pragma solidity ^0.4.2;
 
 
-contract Trades_test_3 {
-
-    event New_trade_event(address indexed sender, string trade_id);
-    event Edit_trade_event(address indexed sender, string trade_id);
+contract Trades_test_2 {
 
     struct Trade_detail {
         string instrument;
@@ -23,7 +20,7 @@ contract Trades_test_3 {
     string[] all_trades_names;
 
 
-    function Trades_test_3(){
+    function Trades_test_2(){
         //all_trades_names.length = 1;
         //all_trades_names[0] = 'dummy';
 
@@ -56,9 +53,6 @@ contract Trades_test_3 {
         all_trades_names.length = sl + 1;
         all_trades_names[sl] = trade_id;
         all_trades_details[trade_id] = blank_td;
-
-        New_trade_event(msg.sender, trade_id);
-
     }
 
 
@@ -77,8 +71,6 @@ contract Trades_test_3 {
         td.version = old_version + 1;
 
         all_trades_details[trade_id] = td;
-
-        Edit_trade_event(msg.sender, "dummy_trade_id" );
     }
 
 }

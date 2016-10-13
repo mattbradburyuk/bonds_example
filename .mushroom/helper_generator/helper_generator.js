@@ -153,9 +153,8 @@ function make_helper_for_contract(contract_name) {
         console.log("      ---> ", method_name)
 
         if (method_name == undefined) {
-            break;
+            continue; // break;
         }
-
 
         // make the number of method arguments in the helper method to match the contract method
         var num_args = method.inputs.length

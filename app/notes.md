@@ -24,19 +24,11 @@ You can't assign to a mapping outside of a function
 
 #Changes to mushroom
 
-- Added common_promises_helper.js - done
-
-- Did something to reference helpers
-
-- Need to change contract helpers so they reference rpc - done
-
-- get deployer to prompt for password - done
-
-- need to get deployer to take a variable amount of gas (changed to 30000000 from 3000000) - done
+- helper_generator changed from return -> continue on line 156 (to not skip methods)
 
 - need to change ethereumplay to hold a higher gas limit, look at --targetgaslimit geth option
 
-- added dependencies - done
+
 
 
 
@@ -85,3 +77,10 @@ You can't assign to a mapping outside of a function
 
 53686f7274206d657373616765
  S h 
+
+    363,400
+  2,307,000
+    911,323
+    269,093
+    845,200
+134,217,728

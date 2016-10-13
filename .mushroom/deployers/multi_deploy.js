@@ -207,7 +207,7 @@ function deploy_contract(contract_json){
             {
                 from: web3.eth.accounts[0],
                 data: bc,
-                gas: 3000000
+                gas: 6000000
             }, callback_x)
 
         function callback_x(e,contract) {

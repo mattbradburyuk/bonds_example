@@ -14,7 +14,7 @@ web3.setProvider(new web3.providers.HttpProvider(url));
 // ******** module variables (closed over when module required - I think) ************
 
 var abi = JSON.parse('[{"constant":false,"inputs":[],"name":"send_message","outputs":[],"payable":false,"type":"function"},{"constant":false,"inputs":[],"name":"trigger_event_2","outputs":[],"payable":false,"type":"function"},{"constant":false,"inputs":[],"name":"trigger_event_1","outputs":[],"payable":false,"type":"function"},{"anonymous":false,"inputs":[{"indexed":true,"name":"sender","type":"address"},{"indexed":false,"name":"message","type":"bytes32"}],"name":"My_message","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"sender","type":"address"},{"indexed":false,"name":"message","type":"bytes32"}],"name":"Event_1","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"sender","type":"address"},{"indexed":false,"name":"message","type":"bytes32"}],"name":"Event_2","type":"event"}]');
-var address = '0x19b6daddea41bf86297341e905314f9689c39d20';
+var address = '0x8106317aff1c37417f640949d11ce3b0e9d8b1f5';
 var contract = web3.eth.contract(abi).at(address);
 
 function Contract(){

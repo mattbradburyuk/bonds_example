@@ -13,8 +13,8 @@ web3.setProvider(new web3.providers.HttpProvider(url));
 
 // ******** module variables (closed over when module required - I think) ************
 
-var abi = JSON.parse('[{"constant":false,"inputs":[{"name":"trade_id","type":"string"}],"name":"new_trade","outputs":[],"payable":false,"type":"function"},{"constant":true,"inputs":[{"name":"t","type":"uint256"}],"name":"get_trade_name","outputs":[{"name":"","type":"string"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"get_num_trades","outputs":[{"name":"","type":"uint256"}],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"trade_id","type":"string"},{"name":"instrument","type":"string"},{"name":"buyer","type":"string"},{"name":"seller","type":"string"},{"name":"amount","type":"uint256"},{"name":"bond_price","type":"uint256"},{"name":"settlement_date","type":"uint256"}],"name":"edit_trade","outputs":[],"payable":false,"type":"function"},{"constant":true,"inputs":[{"name":"trade_id","type":"string"}],"name":"get_trade_detail","outputs":[{"name":"instrument","type":"string"},{"name":"buyer","type":"string"},{"name":"seller","type":"string"},{"name":"amount","type":"uint256"},{"name":"bond_price","type":"uint256"},{"name":"settlement_date","type":"uint256"},{"name":"version","type":"uint256"}],"payable":false,"type":"function"},{"inputs":[],"type":"constructor"}]');
-var address = '0x70f2406a30893e841efe21689f5565d57c701524';
+var abi = JSON.parse('[{"constant":false,"inputs":[{"name":"trade_id","type":"string"}],"name":"new_trade","outputs":[],"payable":false,"type":"function"},{"constant":true,"inputs":[{"name":"t","type":"uint256"}],"name":"get_trade_name","outputs":[{"name":"","type":"string"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"get_num_trades","outputs":[{"name":"","type":"uint256"}],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"trade_id","type":"string"},{"name":"instrument","type":"string"},{"name":"buyer","type":"string"},{"name":"seller","type":"string"},{"name":"amount","type":"uint256"},{"name":"bond_price","type":"uint256"},{"name":"settlement_date","type":"uint256"}],"name":"edit_trade","outputs":[],"payable":false,"type":"function"},{"constant":true,"inputs":[{"name":"trade_id","type":"string"}],"name":"get_trade_detail","outputs":[{"name":"instrument","type":"string"},{"name":"buyer","type":"string"},{"name":"seller","type":"string"},{"name":"amount","type":"uint256"},{"name":"bond_price","type":"uint256"},{"name":"settlement_date","type":"uint256"},{"name":"version","type":"uint256"}],"payable":false,"type":"function"},{"inputs":[],"type":"constructor"},{"anonymous":false,"inputs":[{"indexed":true,"name":"sender","type":"address"},{"indexed":false,"name":"trade_id","type":"string"}],"name":"New_trade_event","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"sender","type":"address"},{"indexed":false,"name":"trade_id","type":"string"}],"name":"Edit_trade_event","type":"event"}]');
+var address = '0x779394608eeb4165aca75a6296f523e71b471440';
 var contract = web3.eth.contract(abi).at(address);
 
 function Contract(){
@@ -179,6 +179,84 @@ Contract.get_trade_detail = function (args) {
             }
         }
     });
+};
+
+
+// ********* New_trade_event - send_tx **********
+
+Contract.New_trade_event = function (args) {
+        
+        console.log("\nNew_trade_event called")
+        console.log(" ---> args[0]:", args[0]," ---> args[1]:", args[1]," ---> args[2]:", args[2])
+
+        return new Promise(function (resolve, reject) {
+
+            contract.New_trade_event.sendTransaction(args[0],args[1],args[2], callback);
+
+            var timer;
+
+            function callback(e,tx_ref) {
+                if (e) {
+                    reject(e);
+                } else {
+                    console.log(" ---> tx_ref:", tx_ref)
+                    timer = setInterval(check_mined, 500, tx_ref)
+
+                }
+            }
+
+            function check_mined(tx_ref) {
+                // console.log("tx_ref in check_mined:", tx_ref);
+                var tx = web3.eth.getTransaction(tx_ref.toString());
+                // console.log("tx.blockNumber: ", tx.blockNumber);
+
+                if(tx.blockNumber != null) {
+                    console.log(" ---> tx mined in block: ", tx.blockNumber);
+                    clearInterval(timer);
+                    resolve(tx_ref);
+                }
+            }
+
+        });
+};
+
+
+// ********* Edit_trade_event - send_tx **********
+
+Contract.Edit_trade_event = function (args) {
+        
+        console.log("\nEdit_trade_event called")
+        console.log(" ---> args[0]:", args[0]," ---> args[1]:", args[1]," ---> args[2]:", args[2])
+
+        return new Promise(function (resolve, reject) {
+
+            contract.Edit_trade_event.sendTransaction(args[0],args[1],args[2], callback);
+
+            var timer;
+
+            function callback(e,tx_ref) {
+                if (e) {
+                    reject(e);
+                } else {
+                    console.log(" ---> tx_ref:", tx_ref)
+                    timer = setInterval(check_mined, 500, tx_ref)
+
+                }
+            }
+
+            function check_mined(tx_ref) {
+                // console.log("tx_ref in check_mined:", tx_ref);
+                var tx = web3.eth.getTransaction(tx_ref.toString());
+                // console.log("tx.blockNumber: ", tx.blockNumber);
+
+                if(tx.blockNumber != null) {
+                    console.log(" ---> tx mined in block: ", tx.blockNumber);
+                    clearInterval(timer);
+                    resolve(tx_ref);
+                }
+            }
+
+        });
 };
 
 
