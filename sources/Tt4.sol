@@ -1,7 +1,7 @@
 pragma solidity ^0.4.2;
 
 
-contract Trades_test_3 {
+contract Tt4 {
 
     event New_trade_event(address indexed sender, uint indexed trade_no, string trade_id);
     event Edit_trade_event(address indexed sender, string trade_id);
@@ -23,7 +23,7 @@ contract Trades_test_3 {
     string[] all_trades_names;
 
 
-    function Trades_test_3(){
+    function Tt4(){
         //all_trades_names.length = 1;
         //all_trades_names[0] = 'dummy';
 
