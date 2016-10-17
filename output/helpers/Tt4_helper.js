@@ -14,7 +14,7 @@ web3.setProvider(new web3.providers.HttpProvider(url));
 // ******** module variables (closed over when module required - I think) ************
 
 var abi = JSON.parse('[{"constant":false,"inputs":[{"name":"trade_id","type":"string"}],"name":"new_trade","outputs":[],"payable":false,"type":"function"},{"constant":true,"inputs":[{"name":"t","type":"uint256"}],"name":"get_trade_name","outputs":[{"name":"","type":"string"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"get_num_trades","outputs":[{"name":"","type":"uint256"}],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"trade_id","type":"string"},{"name":"instrument","type":"string"},{"name":"buyer","type":"string"},{"name":"seller","type":"string"},{"name":"amount","type":"uint256"},{"name":"bond_price","type":"uint256"},{"name":"settlement_date","type":"uint256"}],"name":"edit_trade","outputs":[],"payable":false,"type":"function"},{"constant":true,"inputs":[{"name":"trade_id","type":"string"}],"name":"get_trade_detail","outputs":[{"name":"instrument","type":"string"},{"name":"buyer","type":"string"},{"name":"seller","type":"string"},{"name":"amount","type":"uint256"},{"name":"bond_price","type":"uint256"},{"name":"settlement_date","type":"uint256"},{"name":"version","type":"uint256"}],"payable":false,"type":"function"},{"inputs":[],"type":"constructor"},{"anonymous":false,"inputs":[{"indexed":true,"name":"sender","type":"address"},{"indexed":true,"name":"trade_no","type":"uint256"},{"indexed":false,"name":"trade_id","type":"string"}],"name":"New_trade_event","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"sender","type":"address"},{"indexed":false,"name":"trade_id","type":"string"}],"name":"Edit_trade_event","type":"event"}]');
-var address = '0x0d4e11c20efaf840de0465ca76fc34b70e965c1b';
+var address = '0x6352086d38afb9dba50e8c0fa547d04733eff5e6';
 var contract = web3.eth.contract(abi).at(address);
 
 function Contract(){
@@ -39,8 +39,8 @@ Contract.get_contract = function(){
 
 Contract.new_trade = function (args) {
         
-        console.log("\nnew_trade called")
-        console.log(" ---> args[0]:", args[0]," ---> args[1]:", args[1])
+        // console.log("\nnew_trade called")
+        // console.log(" ---> args[0]:", args[0]," ---> args[1]:", args[1])
 
         return new Promise(function (resolve, reject) {
 
@@ -52,7 +52,7 @@ Contract.new_trade = function (args) {
                 if (e) {
                     reject(e);
                 } else {
-                    console.log(" ---> tx_ref:", tx_ref)
+                    // console.log(" ---> tx_ref:", tx_ref)
                     timer = setInterval(check_mined, 500, tx_ref)
 
                 }
@@ -64,7 +64,7 @@ Contract.new_trade = function (args) {
                 // console.log("tx.blockNumber: ", tx.blockNumber);
 
                 if(tx.blockNumber != null) {
-                    console.log(" ---> tx mined in block: ", tx.blockNumber);
+                    // console.log(" ---> tx mined in block: ", tx.blockNumber);
                     clearInterval(timer);
                     resolve(tx_ref);
                 }
@@ -78,8 +78,8 @@ Contract.new_trade = function (args) {
 
 Contract.get_trade_name = function (args) {
 
-    console.log("\nget_trade_name called")
-    console.log(" ---> args[0]:", args[0]," ---> args[1]:", args[1])
+    // console.log("\nget_trade_name called")
+    // console.log(" ---> args[0]:", args[0]," ---> args[1]:", args[1])
 
     return new Promise(function (resolve, reject) {
 
@@ -89,7 +89,7 @@ Contract.get_trade_name = function (args) {
             if (e) {
                 reject(e);
             } else {
-                console.log(" ---> get_trade_name response: ", response)
+                // console.log(" ---> get_trade_name response: ", response)
                 resolve(response)
             }
         }
@@ -124,8 +124,8 @@ Contract.get_num_trades = function (args) {
 
 Contract.edit_trade = function (args) {
         
-        console.log("\nedit_trade called")
-        console.log(" ---> args[0]:", args[0]," ---> args[1]:", args[1]," ---> args[2]:", args[2]," ---> args[3]:", args[3]," ---> args[4]:", args[4]," ---> args[5]:", args[5]," ---> args[6]:", args[6]," ---> args[7]:", args[7])
+        // console.log("\nedit_trade called")
+        // console.log(" ---> args[0]:", args[0]," ---> args[1]:", args[1]," ---> args[2]:", args[2]," ---> args[3]:", args[3]," ---> args[4]:", args[4]," ---> args[5]:", args[5]," ---> args[6]:", args[6]," ---> args[7]:", args[7])
 
         return new Promise(function (resolve, reject) {
 
@@ -137,7 +137,7 @@ Contract.edit_trade = function (args) {
                 if (e) {
                     reject(e);
                 } else {
-                    console.log(" ---> tx_ref:", tx_ref)
+                    // console.log(" ---> tx_ref:", tx_ref)
                     timer = setInterval(check_mined, 500, tx_ref)
 
                 }
@@ -149,7 +149,7 @@ Contract.edit_trade = function (args) {
                 // console.log("tx.blockNumber: ", tx.blockNumber);
 
                 if(tx.blockNumber != null) {
-                    console.log(" ---> tx mined in block: ", tx.blockNumber);
+                    // console.log(" ---> tx mined in block: ", tx.blockNumber);
                     clearInterval(timer);
                     resolve(tx_ref);
                 }
@@ -163,8 +163,8 @@ Contract.edit_trade = function (args) {
 
 Contract.get_trade_detail = function (args) {
 
-    console.log("\nget_trade_detail called")
-    console.log(" ---> args[0]:", args[0]," ---> args[1]:", args[1])
+    // console.log("\nget_trade_detail called")
+    // console.log(" ---> args[0]:", args[0]," ---> args[1]:", args[1])
 
     return new Promise(function (resolve, reject) {
 
@@ -174,7 +174,7 @@ Contract.get_trade_detail = function (args) {
             if (e) {
                 reject(e);
             } else {
-                console.log(" ---> get_trade_detail response: ", response)
+                // console.log(" ---> get_trade_detail response: ", response)
                 resolve(response)
             }
         }

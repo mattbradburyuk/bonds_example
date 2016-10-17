@@ -107,6 +107,28 @@ module.exports = {
     end_error: function end_error(err) {
         console.log("\nEnd error: ---> ", err); // Error: "It broke"
         // console.log("\n *********  end of script **********");
+    },
+
+    // ************* tic toc timing*********************
+
+    tic: function (pt){
+        return new Promise(function(resolve, reject){
+            console.log("**** tic:",Date.now(), " ****")
+            resolve(pt)
+        });
+    },
+
+    toc: function (pt){
+        return new Promise(function(resolve, reject){
+            console.log("**** toc:",Date.now(), " ****")
+            resolve(pt)
+
+        });
     }
 
+
+
+
+
 };
+
