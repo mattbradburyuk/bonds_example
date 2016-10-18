@@ -35,9 +35,11 @@ var Comprom = require(root+mushroom_config.structure.helper_output_directory+'co
 var cb = web3.eth.coinbase;
 
 //
-Comprom.unlock_acc()
+Comprom.tic()
+    .then(Comprom.unlock_acc)
     .then(get_csv_data)
     .then(fire_new_trade_promises)
+    .then(Comprom.toc)
     // .then(display_data_in_table)
     .then(Comprom.end_success,Comprom.end_error)
 

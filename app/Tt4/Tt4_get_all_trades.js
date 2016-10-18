@@ -5,6 +5,7 @@ var jayson = require('jayson');
 var jsonfile = require("jsonfile");
 var fs = require('fs');
 var parse = require('csv-parse');
+var stringify = require('csv-stringify');
 var Table = require('cli-table');
 
 
@@ -33,12 +34,16 @@ var Comprom = require(root+mushroom_config.structure.helper_output_directory+'co
 
 var cb = web3.eth.coinbase;
 
+var csv_output_file = "./app/Tt4/output.csv"
+
+
 
 Comprom.tic([{}])
     .then(Trades.get_num_trades)
     .then(get_all_trade_names)
     .then(get_trade_details)
-    // .then(display_data_in_table)
+    .then(export_trades_to_csv)
+    .then(display_data_in_table)
     .then(Comprom.toc)
     // .then(Comprom.end_success,Comprom.end_error)
 
@@ -105,10 +110,42 @@ function display_data_in_table(args){
         console.log(table.toString());
 
         resolve()
-
-
     });
-
-
 }
 
+function export_trades_to_csv(args){
+
+    return new Promise(function (resolve,reject){
+
+        var head  = ['instrument', 'buyer', 'seller', 'amount', 'bond_price', 'settlement_date', 'version']
+
+        var data = []
+
+        data[0] = head;
+
+        for (var i =0; i< args.length; i++ ){
+
+            data[i+1]=args[i]
+            data[i+1][0] = args[i][0]
+            data[i+1][1] = args[i][1]
+            data[i+1][2] = args[i][2]
+            data[i+1][3] = args[i][3].toNumber()
+            data[i+1][4] = args[i][4].toNumber()
+            data[i+1][5] = args[i][5].toNumber()
+            data[i+1][6] = args[i][6].toNumber()
+
+        }
+
+        console.log("bob");
+        // console.log(data)git add .
+        stringify(data, function(err, output){
+            console.log(output)
+
+            fs.writeFileSync(csv_output_file,output, 'utf8')
+
+        });
+
+        resolve(args)
+
+    });
+}
