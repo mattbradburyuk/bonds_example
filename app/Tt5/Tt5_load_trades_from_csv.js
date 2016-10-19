@@ -29,10 +29,17 @@ web3.setProvider(new web3.providers.HttpProvider(url));
 var rpc_client = jayson.client.http(url);
 
 
-var Trades = require(root+mushroom_config.structure.helper_output_directory+'Tt4_helper.js')
+var Trades = require(root+mushroom_config.structure.helper_output_directory+'Tt5_helper.js')
 var Comprom = require(root+mushroom_config.structure.helper_output_directory+'common_promises_helper.js')
 
 var cb = web3.eth.coinbase;
+
+
+var starting_block = web3.eth.blockNumber
+
+console.log(starting_block)
+
+
 
 //
 Comprom.tic()
@@ -40,7 +47,7 @@ Comprom.tic()
     .then(get_csv_data)
     .then(fire_new_trade_promises)
     .then(Comprom.toc)
-    // .then(display_data_in_table)
+    // // .then(display_data_in_table)
     .then(Comprom.end_success,Comprom.end_error)
 
 // get_csv_data().then(fire_new_trade_promises)
@@ -52,7 +59,7 @@ function get_csv_data() {
 
         var parser = parse({delimiter: ','}, callback)
 
-        fs.createReadStream('./app/Tt4/csv_trades_source.csv').pipe(parser);
+        fs.createReadStream('./app/Tt5/csv_trades_source.csv').pipe(parser);
 
         function callback(err, data) {
             resolve(data)
@@ -72,7 +79,7 @@ function fire_new_trade_promises(args){
             proms[i] = new_and_edit(trade_data[i])
         }
 
-        console.log("proms:", proms)
+        console.log("proms fired")
         Promise.all(proms)
             // .then(Comprom.log_pass_through)
             .then(pass_back_results);
@@ -91,11 +98,39 @@ function fire_new_trade_promises(args){
 function new_and_edit(trade_data){
     return new Promise(function (resolve,reject){
 
-
-        Trades.new_trade([trade_data[0], {from: cb, gas: 300000}])
+        delay_firing()
+            .then(Trades.new_trade)
             .then(set_args)
             .then(Trades.edit_trade)
             .then(pass_back_results)
+
+
+// ********** not working ********
+        function delay_firing(){
+                return new Promise(function (resolve,reject){
+                    var target_block = parseInt(starting_block) + parseInt(trade_data[17])
+
+                    console.log("target_block:", target_block, "starting_block: ", starting_block, "trade_data[17]: ", trade_data[17])
+
+
+                    var timer = setInterval(check_if_time_to_fire, 5000);
+
+                    function check_if_time_to_fire(){
+                        // console.log("check_if_time_to_fire called for ", trade_data[0])
+                        web3.eth.getBlockNumber(callback)
+
+                        function callback(e,r) {
+                            // console.log("r: ",r)
+                            if (r >= target_block) {
+                                // console.log("timer finished")
+                                clearInterval(timer)
+                                resolve([trade_data[0], {from: cb, gas: 300000}])
+                            }
+                        }
+                    }
+                });
+        }
+
 
         function set_args(){
             return new Promise(function(resolve, reject){
