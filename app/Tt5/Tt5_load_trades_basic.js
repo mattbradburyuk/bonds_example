@@ -37,29 +37,29 @@ var cb = web3.eth.coinbase;
 
 var starting_block = web3.eth.blockNumber
 
-console.log(starting_block)
+console.log("starting block:", starting_block)
 
 var data = []
 
-new_trades()
+// new_trades()
 
-// edit_trades()
+edit_trades()
 
 
 function new_trades(){
 
     var parser = parse({delimiter: ','}, callback)
 
-    fs.createReadStream('./app/Tt5/csv_trade_sources_100_at_5_per_5_blocks.csv').pipe(parser);
+    fs.createReadStream('./app/Tt5/csv_trade_sources_100_at_10_per_10_blocks.csv').pipe(parser);
 
     function callback(err, r) {
 
         data = r;
         var data_ind = 1;   // tracks which trades have been fired
         // console.log(data)
-        console.log(data.length)
+        console.log("input file length: ",data.length)
 
-        var timer = setInterval(fire_txs,2000); // interval set below average block time
+        var timer = setInterval(fire_txs,5000); // interval set below average block time
 
         function fire_txs(){
 

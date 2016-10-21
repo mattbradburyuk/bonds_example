@@ -1,0 +1,1859 @@
+bonds_example $ node app/Tt5/Tt5_load_trades_basic.js
+starting block: 3
+input file length:  101
+fire trade:  trade_1
+
+new_trade called
+ ---> args[0]: trade_1  ---> args[1]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0x2955be67e8a4224bd4090e63456b82dcb20b44c79b7685309bc42a361a618168
+fire trade:  trade_2
+
+new_trade called
+ ---> args[0]: trade_2  ---> args[1]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0x483b4d0795574e570fbaf6817dcabdc7cc7336128850003395834a415642a318
+fire trade:  trade_3
+
+new_trade called
+ ---> args[0]: trade_3  ---> args[1]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0x9320eef8f8c4e6d893e4d4c03a985849edb0caabe3f64256871eb3daea5d439b
+fire trade:  trade_4
+
+new_trade called
+ ---> args[0]: trade_4  ---> args[1]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0xcfb4360eb8835bdc8b8009703b631eaf4ec5de0edf1137c83673b56a3caf2243
+fire trade:  trade_5
+
+new_trade called
+ ---> args[0]: trade_5  ---> args[1]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+fire trade:  trade_6
+
+new_trade called
+ ---> args[0]: trade_6  ---> args[1]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+fire trade:  trade_7
+
+new_trade called
+ ---> args[0]: trade_7  ---> args[1]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+fire trade:  trade_8
+
+new_trade called
+ ---> args[0]: trade_8  ---> args[1]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+fire trade:  trade_9
+
+new_trade called
+ ---> args[0]: trade_9  ---> args[1]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+ ---> tx mined in block:  5
+ ---> tx_ref: 0x6a1e2924121a0976f30f2c33451faebbc2d3c9bc7374537b664f4176fddf247c
+ ---> tx_ref: 0x833238ebb87e032b14b27c274c675d640c5a2730c436f219fc21ab9df24f7145
+ ---> tx_ref: 0x3235e25cee2d98b165b4ccad59824d6707d8c74fd887c69b18a3681dcbdca9df
+ ---> tx_ref: 0xc70693ea4bff9e48fa9730bcc186a359dcb53381249ae8c8dbb05da65ac9a8a4
+ ---> tx_ref: 0xb2378789de6ae04ef6815ee22d253ecc083eb5f33958f2c5b58fd9037d5e5ed4
+nothing to fire this time
+nothing to fire this time
+ ---> tx mined in block:  6
+ ---> tx mined in block:  6
+ ---> tx mined in block:  6
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+ ---> tx mined in block:  7
+nothing to fire this time
+ ---> tx mined in block:  7
+ ---> tx mined in block:  7
+ ---> tx mined in block:  7
+ ---> tx mined in block:  7
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+fire trade:  trade_10
+
+new_trade called
+ ---> args[0]: trade_10  ---> args[1]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0xe09c975ef19fdfca82d18d20b9cb9c6e0f8ccf9f9632badd2b91aba1687a5179
+fire trade:  trade_11
+
+new_trade called
+ ---> args[0]: trade_11  ---> args[1]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0xa3a8fbeb745da9fda9dd645a43af2c9bc3c2449a2754cbdd43bd6e10d594bc4d
+ ---> tx mined in block:  16
+ ---> tx mined in block:  16
+fire trade:  trade_12
+
+new_trade called
+ ---> args[0]: trade_12  ---> args[1]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0x4333d90027d87d59eb2bdc9e968d3d913a5466bf82a71240d49bb00986403600
+fire trade:  trade_13
+
+new_trade called
+ ---> args[0]: trade_13  ---> args[1]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0xd557b58010c23ebd830e078558324fa9e75972c3a10b0bf27387ef228dc8b281
+ ---> tx mined in block:  19
+fire trade:  trade_14
+
+new_trade called
+ ---> args[0]: trade_14  ---> args[1]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0x899a77770f726b82bda156593cb34d6b0eb71197c04dece98aa4466cdef56823
+ ---> tx mined in block:  20
+fire trade:  trade_15
+
+new_trade called
+ ---> args[0]: trade_15  ---> args[1]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0x74a88aa629c58843bb0e44d5abe351a60c790a3ce1be942a00c13078efc76727
+fire trade:  trade_16
+
+new_trade called
+ ---> args[0]: trade_16  ---> args[1]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0x83e93ee761afacad829c8371c0bec02148ca119efa2e3f49e14b0164d7442c21
+fire trade:  trade_17
+
+new_trade called
+ ---> args[0]: trade_17  ---> args[1]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx mined in block:  21
+ ---> tx_ref: 0x579c77fffe32711d09c9114aa9d7096db379c604632e05a5ebe61c1375ff6d96
+fire trade:  trade_18
+
+new_trade called
+ ---> args[0]: trade_18  ---> args[1]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0x10524d2e3ffb678614595b8301b0ad236da2b7b2f6feb94f124688e8df483df3
+fire trade:  trade_19
+
+new_trade called
+ ---> args[0]: trade_19  ---> args[1]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+nothing to fire this time
+ ---> tx mined in block:  22
+ ---> tx mined in block:  22
+ ---> tx_ref: 0x0d26175e7776558af63937e49828603c3206e7a323dc9183a9285c3108f7cfbd
+nothing to fire this time
+ ---> tx mined in block:  23
+ ---> tx mined in block:  23
+fire trade:  trade_20
+
+new_trade called
+ ---> args[0]: trade_20  ---> args[1]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0x19a218565fa4f6c7ca29897ddd91772d84c5677cfa652492aeaa7466b43a71a8
+fire trade:  trade_21
+
+new_trade called
+ ---> args[0]: trade_21  ---> args[1]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx mined in block:  24
+ ---> tx_ref: 0x00d09e4afbf1b877eff03f52b422102cbddcd31ef330f2529546ee64132933d9
+ ---> tx mined in block:  25
+fire trade:  trade_22
+
+new_trade called
+ ---> args[0]: trade_22  ---> args[1]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0xa87d7989d4ad0b49c3cc9cc03c15cd8f1c0985153e3f6761d2d5ed205e817a3c
+fire trade:  trade_23
+
+new_trade called
+ ---> args[0]: trade_23  ---> args[1]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0xd92486f4a0d05612fb3517e3ea5b911e38fe7f3b8f8f84326f0696ab1ff01d10
+fire trade:  trade_24
+
+new_trade called
+ ---> args[0]: trade_24  ---> args[1]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0x295501787a6063a135fda71523f3691bffef9ca083158fa217baa1c1d39e2bc8
+fire trade:  trade_25
+
+new_trade called
+ ---> args[0]: trade_25  ---> args[1]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+fire trade:  trade_26
+
+new_trade called
+ ---> args[0]: trade_26  ---> args[1]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+fire trade:  trade_27
+
+new_trade called
+ ---> args[0]: trade_27  ---> args[1]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+fire trade:  trade_28
+
+new_trade called
+ ---> args[0]: trade_28  ---> args[1]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+fire trade:  trade_29
+
+new_trade called
+ ---> args[0]: trade_29  ---> args[1]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx mined in block:  26
+ ---> tx_ref: 0x775c62797bd15b332d6cff422f9b4e31b9b1bc0b288f5f3bd687c23df63c9371
+ ---> tx_ref: 0xdb10935f6d5781f92f9497054a26d20679809f9836ae12209c77eef821c4f336
+ ---> tx_ref: 0x706ce621ad6f83fd9f740f0fa287436535e424c5fca4c0d2fd65029bc86be4bb
+ ---> tx_ref: 0x07d2656dc25a91be57d1d8970d6178ac7f77796a44dcdedbcb97541606172961
+ ---> tx_ref: 0x68f2017e60d8de6948850483d4bb06fd6d3e7cd70635a1513a4cf0bdac80b68a
+nothing to fire this time
+nothing to fire this time
+ ---> tx mined in block:  28
+ ---> tx mined in block:  27
+ ---> tx mined in block:  27
+ ---> tx mined in block:  27
+ ---> tx mined in block:  28
+ ---> tx mined in block:  28
+nothing to fire this time
+ ---> tx mined in block:  28
+ ---> tx mined in block:  28
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+fire trade:  trade_30
+
+new_trade called
+ ---> args[0]: trade_30  ---> args[1]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0xede4dae3b4e6869390b24236d32edc980a3dfcfb70dbdd0edb9a97bc24b8aa84
+fire trade:  trade_31
+
+new_trade called
+ ---> args[0]: trade_31  ---> args[1]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0xd6866704dd509b2594d6b13d76606bd66dd8e3ca48861a0bb18e4bddfa4b6bad
+fire trade:  trade_32
+
+new_trade called
+ ---> args[0]: trade_32  ---> args[1]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0xe2014469bb239178852a00dcd18f70c53c618230000cd6de0771745d1ce5a2ae
+fire trade:  trade_33
+
+new_trade called
+ ---> args[0]: trade_33  ---> args[1]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0xb517d2e353b14be3816acc7975621603d91e6b8f070241b9919aa40885abb7c7
+fire trade:  trade_34
+
+new_trade called
+ ---> args[0]: trade_34  ---> args[1]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx mined in block:  35
+ ---> tx mined in block:  35
+ ---> tx mined in block:  35
+ ---> tx mined in block:  35
+ ---> tx_ref: 0x423ffac9ae3472f509d21035435d318c845a9a118365a40ca84a474c1c78a5fb
+fire trade:  trade_35
+
+new_trade called
+ ---> args[0]: trade_35  ---> args[1]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0x811362fc76bf3944da9eac7907ebd452dce7498d6c78f75942a9e7a4da659b0d
+ ---> tx mined in block:  37
+ ---> tx mined in block:  37
+fire trade:  trade_36
+
+new_trade called
+ ---> args[0]: trade_36  ---> args[1]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0xb89a03fc8174426dd32edb7577e41d83c5a44653df40526ce1ab1c343e9e8b95
+fire trade:  trade_37
+
+new_trade called
+ ---> args[0]: trade_37  ---> args[1]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0xb6a63c521ed7be16ec1a1242bbea1cd9ba4cad8d286a93643cb56ae8385d368b
+fire trade:  trade_38
+
+new_trade called
+ ---> args[0]: trade_38  ---> args[1]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0x458dc153d5c1c220e0c4d2b5c31ad8e60b4cddc49526a653267ce6228b4e97ec
+fire trade:  trade_39
+
+new_trade called
+ ---> args[0]: trade_39  ---> args[1]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0x05ca86f4409962d8f24623cae533c87acd355a8f9df7e4d8174ea4e1342ac1e8
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+ ---> tx mined in block:  40
+ ---> tx mined in block:  40
+ ---> tx mined in block:  40
+ ---> tx mined in block:  40
+nothing to fire this time
+fire trade:  trade_40
+
+new_trade called
+ ---> args[0]: trade_40  ---> args[1]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0x6b193ff9fc969b4f49a3591716a35ec3e2ea0e4cab95310f421289178f9ee743
+ ---> tx mined in block:  45
+fire trade:  trade_41
+
+new_trade called
+ ---> args[0]: trade_41  ---> args[1]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0x7e89bb00db5d5e913b1d2345fcd6dae368489b51de8e0dd6e2cd45990e0de925
+fire trade:  trade_42
+
+new_trade called
+ ---> args[0]: trade_42  ---> args[1]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0xdd01951dc6ee09e6807a530272a348ffb5e742fd392b975f99b3bca602cb75ef
+fire trade:  trade_43
+
+new_trade called
+ ---> args[0]: trade_43  ---> args[1]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0x18ae2f60812cf757a08833fb27238459c34e2c5460896b6c18efecf2cfa179df
+fire trade:  trade_44
+
+new_trade called
+ ---> args[0]: trade_44  ---> args[1]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0x098f85c6ddb5e8e2d3a3baeed529d9dc07147eb223aaba12608fb816c7450085
+fire trade:  trade_45
+
+new_trade called
+ ---> args[0]: trade_45  ---> args[1]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+fire trade:  trade_46
+
+new_trade called
+ ---> args[0]: trade_46  ---> args[1]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+fire trade:  trade_47
+
+new_trade called
+ ---> args[0]: trade_47  ---> args[1]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx mined in block:  47
+ ---> tx mined in block:  47
+ ---> tx mined in block:  47
+ ---> tx_ref: 0x0567cbfea078a96632eab0560e28c76263aa99ea9f0e94d000833e383fb24f46
+ ---> tx_ref: 0xaa5005056a024f2f86c7f066e44378fae56d34e5f9266c68e05ea4c7bffe7deb
+ ---> tx_ref: 0x77869a5224d07527a3a2c20133f73b37650ac34ba529378ffd0afdd1a2dcb804
+ ---> tx mined in block:  48
+fire trade:  trade_48
+
+new_trade called
+ ---> args[0]: trade_48  ---> args[1]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx mined in block:  49
+ ---> tx mined in block:  49
+ ---> tx mined in block:  49
+ ---> tx_ref: 0x3afe5eb07a12a74f34e73ebafe19579b97fa504ff421c5eadc8c52ff45e0e26b
+fire trade:  trade_49
+
+new_trade called
+ ---> args[0]: trade_49  ---> args[1]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0x40169a5762c49051d0725c7794a869d67754f66231248ef49c92f70dc1a08a14
+ ---> tx mined in block:  51
+ ---> tx mined in block:  51
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+fire trade:  trade_50
+
+new_trade called
+ ---> args[0]: trade_50  ---> args[1]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0x60545fc6e0217cdcc227cc0b2636e8913a68aef80b199af5c3d9b93a65910098
+fire trade:  trade_51
+
+new_trade called
+ ---> args[0]: trade_51  ---> args[1]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0x9431aaba908574b456d3664e81ac453f312b6edea046b30a09630c05658a7582
+ ---> tx mined in block:  55
+ ---> tx mined in block:  55
+fire trade:  trade_52
+
+new_trade called
+ ---> args[0]: trade_52  ---> args[1]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0x302b36579ab55bc63be3a776efbad83f09659fc79fc8492bed090d7502709fe8
+fire trade:  trade_53
+
+new_trade called
+ ---> args[0]: trade_53  ---> args[1]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0xdaece5c66408cce920b08a032ce10e8ef8927252f6cff4b5122e74e50e814003
+fire trade:  trade_54
+
+new_trade called
+ ---> args[0]: trade_54  ---> args[1]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0x9d1711d9df09ef559793ff33faa57bf87b00ed39da09573da8d2c195059f8f40
+fire trade:  trade_55
+
+new_trade called
+ ---> args[0]: trade_55  ---> args[1]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx mined in block:  57
+ ---> tx_ref: 0xaa707e8db19675c5eed03d496ab069e1f725c672fac4d073e136b19c602ed618
+ ---> tx mined in block:  57
+ ---> tx mined in block:  58
+ ---> tx mined in block:  59
+fire trade:  trade_56
+
+new_trade called
+ ---> args[0]: trade_56  ---> args[1]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0xf9079a958d34b208e4e185df9cad8b8ef2c4ca977c64456a9ee1864801a033ee
+fire trade:  trade_57
+
+new_trade called
+ ---> args[0]: trade_57  ---> args[1]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0xac347f6dffd0dba3baf1ce2abb538ed77a9ece43ff314dc8f4f20fb74fdd982b
+fire trade:  trade_58
+
+new_trade called
+ ---> args[0]: trade_58  ---> args[1]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0xd823b9b365fb587c6251e4259377c62de38588f3dc375a1c06160e0185b65158
+ ---> tx mined in block:  62
+ ---> tx mined in block:  62
+fire trade:  trade_59
+
+new_trade called
+ ---> args[0]: trade_59  ---> args[1]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx mined in block:  63
+ ---> tx_ref: 0x0225a76aacf5dc1862d77c1751c5d66b0b2a981f7b75d5171f44f3a3071f49d8
+fire trade:  trade_60
+
+new_trade called
+ ---> args[0]: trade_60  ---> args[1]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0xe64bb5622201775f2c1b304a612496d0578a7bc3aa70066a96137d4bf50729f5
+fire trade:  trade_61
+
+new_trade called
+ ---> args[0]: trade_61  ---> args[1]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0xdf32fb265ab6b8faa4b76f3ea69137920ed7b408163b41deb24d59435596cdee
+fire trade:  trade_62
+
+new_trade called
+ ---> args[0]: trade_62  ---> args[1]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0x357c0b8328d431d27032c6b9322f2d1d86186bad8619c6f4058994605853d7c5
+fire trade:  trade_63
+
+new_trade called
+ ---> args[0]: trade_63  ---> args[1]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+fire trade:  trade_64
+
+new_trade called
+ ---> args[0]: trade_64  ---> args[1]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+fire trade:  trade_65
+
+new_trade called
+ ---> args[0]: trade_65  ---> args[1]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+fire trade:  trade_66
+
+new_trade called
+ ---> args[0]: trade_66  ---> args[1]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+fire trade:  trade_67
+
+new_trade called
+ ---> args[0]: trade_67  ---> args[1]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+fire trade:  trade_68
+
+new_trade called
+ ---> args[0]: trade_68  ---> args[1]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+fire trade:  trade_69
+
+new_trade called
+ ---> args[0]: trade_69  ---> args[1]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx mined in block:  65
+ ---> tx mined in block:  65
+ ---> tx mined in block:  65
+ ---> tx mined in block:  65
+ ---> tx_ref: 0x3280060e1032ffbb7dc1adfc8a1878abad49c8a2d4d63e4f8935909efcbe8006
+ ---> tx_ref: 0x4e4de942f9c31aaccd7c23f1eae325bac3f056e958a6a93da3c346908404dc27
+ ---> tx_ref: 0x29a633cbf0c7ed7ce2ad7e2fa5b681171ec6225c2c7752c250c1250dc3502bb6
+ ---> tx_ref: 0x34db2671dcd512f6e58385d048fce964baacabf2aa652e1d14c7ace7e4b8321d
+ ---> tx_ref: 0x96369e0f47244edd45ab21c92608ca3c05be4d78c175efef99edf654b8cc3c6c
+ ---> tx_ref: 0x84dd6f5d3c3f6fe1d0bdbea0bca4c7293d6241461c9b68c9d31547dfbac760c3
+ ---> tx_ref: 0xb2cc8445d272e700d0aa688aedcb0eac4ef33b892759b827e53f131c3017cc29
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+ ---> tx mined in block:  67
+ ---> tx mined in block:  67
+ ---> tx mined in block:  67
+ ---> tx mined in block:  67
+ ---> tx mined in block:  67
+ ---> tx mined in block:  67
+ ---> tx mined in block:  67
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+fire trade:  trade_70
+
+new_trade called
+ ---> args[0]: trade_70  ---> args[1]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0xf5f55e0197c33d461285c372049cae199a398694a597659255f779b254d77a96
+fire trade:  trade_71
+
+new_trade called
+ ---> args[0]: trade_71  ---> args[1]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0xdd25a5a54619c25cb01e4306835b5d1dcff9d150b71d2a814459bb794d72b0b1
+fire trade:  trade_72
+
+new_trade called
+ ---> args[0]: trade_72  ---> args[1]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0x2f4ec27f510dc7b24ac1a68e2120bfc3c05f66b684bb24029d22b62726ecb20f
+fire trade:  trade_73
+
+new_trade called
+ ---> args[0]: trade_73  ---> args[1]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0x1f92ea4a27613d7bd8054abf5b28414da5c07e761eea5760f895c3c70168d26a
+fire trade:  trade_74
+
+new_trade called
+ ---> args[0]: trade_74  ---> args[1]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+fire trade:  trade_75
+
+new_trade called
+ ---> args[0]: trade_75  ---> args[1]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+fire trade:  trade_76
+
+new_trade called
+ ---> args[0]: trade_76  ---> args[1]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx mined in block:  75
+ ---> tx mined in block:  75
+ ---> tx mined in block:  75
+ ---> tx mined in block:  75
+ ---> tx_ref: 0x6bde85922f08804a083dd5dfa1bf853fe6689dd7a4f27527330cd49b7bd53724
+ ---> tx_ref: 0xa7a5434e97c08b4fdebc29177fd6f9f31cc6085ea76574eaa945c9752bdd3a3f
+ ---> tx_ref: 0x4303fd650a8e7a89781ec90c73bfcb6c3291757322950e9ab65ef1924aeb577d
+fire trade:  trade_77
+
+new_trade called
+ ---> args[0]: trade_77  ---> args[1]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0xcb7f08445369112af2b4555b41dee9af0f64d7bcb7d2089ba4c78171e90e753e
+fire trade:  trade_78
+
+new_trade called
+ ---> args[0]: trade_78  ---> args[1]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+fire trade:  trade_79
+
+new_trade called
+ ---> args[0]: trade_79  ---> args[1]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx mined in block:  77
+ ---> tx mined in block:  77
+ ---> tx mined in block:  77
+ ---> tx mined in block:  77
+ ---> tx_ref: 0xb8e0e90bf13f638cb30c2e208377543fe9a7b6d2b177c88aa4b94202d853040b
+ ---> tx_ref: 0x86fb616e88752e6647a533b7389c59fbac7a132933c4470ac7a5b8a1532182cf
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+ ---> tx mined in block:  80
+ ---> tx mined in block:  80
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+fire trade:  trade_80
+
+new_trade called
+ ---> args[0]: trade_80  ---> args[1]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0xddfcc3010cc028bb8b9ed60f5b226e606bae3783255eaacc5c05b544d5367c82
+fire trade:  trade_81
+
+new_trade called
+ ---> args[0]: trade_81  ---> args[1]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0x8fbf77d25e2875f126c904e9fe9e594e62e2dd07d20f1df70ab40c010f12c495
+fire trade:  trade_82
+
+new_trade called
+ ---> args[0]: trade_82  ---> args[1]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0x8a6df919143471ffae6fa43c30948a3cb7a16afd6b341fa0001e70adfac2c808
+fire trade:  trade_83
+
+new_trade called
+ ---> args[0]: trade_83  ---> args[1]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0x6c34423e51bb4f4988a45987f3e3048897848c127470adb32c4656609a62bcd7
+ ---> tx mined in block:  86
+ ---> tx mined in block:  86
+ ---> tx mined in block:  87
+fire trade:  trade_84
+
+new_trade called
+ ---> args[0]: trade_84  ---> args[1]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx mined in block:  87
+ ---> tx_ref: 0x2514997d7c4bd69a50f7503511616a40f9de482e462e6d8d20e70cc0a815c333
+fire trade:  trade_85
+
+new_trade called
+ ---> args[0]: trade_85  ---> args[1]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0x792bd1e96b87fbbd293293dd0cab14e088622cb3c4504d7285545aac2b804845
+fire trade:  trade_86
+
+new_trade called
+ ---> args[0]: trade_86  ---> args[1]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0x32206935b969cec529c4d14cc65abd8b776e31731210b6381d5a5a112bd25a4f
+fire trade:  trade_87
+
+new_trade called
+ ---> args[0]: trade_87  ---> args[1]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0x3d10479923258bbbaf9d020c36f99c660db563cdc811d7a90c829f85da1f65b9
+fire trade:  trade_88
+
+new_trade called
+ ---> args[0]: trade_88  ---> args[1]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx mined in block:  89
+ ---> tx_ref: 0xef97b93f0ae3bd1c59c67813efed21546039e2d55cfc59a2e02742bae7345d39
+fire trade:  trade_89
+
+new_trade called
+ ---> args[0]: trade_89  ---> args[1]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+ ---> tx mined in block:  90
+ ---> tx mined in block:  90
+ ---> tx mined in block:  90
+ ---> tx_ref: 0xce990f356c69acf2358ad89119b07b6017f3f8870c9abab05bbed37bb30a44a6
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+ ---> tx mined in block:  91
+nothing to fire this time
+ ---> tx mined in block:  92
+nothing to fire this time
+fire trade:  trade_90
+
+new_trade called
+ ---> args[0]: trade_90  ---> args[1]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0x9d479da40ce8a0a303ed5e4b0fb3d60546505618a76be976b0717ba7d7d4c089
+fire trade:  trade_91
+
+new_trade called
+ ---> args[0]: trade_91  ---> args[1]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0x9344efc40625c60e78ad06ea8d72f163bf37f04937b3268cb39f0be016e31555
+fire trade:  trade_92
+
+new_trade called
+ ---> args[0]: trade_92  ---> args[1]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0x19f58e0cc1179ea839ef7ffea91d33032ac7d83aaba5f324ca6974c4647ee36b
+fire trade:  trade_93
+
+new_trade called
+ ---> args[0]: trade_93  ---> args[1]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0x01c9f29ee39501860f6c50b6f91e5b7ac3823618070d0ca7d26952252db930da
+fire trade:  trade_94
+
+new_trade called
+ ---> args[0]: trade_94  ---> args[1]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+fire trade:  trade_95
+
+new_trade called
+ ---> args[0]: trade_95  ---> args[1]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+fire trade:  trade_96
+
+new_trade called
+ ---> args[0]: trade_96  ---> args[1]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+fire trade:  trade_97
+
+new_trade called
+ ---> args[0]: trade_97  ---> args[1]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+fire trade:  trade_98
+
+new_trade called
+ ---> args[0]: trade_98  ---> args[1]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+fire trade:  trade_99
+
+new_trade called
+ ---> args[0]: trade_99  ---> args[1]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+ ---> tx mined in block:  95
+ ---> tx mined in block:  95
+ ---> tx mined in block:  95
+ ---> tx_ref: 0x00d94c27634ac385d1d78d430aa0a27f185c5215735f5ad16655b9bad70876c2
+ ---> tx_ref: 0x9c11f66e2f56eaee1ea00b00362dd0dfa3e07a4d784ab0ab48eeda8bf49fd04b
+ ---> tx_ref: 0xc6a74b77fe5aa966177692997b8f86dba0079891fc69c679c5937eb02084f2aa
+ ---> tx_ref: 0xd6ce5b74ce2b8ad62a23dd16f2814d49cbf906d9cfb8b23dc6e318df81ef15cb
+ ---> tx_ref: 0x5d5c32235dae0e79dfe3e46da160b1a5333de6d5393ae3c126ba93535a5c3f45
+ ---> tx_ref: 0x673c29d01642ec8b0c46f19d8c35016ed80ac24983781eba17f71c20c7d2ba2d
+nothing to fire this time
+ ---> tx mined in block:  96
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+ ---> tx mined in block:  97
+ ---> tx mined in block:  97
+ ---> tx mined in block:  97
+ ---> tx mined in block:  97
+ ---> tx mined in block:  97
+ ---> tx mined in block:  97
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+fire trade:  trade_100
+
+new_trade called
+ ---> args[0]: trade_100  ---> args[1]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+finishing at 100
+ ---> tx_ref: 0xd555a87f64d29d3697aea94fb37b5a4b6007bc58b9fbab0b1c8d997277e815d6
+ ---> tx mined in block:  105
+
+bonds_example $ node app/Tt5/Tt5_load_trades_basic.js
+starting block: 109
+101
+nothing to fire this time
+nothing to fire this time
+fire trade:  trade_1
+
+edit_trade called
+ ---> args[0]: trade_1  ---> args[1]: GB00B1VWPC84  ---> args[2]: DB  ---> args[3]: CS  ---> args[4]: 1  ---> args[5]: 107.04  ---> args[6]: 12345  ---> args[7]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0xb7e22e59206b96d769fea0cc5c96bc3708cd46bce8a9798c3a34777cca6a8702
+fire trade:  trade_2
+
+edit_trade called
+ ---> args[0]: trade_2  ---> args[1]: DE0001141745  ---> args[2]: CITI  ---> args[3]: CS  ---> args[4]: 2  ---> args[5]: 102.5  ---> args[6]: 12345  ---> args[7]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0x1a11a82ee1e32391a4d2b863eddfd60fc6ffc7c3a2296829cce9bbdb2b6c3391
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+fire trade:  trade_3
+
+edit_trade called
+ ---> args[0]: trade_3  ---> args[1]: IT0005188120  ---> args[2]: DB  ---> args[3]: CITI  ---> args[4]: 3  ---> args[5]: 101.59  ---> args[6]: 12345  ---> args[7]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx mined in block:  112
+ ---> tx_ref: 0x50f9a18b11f21c96ed290d4de9f95b2d8da16f85f783ecabf9e8eb95dcb396ce
+ ---> tx mined in block:  113
+fire trade:  trade_4
+
+edit_trade called
+ ---> args[0]: trade_4  ---> args[1]: GB00B1VWPC84  ---> args[2]: CS  ---> args[3]: DB  ---> args[4]: 4  ---> args[5]: 107.24  ---> args[6]: 12345  ---> args[7]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0xa60f169ad53bf9e9f1ee70a4fcaedfe3405a708e9746d9e88c859524bcfc4109
+ ---> tx mined in block:  114
+fire trade:  trade_5
+
+edit_trade called
+ ---> args[0]: trade_5  ---> args[1]: DE0001141745  ---> args[2]: CITI  ---> args[3]: CS  ---> args[4]: 5  ---> args[5]: 102.55  ---> args[6]: 12345  ---> args[7]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0xae45bfcba6057082085a512186b2fc1ae2e68a96d30c09c29ff6867bb82187aa
+fire trade:  trade_6
+
+edit_trade called
+ ---> args[0]: trade_6  ---> args[1]: IT0005188120  ---> args[2]: DB  ---> args[3]: CITI  ---> args[4]: 6  ---> args[5]: 101.69  ---> args[6]: 12345  ---> args[7]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0x72c6220ed69563765cbc5e07376d1c99a0efe9bb3d3d396d89db574b2e44eff7
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+ ---> tx mined in block:  116
+fire trade:  trade_7
+
+edit_trade called
+ ---> args[0]: trade_7  ---> args[1]: GB00B1VWPC84  ---> args[2]: DB  ---> args[3]: CS  ---> args[4]: 7  ---> args[5]: 107.14  ---> args[6]: 12345  ---> args[7]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0x951bd1425eb1c3369b4aa03088e8816d47957b937d7735ab55cdb5297b177717
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+ ---> tx mined in block:  117
+ ---> tx mined in block:  117
+fire trade:  trade_8
+
+edit_trade called
+ ---> args[0]: trade_8  ---> args[1]: DE0001141745  ---> args[2]: BAML  ---> args[3]: CITI  ---> args[4]: 8  ---> args[5]: 102.85  ---> args[6]: 12345  ---> args[7]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0xf6e825176c81b6d8c5f70b93319302865aee862b7096a84d4143c3eed678aa7c
+nothing to fire this time
+ ---> tx mined in block:  118
+fire trade:  trade_9
+
+edit_trade called
+ ---> args[0]: trade_9  ---> args[1]: IT0005188120  ---> args[2]: CS  ---> args[3]: DB  ---> args[4]: 9  ---> args[5]: 101.159  ---> args[6]: 12345  ---> args[7]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0x9cf3868a5fd6a20d6ba862976a762da64cc40822bd60c320fc0cbe62c44cf3a6
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+fire trade:  trade_10
+
+edit_trade called
+ ---> args[0]: trade_10  ---> args[1]: IT0005188120  ---> args[2]: DB  ---> args[3]: DB  ---> args[4]: 10  ---> args[5]: 102.5912  ---> args[6]: 12345  ---> args[7]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx mined in block:  119
+ ---> tx_ref: 0x9b09c5ae537b22762304648b55cd4d0ebba599cb531124ffad9cd2a2eebc23fa
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+ ---> tx mined in block:  120
+fire trade:  trade_11
+
+edit_trade called
+ ---> args[0]: trade_11  ---> args[1]: GB00B1VWPC84  ---> args[2]: CITI  ---> args[3]: CS  ---> args[4]: 11  ---> args[5]: 102.429  ---> args[6]: 12345  ---> args[7]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0xcc9ce7911b227c9ffae97375682c14c309b1b62e8d7db49e36c976da6266d076
+nothing to fire this time
+nothing to fire this time
+fire trade:  trade_12
+
+edit_trade called
+ ---> args[0]: trade_12  ---> args[1]: DE0001141745  ---> args[2]: DB  ---> args[3]: CITI  ---> args[4]: 12  ---> args[5]: 102.2668  ---> args[6]: 12345  ---> args[7]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx mined in block:  121
+ ---> tx_ref: 0xf1367e2c1ad4b03640ce752da8d76bd63bbf435ec86da9bd3e9ae1dfcd959e60
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+ ---> tx mined in block:  122
+fire trade:  trade_13
+
+edit_trade called
+ ---> args[0]: trade_13  ---> args[1]: IT0005188120  ---> args[2]: DB  ---> args[3]: DB  ---> args[4]: 13  ---> args[5]: 102.1046  ---> args[6]: 12345  ---> args[7]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0x635ac90a79e181bfca1b6df7e60dd7b42a1377a7303823222a85fc7d7cf36720
+ ---> tx mined in block:  123
+ ---> tx mined in block:  124
+fire trade:  trade_14
+
+edit_trade called
+ ---> args[0]: trade_14  ---> args[1]: IT0005188120  ---> args[2]: BAML  ---> args[3]: CS  ---> args[4]: 14  ---> args[5]: 101.9424  ---> args[6]: 12345  ---> args[7]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0xc301eca95310210f348f7c982279b4fc47c3445af05940eb01a23fbf5f3f0e09
+fire trade:  trade_15
+
+edit_trade called
+ ---> args[0]: trade_15  ---> args[1]: GB00B1VWPC84  ---> args[2]: BAML  ---> args[3]: CITI  ---> args[4]: 15  ---> args[5]: 101.7802  ---> args[6]: 12345  ---> args[7]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0xc2a83628a41d0e264e89eec52e1509f141003c40631c938b6d1f8b13527766a9
+fire trade:  trade_16
+
+edit_trade called
+ ---> args[0]: trade_16  ---> args[1]: DE0001141745  ---> args[2]: DB  ---> args[3]: BAML  ---> args[4]: 16  ---> args[5]: 101.618  ---> args[6]: 12345  ---> args[7]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0xdf6efc9ee12869a819f7b71d875dba11c5f14e6e1eab28dc10f2ead8ce2aa30c
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+fire trade:  trade_17
+
+edit_trade called
+ ---> args[0]: trade_17  ---> args[1]: IT0005188120  ---> args[2]: CITI  ---> args[3]: DB  ---> args[4]: 17  ---> args[5]: 101.4558  ---> args[6]: 12345  ---> args[7]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx mined in block:  126
+ ---> tx_ref: 0x4085d73b448f62d89779b7e7e1e26fc20ce6746341bd859ea21422cfb3e554e3
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+ ---> tx mined in block:  127
+ ---> tx mined in block:  127
+fire trade:  trade_18
+
+edit_trade called
+ ---> args[0]: trade_18  ---> args[1]: IT0005188120  ---> args[2]: CITI  ---> args[3]: BAML  ---> args[4]: 18  ---> args[5]: 101.2936  ---> args[6]: 12345  ---> args[7]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0x970f6dd7a4f48c0a9ba09da95f7ff3c50948d4a1a58ef04775c56634049808c0
+nothing to fire this time
+fire trade:  trade_19
+
+edit_trade called
+ ---> args[0]: trade_19  ---> args[1]: GB00B1VWPC84  ---> args[2]: DB  ---> args[3]: CS  ---> args[4]: 19  ---> args[5]: 101.1314  ---> args[6]: 12345  ---> args[7]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx mined in block:  128
+ ---> tx_ref: 0x19e023305063eb008452db5b18e3b3fd7947f63380536bcf2ffb9e2cb9b61785
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+ ---> tx mined in block:  129
+fire trade:  trade_20
+
+edit_trade called
+ ---> args[0]: trade_20  ---> args[1]: DE0001141745  ---> args[2]: DB  ---> args[3]: BAML  ---> args[4]: 20  ---> args[5]: 100.9692  ---> args[6]: 12345  ---> args[7]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0x78517e372cb84c08ab1c695dc708f61da37f3f0c1cf3d11fd07d38214a48bab8
+nothing to fire this time
+nothing to fire this time
+ ---> tx mined in block:  130
+fire trade:  trade_21
+
+edit_trade called
+ ---> args[0]: trade_21  ---> args[1]: GB00B1VWPC84  ---> args[2]: DB  ---> args[3]: CS  ---> args[4]: 21  ---> args[5]: 107.04  ---> args[6]: 12345  ---> args[7]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0x825d8050d2475c50e42a358713c713c7caab1827bb5e207fac288a41aaab7310
+nothing to fire this time
+ ---> tx mined in block:  131
+fire trade:  trade_22
+
+edit_trade called
+ ---> args[0]: trade_22  ---> args[1]: DE0001141745  ---> args[2]: CITI  ---> args[3]: CS  ---> args[4]: 22  ---> args[5]: 102.5  ---> args[6]: 12345  ---> args[7]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0x7ee7f53f44002f3353fba777d4b4ad79344885f6360b34d2158449391fc0b6dd
+fire trade:  trade_23
+
+edit_trade called
+ ---> args[0]: trade_23  ---> args[1]: IT0005188120  ---> args[2]: DB  ---> args[3]: CITI  ---> args[4]: 23  ---> args[5]: 101.59  ---> args[6]: 12345  ---> args[7]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx mined in block:  132
+ ---> tx_ref: 0x1f164ee469be06575fd1d9d1a946c7c72ae0d196cdba1f14c73109d00ca97484
+nothing to fire this time
+ ---> tx mined in block:  133
+fire trade:  trade_24
+
+edit_trade called
+ ---> args[0]: trade_24  ---> args[1]: GB00B1VWPC84  ---> args[2]: CS  ---> args[3]: DB  ---> args[4]: 24  ---> args[5]: 107.24  ---> args[6]: 12345  ---> args[7]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0x9bbed115a80f3fc7a1a1313d31c17041041abdefe4759822ecfacbdec9aeb9de
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+ ---> tx mined in block:  134
+fire trade:  trade_25
+
+edit_trade called
+ ---> args[0]: trade_25  ---> args[1]: DE0001141745  ---> args[2]: CITI  ---> args[3]: CS  ---> args[4]: 25  ---> args[5]: 102.55  ---> args[6]: 12345  ---> args[7]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0x7ec8416fa62fe67ab3b6b99dd62bb6891a980f1183ebb3b4d3ed8aa33b15d69a
+ ---> tx mined in block:  135
+fire trade:  trade_26
+
+edit_trade called
+ ---> args[0]: trade_26  ---> args[1]: IT0005188120  ---> args[2]: DB  ---> args[3]: CITI  ---> args[4]: 26  ---> args[5]: 101.69  ---> args[6]: 12345  ---> args[7]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0x2eef724c5feb2e943bc01ab3eb30742cc291277923b62f6628f7e9ad052eccd1
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+fire trade:  trade_27
+
+edit_trade called
+ ---> args[0]: trade_27  ---> args[1]: GB00B1VWPC84  ---> args[2]: DB  ---> args[3]: CS  ---> args[4]: 27  ---> args[5]: 107.14  ---> args[6]: 12345  ---> args[7]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx mined in block:  137
+ ---> tx mined in block:  137
+ ---> tx_ref: 0xc3f5a8f71884f7be414ad3c4d5058b0928027bf017218da78bc004e8c2170831
+fire trade:  trade_28
+
+edit_trade called
+ ---> args[0]: trade_28  ---> args[1]: DE0001141745  ---> args[2]: BAML  ---> args[3]: CITI  ---> args[4]: 28  ---> args[5]: 102.85  ---> args[6]: 12345  ---> args[7]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0x3e87e572848678565d6146427abf61fc0317e585351b9555ab50bd9834bdfce8
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+fire trade:  trade_29
+
+edit_trade called
+ ---> args[0]: trade_29  ---> args[1]: IT0005188120  ---> args[2]: CS  ---> args[3]: DB  ---> args[4]: 29  ---> args[5]: 101.159  ---> args[6]: 12345  ---> args[7]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0x3f317dec389a214c487eb6a5c505bef9211d96653362c62cda62445e34bbb075
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+ ---> tx mined in block:  139
+ ---> tx mined in block:  139
+ ---> tx mined in block:  140
+fire trade:  trade_30
+
+edit_trade called
+ ---> args[0]: trade_30  ---> args[1]: IT0005188120  ---> args[2]: DB  ---> args[3]: DB  ---> args[4]: 30  ---> args[5]: 102.5912  ---> args[6]: 12345  ---> args[7]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0xbaadceb3fb03461ded4d576b92d3aa9665c8d999d2c73a30ce51ff5df41a02ab
+fire trade:  trade_31
+
+edit_trade called
+ ---> args[0]: trade_31  ---> args[1]: GB00B1VWPC84  ---> args[2]: CITI  ---> args[3]: CS  ---> args[4]: 31  ---> args[5]: 102.429  ---> args[6]: 12345  ---> args[7]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0x5cc830d529b58514d3dbb7d35b68c61b148e4e07a5b48ff2c62eea4dcb7e1bc5
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+fire trade:  trade_32
+
+edit_trade called
+ ---> args[0]: trade_32  ---> args[1]: DE0001141745  ---> args[2]: DB  ---> args[3]: CITI  ---> args[4]: 32  ---> args[5]: 102.2668  ---> args[6]: 12345  ---> args[7]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0xe4a46b3b15e1863ffe0d0f697853a2a9d8a01299f91d797115b74909f6c63c08
+ ---> tx mined in block:  142
+ ---> tx mined in block:  142
+fire trade:  trade_33
+
+edit_trade called
+ ---> args[0]: trade_33  ---> args[1]: IT0005188120  ---> args[2]: DB  ---> args[3]: DB  ---> args[4]: 33  ---> args[5]: 102.1046  ---> args[6]: 12345  ---> args[7]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0x2f3fca5204e82d335adf411f4703cdab1fd8b17144491540cc73916bc64974e2
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+fire trade:  trade_34
+
+edit_trade called
+ ---> args[0]: trade_34  ---> args[1]: IT0005188120  ---> args[2]: BAML  ---> args[3]: CS  ---> args[4]: 34  ---> args[5]: 101.9424  ---> args[6]: 12345  ---> args[7]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx mined in block:  143
+ ---> tx_ref: 0x7bb8a02f659682febb5aa91432526a0eabcd912c2909bc8c29a599b489959ff9
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+ ---> tx mined in block:  144
+fire trade:  trade_35
+
+edit_trade called
+ ---> args[0]: trade_35  ---> args[1]: GB00B1VWPC84  ---> args[2]: BAML  ---> args[3]: CITI  ---> args[4]: 35  ---> args[5]: 101.7802  ---> args[6]: 12345  ---> args[7]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0xd17c61c8117d281da18d7ec2790caf694372f7718c8e3cf593753aed4aac2bf5
+nothing to fire this time
+ ---> tx mined in block:  145
+fire trade:  trade_36
+
+edit_trade called
+ ---> args[0]: trade_36  ---> args[1]: DE0001141745  ---> args[2]: DB  ---> args[3]: BAML  ---> args[4]: 36  ---> args[5]: 101.618  ---> args[6]: 12345  ---> args[7]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0x598366275e8d5705f25449600916746c2e2c8707e41f121c18e6e88a7dbca056
+nothing to fire this time
+nothing to fire this time
+ ---> tx mined in block:  146
+fire trade:  trade_37
+
+edit_trade called
+ ---> args[0]: trade_37  ---> args[1]: IT0005188120  ---> args[2]: CITI  ---> args[3]: DB  ---> args[4]: 37  ---> args[5]: 101.4558  ---> args[6]: 12345  ---> args[7]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0x3fe700e7bc636a484a24239cc46615fb9c44929c4eddb22eeb45a0bdbd0e0454
+nothing to fire this time
+nothing to fire this time
+ ---> tx mined in block:  147
+fire trade:  trade_38
+
+edit_trade called
+ ---> args[0]: trade_38  ---> args[1]: IT0005188120  ---> args[2]: CITI  ---> args[3]: BAML  ---> args[4]: 38  ---> args[5]: 101.2936  ---> args[6]: 12345  ---> args[7]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0x2855305207301c24233b3398bf7a01d1d2acfd85f1399580151ba007f2856af0
+ ---> tx mined in block:  148
+fire trade:  trade_39
+
+edit_trade called
+ ---> args[0]: trade_39  ---> args[1]: GB00B1VWPC84  ---> args[2]: DB  ---> args[3]: CS  ---> args[4]: 39  ---> args[5]: 101.1314  ---> args[6]: 12345  ---> args[7]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0xc02be800b323a6a63f9bb71b5765b6a36e883ce8e1234c9fc334ae3634009937
+nothing to fire this time
+fire trade:  trade_40
+
+edit_trade called
+ ---> args[0]: trade_40  ---> args[1]: DE0001141745  ---> args[2]: DB  ---> args[3]: BAML  ---> args[4]: 40  ---> args[5]: 100.9692  ---> args[6]: 12345  ---> args[7]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx mined in block:  149
+ ---> tx_ref: 0x837e208b13e6fe5111eb55e0415f6b936b14b287a1ce5ab58f3ec15aea7e6e90
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+ ---> tx mined in block:  150
+ ---> tx mined in block:  151
+fire trade:  trade_41
+
+edit_trade called
+ ---> args[0]: trade_41  ---> args[1]: GB00B1VWPC84  ---> args[2]: DB  ---> args[3]: CS  ---> args[4]: 41  ---> args[5]: 107.04  ---> args[6]: 12345  ---> args[7]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0x4b2b1f0c01bb6c6f86f8b0aaa4c9dffa7d81fbca33097aa0b4311a75a50b9357
+fire trade:  trade_42
+
+edit_trade called
+ ---> args[0]: trade_42  ---> args[1]: DE0001141745  ---> args[2]: CITI  ---> args[3]: CS  ---> args[4]: 42  ---> args[5]: 102.5  ---> args[6]: 12345  ---> args[7]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0xe39a88a3185ed6cc9ca15fc4b9359e160f147489cedeb124cf304789696c3e39
+nothing to fire this time
+fire trade:  trade_43
+
+edit_trade called
+ ---> args[0]: trade_43  ---> args[1]: IT0005188120  ---> args[2]: DB  ---> args[3]: CITI  ---> args[4]: 43  ---> args[5]: 101.59  ---> args[6]: 12345  ---> args[7]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0xbb12ca6e4156cd8dab4cc39e9e0f26017b0858f41efe55e363c7a2325c6d2c28
+nothing to fire this time
+nothing to fire this time
+ ---> tx mined in block:  153
+ ---> tx mined in block:  153
+fire trade:  trade_44
+
+edit_trade called
+ ---> args[0]: trade_44  ---> args[1]: GB00B1VWPC84  ---> args[2]: CS  ---> args[3]: DB  ---> args[4]: 44  ---> args[5]: 107.24  ---> args[6]: 12345  ---> args[7]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0x3e276ee3b333dc662d664d7f5bf32531c18300cf6a052570ac987ea1d04a30b7
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+ ---> tx mined in block:  154
+fire trade:  trade_45
+
+edit_trade called
+ ---> args[0]: trade_45  ---> args[1]: DE0001141745  ---> args[2]: CITI  ---> args[3]: CS  ---> args[4]: 45  ---> args[5]: 102.55  ---> args[6]: 12345  ---> args[7]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0x1937f6ff45aff826474d887dc50044e83875a4eb20430ce280234e67cd63c6b6
+ ---> tx mined in block:  155
+fire trade:  trade_46
+
+edit_trade called
+ ---> args[0]: trade_46  ---> args[1]: IT0005188120  ---> args[2]: DB  ---> args[3]: CITI  ---> args[4]: 46  ---> args[5]: 101.69  ---> args[6]: 12345  ---> args[7]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0x915fe94cb87e719218eca89604a927879169097fcc86e6bd5362048c7ee51b71
+nothing to fire this time
+ ---> tx mined in block:  156
+fire trade:  trade_47
+
+edit_trade called
+ ---> args[0]: trade_47  ---> args[1]: GB00B1VWPC84  ---> args[2]: DB  ---> args[3]: CS  ---> args[4]: 47  ---> args[5]: 107.14  ---> args[6]: 12345  ---> args[7]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0x4833cdbe6ea0d4b6a7b5151186861877746373ec4f0d56171d9789e151cd7330
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+fire trade:  trade_48
+
+edit_trade called
+ ---> args[0]: trade_48  ---> args[1]: DE0001141745  ---> args[2]: BAML  ---> args[3]: CITI  ---> args[4]: 48  ---> args[5]: 102.85  ---> args[6]: 12345  ---> args[7]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx mined in block:  157
+ ---> tx_ref: 0xacb41bbfbaafb678f4a9adfb8acc14a9a333cb0979651197360e036b670f0333
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+ ---> tx mined in block:  158
+fire trade:  trade_49
+
+edit_trade called
+ ---> args[0]: trade_49  ---> args[1]: IT0005188120  ---> args[2]: CS  ---> args[3]: DB  ---> args[4]: 49  ---> args[5]: 101.159  ---> args[6]: 12345  ---> args[7]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0xd1fc63c9b2bd13556e2c199410d4de2ff363ee92f8ec7cf806206d07e8bc2220
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+ ---> tx mined in block:  159
+fire trade:  trade_50
+
+edit_trade called
+ ---> args[0]: trade_50  ---> args[1]: IT0005188120  ---> args[2]: DB  ---> args[3]: DB  ---> args[4]: 50  ---> args[5]: 102.5912  ---> args[6]: 12345  ---> args[7]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0x077448b4522e5b354ed9d209a4d34362d504991c65dba443423efda39a065517
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+ ---> tx mined in block:  160
+fire trade:  trade_51
+
+edit_trade called
+ ---> args[0]: trade_51  ---> args[1]: GB00B1VWPC84  ---> args[2]: CITI  ---> args[3]: CS  ---> args[4]: 51  ---> args[5]: 102.429  ---> args[6]: 12345  ---> args[7]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0x27d743af85eb23dde30455aab714d07a28dc1accc00d1d539bdfc153842a189f
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+ ---> tx mined in block:  161
+fire trade:  trade_52
+
+edit_trade called
+ ---> args[0]: trade_52  ---> args[1]: DE0001141745  ---> args[2]: DB  ---> args[3]: CITI  ---> args[4]: 52  ---> args[5]: 102.2668  ---> args[6]: 12345  ---> args[7]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0x2c7d416ac392163eae87d0b9bde216bdeea4df6ed4acdc90a38eee88a4884204
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+ ---> tx mined in block:  162
+fire trade:  trade_53
+
+edit_trade called
+ ---> args[0]: trade_53  ---> args[1]: IT0005188120  ---> args[2]: DB  ---> args[3]: DB  ---> args[4]: 53  ---> args[5]: 102.1046  ---> args[6]: 12345  ---> args[7]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0xe3eb193e5a8028c94f5523b897ffc40f6da40c30f682205fc44d86d93c4a2980
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+ ---> tx mined in block:  163
+fire trade:  trade_54
+
+edit_trade called
+ ---> args[0]: trade_54  ---> args[1]: IT0005188120  ---> args[2]: BAML  ---> args[3]: CS  ---> args[4]: 54  ---> args[5]: 101.9424  ---> args[6]: 12345  ---> args[7]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0xcc1e2947021264a495ec6672fd2b174eb9e0f30fb8818123421689a3b2bd8348
+nothing to fire this time
+nothing to fire this time
+fire trade:  trade_55
+
+edit_trade called
+ ---> args[0]: trade_55  ---> args[1]: GB00B1VWPC84  ---> args[2]: BAML  ---> args[3]: CITI  ---> args[4]: 55  ---> args[5]: 101.7802  ---> args[6]: 12345  ---> args[7]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx mined in block:  164
+ ---> tx_ref: 0x50b85c850922c016c61946268ef1582648c83dc219008d61d2bc9e32ece0acab
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+ ---> tx mined in block:  165
+fire trade:  trade_56
+
+edit_trade called
+ ---> args[0]: trade_56  ---> args[1]: DE0001141745  ---> args[2]: DB  ---> args[3]: BAML  ---> args[4]: 56  ---> args[5]: 101.618  ---> args[6]: 12345  ---> args[7]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0x002ec4ec27e31517702e3f35e6b6caca9316daa24d49c287f677a15a5ca74f9d
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+ ---> tx mined in block:  166
+fire trade:  trade_57
+
+edit_trade called
+ ---> args[0]: trade_57  ---> args[1]: IT0005188120  ---> args[2]: CITI  ---> args[3]: DB  ---> args[4]: 57  ---> args[5]: 101.4558  ---> args[6]: 12345  ---> args[7]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0x5773fac1cfea56d217e64e3b54346298c14d397edf1a2305877c34979683d841
+nothing to fire this time
+nothing to fire this time
+ ---> tx mined in block:  167
+fire trade:  trade_58
+
+edit_trade called
+ ---> args[0]: trade_58  ---> args[1]: IT0005188120  ---> args[2]: CITI  ---> args[3]: BAML  ---> args[4]: 58  ---> args[5]: 101.2936  ---> args[6]: 12345  ---> args[7]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0xde465799c9575fa3d0d9e6b72824d4a6f7533b40004d6baff5a21b22842bc448
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+ ---> tx mined in block:  168
+fire trade:  trade_59
+
+edit_trade called
+ ---> args[0]: trade_59  ---> args[1]: GB00B1VWPC84  ---> args[2]: DB  ---> args[3]: CS  ---> args[4]: 59  ---> args[5]: 101.1314  ---> args[6]: 12345  ---> args[7]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0xe2af825379ab2b06651a2a4bd6476071388041b359a89582c49b76162b66e9c0
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+ ---> tx mined in block:  169
+fire trade:  trade_60
+
+edit_trade called
+ ---> args[0]: trade_60  ---> args[1]: DE0001141745  ---> args[2]: DB  ---> args[3]: BAML  ---> args[4]: 60  ---> args[5]: 100.9692  ---> args[6]: 12345  ---> args[7]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0x22eb4ed592ed60617e91a492b5b6011be53eb2bb886ee43e8bf002a042f33a2b
+nothing to fire this time
+ ---> tx mined in block:  170
+ ---> tx mined in block:  171
+fire trade:  trade_61
+
+edit_trade called
+ ---> args[0]: trade_61  ---> args[1]: GB00B1VWPC84  ---> args[2]: DB  ---> args[3]: CS  ---> args[4]: 61  ---> args[5]: 107.04  ---> args[6]: 12345  ---> args[7]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0x0489f82773e2a099cb4df449d36c6867c4786d43899e2bf359130527b17d93fd
+fire trade:  trade_62
+
+edit_trade called
+ ---> args[0]: trade_62  ---> args[1]: DE0001141745  ---> args[2]: CITI  ---> args[3]: CS  ---> args[4]: 62  ---> args[5]: 102.5  ---> args[6]: 12345  ---> args[7]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0xbb53e5016b03e0a558a9590080190c6a8687200131d70c2ab0eb035446fe3130
+fire trade:  trade_63
+
+edit_trade called
+ ---> args[0]: trade_63  ---> args[1]: IT0005188120  ---> args[2]: DB  ---> args[3]: CITI  ---> args[4]: 63  ---> args[5]: 101.59  ---> args[6]: 12345  ---> args[7]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0x2dced989c7e64438c343f40aef81dad67354adb1ef79f2d4fd90ba7baedd2dc0
+nothing to fire this time
+nothing to fire this time
+ ---> tx mined in block:  173
+fire trade:  trade_64
+
+edit_trade called
+ ---> args[0]: trade_64  ---> args[1]: GB00B1VWPC84  ---> args[2]: CS  ---> args[3]: DB  ---> args[4]: 64  ---> args[5]: 107.24  ---> args[6]: 12345  ---> args[7]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0xe45a571746723c3a202755aa6abab3ab349907edf105489c7d6fd6d808aa10b6
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+ ---> tx mined in block:  174
+ ---> tx mined in block:  174
+fire trade:  trade_65
+
+edit_trade called
+ ---> args[0]: trade_65  ---> args[1]: DE0001141745  ---> args[2]: CITI  ---> args[3]: CS  ---> args[4]: 65  ---> args[5]: 102.55  ---> args[6]: 12345  ---> args[7]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0x1173d62ef0ff507c5488fcbc42a0fe0e4750ae6d907ab575369bd4ac80a819c1
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+fire trade:  trade_66
+
+edit_trade called
+ ---> args[0]: trade_66  ---> args[1]: IT0005188120  ---> args[2]: DB  ---> args[3]: CITI  ---> args[4]: 66  ---> args[5]: 101.69  ---> args[6]: 12345  ---> args[7]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx mined in block:  175
+ ---> tx_ref: 0x53c8b33ee23b608d9aec8d045be59e7a77a4c3b4c6617da5486782d48bbecdda
+nothing to fire this time
+ ---> tx mined in block:  176
+ ---> tx mined in block:  177
+fire trade:  trade_67
+
+edit_trade called
+ ---> args[0]: trade_67  ---> args[1]: GB00B1VWPC84  ---> args[2]: DB  ---> args[3]: CS  ---> args[4]: 67  ---> args[5]: 107.14  ---> args[6]: 12345  ---> args[7]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0xca14e3d3f481c69a61fa6ce8bfba6d3920fbfd51f3622b1aff651ce0143ebbbd
+fire trade:  trade_68
+
+edit_trade called
+ ---> args[0]: trade_68  ---> args[1]: DE0001141745  ---> args[2]: BAML  ---> args[3]: CITI  ---> args[4]: 68  ---> args[5]: 102.85  ---> args[6]: 12345  ---> args[7]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0xdda6a77c3a58bc398d2cc31621e6436b84f27d8d60d2588665acaae7a727f74a
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+fire trade:  trade_69
+
+edit_trade called
+ ---> args[0]: trade_69  ---> args[1]: IT0005188120  ---> args[2]: CS  ---> args[3]: DB  ---> args[4]: 69  ---> args[5]: 101.159  ---> args[6]: 12345  ---> args[7]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0x30d388882e638edc68b83a58e3f786b9be1eae1ed844f9558202162b0420d4de
+ ---> tx mined in block:  179
+ ---> tx mined in block:  179
+fire trade:  trade_70
+
+edit_trade called
+ ---> args[0]: trade_70  ---> args[1]: IT0005188120  ---> args[2]: DB  ---> args[3]: DB  ---> args[4]: 70  ---> args[5]: 102.5912  ---> args[6]: 12345  ---> args[7]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0xfc5bf43897fdd013bce96cec8d51485aa7696c441a8949f5745f44e110475cfd
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+ ---> tx mined in block:  180
+fire trade:  trade_71
+
+edit_trade called
+ ---> args[0]: trade_71  ---> args[1]: GB00B1VWPC84  ---> args[2]: CITI  ---> args[3]: CS  ---> args[4]: 71  ---> args[5]: 102.429  ---> args[6]: 12345  ---> args[7]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0x50d1b1ccc28e122dd14aff95f585f4ff1eac56866ab6dce061abdf2f8677e41a
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+ ---> tx mined in block:  181
+ ---> tx mined in block:  182
+fire trade:  trade_72
+
+edit_trade called
+ ---> args[0]: trade_72  ---> args[1]: DE0001141745  ---> args[2]: DB  ---> args[3]: CITI  ---> args[4]: 72  ---> args[5]: 102.2668  ---> args[6]: 12345  ---> args[7]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0x07c069a62ff1ad541365cd92d2fc56f1fe67cdddd36653d0b75a60824411b5bd
+fire trade:  trade_73
+
+edit_trade called
+ ---> args[0]: trade_73  ---> args[1]: IT0005188120  ---> args[2]: DB  ---> args[3]: DB  ---> args[4]: 73  ---> args[5]: 102.1046  ---> args[6]: 12345  ---> args[7]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0x25b683202efde97218ec4dd691078cf74b1b98bf2b2d77b64496c6df6bfc0e19
+fire trade:  trade_74
+
+edit_trade called
+ ---> args[0]: trade_74  ---> args[1]: IT0005188120  ---> args[2]: BAML  ---> args[3]: CS  ---> args[4]: 74  ---> args[5]: 101.9424  ---> args[6]: 12345  ---> args[7]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0x862bcb23a29938b3b062b5a4146eb43d697bed319d45a262c04f44ba03b58dfc
+nothing to fire this time
+nothing to fire this time
+ ---> tx mined in block:  184
+ ---> tx mined in block:  184
+fire trade:  trade_75
+
+edit_trade called
+ ---> args[0]: trade_75  ---> args[1]: GB00B1VWPC84  ---> args[2]: BAML  ---> args[3]: CITI  ---> args[4]: 75  ---> args[5]: 101.7802  ---> args[6]: 12345  ---> args[7]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0x9e5ac9f6aef0e8897a48f5e48c0db97bc61f472638ccd0bd66417b297df0e26d
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+ ---> tx mined in block:  185
+fire trade:  trade_76
+
+edit_trade called
+ ---> args[0]: trade_76  ---> args[1]: DE0001141745  ---> args[2]: DB  ---> args[3]: BAML  ---> args[4]: 76  ---> args[5]: 101.618  ---> args[6]: 12345  ---> args[7]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0xa24bdc06bdfae608468e42cbbaeed238be1b22a5c6fadd2239787db1a5a208e3
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+ ---> tx mined in block:  186
+fire trade:  trade_77
+
+edit_trade called
+ ---> args[0]: trade_77  ---> args[1]: IT0005188120  ---> args[2]: CITI  ---> args[3]: DB  ---> args[4]: 77  ---> args[5]: 101.4558  ---> args[6]: 12345  ---> args[7]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0xdbc319b9e520944395718a6833cf77ba351cc56a00ec3fb5237b9a10b0a22468
+nothing to fire this time
+nothing to fire this time
+ ---> tx mined in block:  187
+fire trade:  trade_78
+
+edit_trade called
+ ---> args[0]: trade_78  ---> args[1]: IT0005188120  ---> args[2]: CITI  ---> args[3]: BAML  ---> args[4]: 78  ---> args[5]: 101.2936  ---> args[6]: 12345  ---> args[7]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0xfab93f1bc28d790e55f6adbdb4fe462f958b3a18e12434d3950b87a54900cc1e
+ ---> tx mined in block:  188
+fire trade:  trade_79
+
+edit_trade called
+ ---> args[0]: trade_79  ---> args[1]: GB00B1VWPC84  ---> args[2]: DB  ---> args[3]: CS  ---> args[4]: 79  ---> args[5]: 101.1314  ---> args[6]: 12345  ---> args[7]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0x95c76babe12a6a58c9c40b15bdd5d6957e4eb84b7586b9d9b9d5ee9933d2b6c1
+nothing to fire this time
+ ---> tx mined in block:  189
+fire trade:  trade_80
+
+edit_trade called
+ ---> args[0]: trade_80  ---> args[1]: DE0001141745  ---> args[2]: DB  ---> args[3]: BAML  ---> args[4]: 80  ---> args[5]: 100.9692  ---> args[6]: 12345  ---> args[7]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0x6b438cd95161d254af632f292acfb38ffd1df568be026a884f6e86d99e7cb2ac
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+ ---> tx mined in block:  191
+ ---> tx mined in block:  190
+fire trade:  trade_81
+
+edit_trade called
+ ---> args[0]: trade_81  ---> args[1]: GB00B1VWPC84  ---> args[2]: DB  ---> args[3]: CS  ---> args[4]: 81  ---> args[5]: 107.04  ---> args[6]: 12345  ---> args[7]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0xf535044608fe1beee71b2a29f7c1140fb72b1a89fedf0760c9f862b13b256274
+fire trade:  trade_82
+
+edit_trade called
+ ---> args[0]: trade_82  ---> args[1]: DE0001141745  ---> args[2]: CITI  ---> args[3]: CS  ---> args[4]: 82  ---> args[5]: 102.5  ---> args[6]: 12345  ---> args[7]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0x462703fcc2a808418621e3a2eadd2c8232f6a0e39e616f5a03d5653c7f8184ac
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+fire trade:  trade_83
+
+edit_trade called
+ ---> args[0]: trade_83  ---> args[1]: IT0005188120  ---> args[2]: DB  ---> args[3]: CITI  ---> args[4]: 83  ---> args[5]: 101.59  ---> args[6]: 12345  ---> args[7]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0x019c93675bcd50b4e3b155b4d23e94f5bddce3f1e35e3514a0ce595eda9e92f9
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+ ---> tx mined in block:  193
+ ---> tx mined in block:  193
+fire trade:  trade_84
+
+edit_trade called
+ ---> args[0]: trade_84  ---> args[1]: GB00B1VWPC84  ---> args[2]: CS  ---> args[3]: DB  ---> args[4]: 84  ---> args[5]: 107.24  ---> args[6]: 12345  ---> args[7]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0x2a611d03a335ba5f7e602864be64a7fe98f3a2f476d782241fe8da2ef956927e
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+fire trade:  trade_85
+
+edit_trade called
+ ---> args[0]: trade_85  ---> args[1]: DE0001141745  ---> args[2]: CITI  ---> args[3]: CS  ---> args[4]: 85  ---> args[5]: 102.55  ---> args[6]: 12345  ---> args[7]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx mined in block:  194
+ ---> tx_ref: 0xaacedff4ad5504a9859156ece76be2b6a38e91f2fc7a5afc8bc196a28a603e48
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+ ---> tx mined in block:  195
+fire trade:  trade_86
+
+edit_trade called
+ ---> args[0]: trade_86  ---> args[1]: IT0005188120  ---> args[2]: DB  ---> args[3]: CITI  ---> args[4]: 86  ---> args[5]: 101.69  ---> args[6]: 12345  ---> args[7]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0x0f6645f63e6acd1508d5901f883730b05d50ee357b2fdeeed7ea50f027dca6e8
+ ---> tx mined in block:  196
+ ---> tx mined in block:  197
+fire trade:  trade_87
+
+edit_trade called
+ ---> args[0]: trade_87  ---> args[1]: GB00B1VWPC84  ---> args[2]: DB  ---> args[3]: CS  ---> args[4]: 87  ---> args[5]: 107.14  ---> args[6]: 12345  ---> args[7]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0x8d78c1bed57f7aa581c29843ca83faf16e31737464dc3b42208712ca0616a9e8
+fire trade:  trade_88
+
+edit_trade called
+ ---> args[0]: trade_88  ---> args[1]: DE0001141745  ---> args[2]: BAML  ---> args[3]: CITI  ---> args[4]: 88  ---> args[5]: 102.85  ---> args[6]: 12345  ---> args[7]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0x3527c383a9336a65411604e638f2f0cc9c4a954379ecd8ef596222c5f5d7de8f
+nothing to fire this time
+fire trade:  trade_89
+
+edit_trade called
+ ---> args[0]: trade_89  ---> args[1]: IT0005188120  ---> args[2]: CS  ---> args[3]: DB  ---> args[4]: 89  ---> args[5]: 101.159  ---> args[6]: 12345  ---> args[7]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0x73b3ec116531686d6d09b930b45e19d0343774fde3948ef87b03bce5083760e4
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+ ---> tx mined in block:  199
+ ---> tx mined in block:  199
+fire trade:  trade_90
+
+edit_trade called
+ ---> args[0]: trade_90  ---> args[1]: IT0005188120  ---> args[2]: DB  ---> args[3]: CS  ---> args[4]: 90  ---> args[5]: 102.5912  ---> args[6]: 12345  ---> args[7]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0xb3a01310da1af1f494cdc543a56545f716302d153ee7e410439fd02a4b4b410c
+fire trade:  trade_91
+
+edit_trade called
+ ---> args[0]: trade_91  ---> args[1]: GB00B1VWPC84  ---> args[2]: CITI  ---> args[3]: CS  ---> args[4]: 91  ---> args[5]: 102.429  ---> args[6]: 12345  ---> args[7]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx mined in block:  200
+ ---> tx_ref: 0x8862912854e9671c42b89f0d8b04a27fe7339129e2488d631f385e5f2dd4d71a
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+ ---> tx mined in block:  201
+fire trade:  trade_92
+
+edit_trade called
+ ---> args[0]: trade_92  ---> args[1]: DE0001141745  ---> args[2]: DB  ---> args[3]: CITI  ---> args[4]: 92  ---> args[5]: 102.2668  ---> args[6]: 12345  ---> args[7]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0x1235440e04c9ae1121b8720af8b3716826451de0cdbb3b4968410a8d6edc931b
+ ---> tx mined in block:  203
+fire trade:  trade_93
+
+edit_trade called
+ ---> args[0]: trade_93  ---> args[1]: IT0005188120  ---> args[2]: DB  ---> args[3]: CS  ---> args[4]: 93  ---> args[5]: 102.1046  ---> args[6]: 12345  ---> args[7]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx mined in block:  202
+ ---> tx_ref: 0x30f5231dff62e2f9888fd47cff30d199c16fa72be36ae5e405dcb406d33defd7
+fire trade:  trade_94
+
+edit_trade called
+ ---> args[0]: trade_94  ---> args[1]: IT0005188120  ---> args[2]: BAML  ---> args[3]: CS  ---> args[4]: 94  ---> args[5]: 101.9424  ---> args[6]: 12345  ---> args[7]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0xc125d32224178bc286a2282e5c24b7ccff074cc3f27ba9d968e4fbe0909b5d31
+fire trade:  trade_95
+
+edit_trade called
+ ---> args[0]: trade_95  ---> args[1]: GB00B1VWPC84  ---> args[2]: BAML  ---> args[3]: CITI  ---> args[4]: 95  ---> args[5]: 101.7802  ---> args[6]: 12345  ---> args[7]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0xa0b04b767c9df00991f1d0c2b2174ce04f15da9ac1b0bfd7f3fdf17f0225c9f8
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+ ---> tx mined in block:  205
+fire trade:  trade_96
+
+edit_trade called
+ ---> args[0]: trade_96  ---> args[1]: DE0001141745  ---> args[2]: DB  ---> args[3]: BAML  ---> args[4]: 96  ---> args[5]: 101.618  ---> args[6]: 12345  ---> args[7]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0x2aecf58233b7a12e24556553ec5d3e3dad3093a0adef180ee8cc8990adfcae5e
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+ ---> tx mined in block:  206
+ ---> tx mined in block:  206
+fire trade:  trade_97
+
+edit_trade called
+ ---> args[0]: trade_97  ---> args[1]: IT0005188120  ---> args[2]: CITI  ---> args[3]: DB  ---> args[4]: 97  ---> args[5]: 101.4558  ---> args[6]: 12345  ---> args[7]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0x2ebecc5693fcb0ea8d892ba1439099c85ad7ca5672ed77c6c1251d7796c923fe
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+fire trade:  trade_98
+
+edit_trade called
+ ---> args[0]: trade_98  ---> args[1]: IT0005188120  ---> args[2]: CITI  ---> args[3]: BAML  ---> args[4]: 98  ---> args[5]: 101.2936  ---> args[6]: 12345  ---> args[7]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx mined in block:  207
+ ---> tx_ref: 0x5d3219b12c48c7ceb139196058d57bc402822a14fd3dd7a6c867e015b82e6039
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+ ---> tx mined in block:  208
+fire trade:  trade_99
+
+edit_trade called
+ ---> args[0]: trade_99  ---> args[1]: GB00B1VWPC84  ---> args[2]: DB  ---> args[3]: CS  ---> args[4]: 99  ---> args[5]: 101.1314  ---> args[6]: 12345  ---> args[7]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+ ---> tx_ref: 0x16d6a2138fb2b4a8239dc10be39147f2e9d023a9619d73e81bcc0b2df7ddac6a
+ ---> tx mined in block:  209
+fire trade:  trade_100
+
+edit_trade called
+ ---> args[0]: trade_100  ---> args[1]: DE0001141745  ---> args[2]: DB  ---> args[3]: BAML  ---> args[4]: 100  ---> args[5]: 100.9692  ---> args[6]: 12345  ---> args[7]: { from: '0x2dfbd8e952b1cc98ee301c60a465d0dfdfe7f960',
+  gas: 300000 }
+finishing at 100
+ ---> tx_ref: 0x1f1f51e14ac535c65cba624d3715cf3934de3e736df42a9cc98afc6d83a7acf8
+ ---> tx mined in block:  210
+ ---> tx mined in block:  211
+
+bonds_example $

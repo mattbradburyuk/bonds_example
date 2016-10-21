@@ -1,0 +1,249 @@
+bonds_example $ node app/Tt5/Tt5_load_trades_basic.js
+4
+101
+fire trade:  trade_1
+
+new_trade called
+ ---> args[0]: trade_1  ---> args[1]: { from: '0x340821eaa595dcb9acf8f918af59da4e2590485a',
+  gas: 300000 }
+ ---> tx_ref: 0x28b73da3c739717f6c58d3fd0950a782a3b6fef042668d2130c81f6f8b122176
+fire trade:  trade_2
+
+new_trade called
+ ---> args[0]: trade_2  ---> args[1]: { from: '0x340821eaa595dcb9acf8f918af59da4e2590485a',
+  gas: 300000 }
+ ---> tx_ref: 0xa3702fff082f6d7eafcd22f2de25c3bc9833144f70fe33736a122c156bb6c984
+fire trade:  trade_3
+
+new_trade called
+ ---> args[0]: trade_3  ---> args[1]: { from: '0x340821eaa595dcb9acf8f918af59da4e2590485a',
+  gas: 300000 }
+ ---> tx_ref: 0x65d5958cdff6774fdfc018ea9dd805b24a94f27978df9027c8d8d534882472c8
+fire trade:  trade_4
+
+new_trade called
+ ---> args[0]: trade_4  ---> args[1]: { from: '0x340821eaa595dcb9acf8f918af59da4e2590485a',
+  gas: 300000 }
+ ---> tx_ref: 0x4b45032d87b66b486a4bdc063d10595c37c97947666a756c1104f04363e0320f
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+ ---> tx mined in block:  5
+ ---> tx mined in block:  5
+ ---> tx mined in block:  5
+ ---> tx mined in block:  5
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+fire trade:  trade_5
+
+new_trade called
+ ---> args[0]: trade_5  ---> args[1]: { from: '0x340821eaa595dcb9acf8f918af59da4e2590485a',
+  gas: 300000 }
+ ---> tx_ref: 0x2f0ce765458b7d51a04ebee823a1d3c1f26dca1a2d61b76c05070ef80574bab2
+fire trade:  trade_6
+
+new_trade called
+ ---> args[0]: trade_6  ---> args[1]: { from: '0x340821eaa595dcb9acf8f918af59da4e2590485a',
+  gas: 300000 }
+ ---> tx_ref: 0x49eaf40e69149be8ca2732da39a89a6b915a621a4cd798ee1d88608ed8c8eca2
+ ---> tx mined in block:  16
+fire trade:  trade_7
+
+new_trade called
+ ---> args[0]: trade_7  ---> args[1]: { from: '0x340821eaa595dcb9acf8f918af59da4e2590485a',
+  gas: 300000 }
+ ---> tx_ref: 0xbf42b54241d7f645389caf04d5c41c13c58b8a9e96c0b01fc213a4cb3fef71d8
+fire trade:  trade_8
+
+new_trade called
+ ---> args[0]: trade_8  ---> args[1]: { from: '0x340821eaa595dcb9acf8f918af59da4e2590485a',
+  gas: 300000 }
+ ---> tx_ref: 0x2c358b8c387f39612f5fc64df56cacb3a7b91061c5fe72b14a30fe822baaa24d
+fire trade:  trade_9
+
+new_trade called
+ ---> args[0]: trade_9  ---> args[1]: { from: '0x340821eaa595dcb9acf8f918af59da4e2590485a',
+  gas: 300000 }
+ ---> tx_ref: 0xa20c91acb6afeea912cc8ca1d4fa1b0326ef7d5fbe945f7a3ac44427fc100b42
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+ ---> tx mined in block:  17
+nothing to fire this time
+ ---> tx mined in block:  18
+ ---> tx mined in block:  18
+ ---> tx mined in block:  18
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+fire trade:  trade_10
+
+new_trade called
+ ---> args[0]: trade_10  ---> args[1]: { from: '0x340821eaa595dcb9acf8f918af59da4e2590485a',
+  gas: 300000 }
+ ---> tx_ref: 0x9e97f4c1b6bf119c64256afa8a4d1b2263ab6608b1a148d08bc53653835696e8
+ ---> tx mined in block:  26
+fire trade:  trade_11
+
+new_trade called
+ ---> args[0]: trade_11  ---> args[1]: { from: '0x340821eaa595dcb9acf8f918af59da4e2590485a',
+  gas: 300000 }
+ ---> tx_ref: 0xec0ff817a4327a1869291b885ff4a8708ea99e656fc2c45f20b7cf5061fde6eb
+fire trade:  trade_12
+
+new_trade called
+ ---> args[0]: trade_12  ---> args[1]: { from: '0x340821eaa595dcb9acf8f918af59da4e2590485a',
+  gas: 300000 }
+ ---> tx_ref: 0xe3650d4a90dd04ff323b0335e0c49294a12689c5279cae026aa9148b42a4fa55
+fire trade:  trade_13
+
+new_trade called
+ ---> args[0]: trade_13  ---> args[1]: { from: '0x340821eaa595dcb9acf8f918af59da4e2590485a',
+  gas: 300000 }
+ ---> tx_ref: 0xebc6ff581f02c1c40f1bc89fcd748993f86a20cd3e6969f430fca292e3900fa5
+fire trade:  trade_14
+
+new_trade called
+ ---> args[0]: trade_14  ---> args[1]: { from: '0x340821eaa595dcb9acf8f918af59da4e2590485a',
+  gas: 300000 }
+ ---> tx_ref: 0xead94957fd40bd1af8c4a6956b18f5006dfe5aff9b6cf76f69b6f000bcdc57f6
+ ---> tx mined in block:  28
+nothing to fire this time
+ ---> tx mined in block:  29
+ ---> tx mined in block:  29
+ ---> tx mined in block:  29
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+fire trade:  trade_15
+
+new_trade called
+ ---> args[0]: trade_15  ---> args[1]: { from: '0x340821eaa595dcb9acf8f918af59da4e2590485a',
+  gas: 300000 }
+fire trade:  trade_16
+
+new_trade called
+ ---> args[0]: trade_16  ---> args[1]: { from: '0x340821eaa595dcb9acf8f918af59da4e2590485a',
+  gas: 300000 }
+fire trade:  trade_17
+
+new_trade called
+ ---> args[0]: trade_17  ---> args[1]: { from: '0x340821eaa595dcb9acf8f918af59da4e2590485a',
+  gas: 300000 }
+fire trade:  trade_18
+
+new_trade called
+ ---> args[0]: trade_18  ---> args[1]: { from: '0x340821eaa595dcb9acf8f918af59da4e2590485a',
+  gas: 300000 }
+fire trade:  trade_19
+
+new_trade called
+ ---> args[0]: trade_19  ---> args[1]: { from: '0x340821eaa595dcb9acf8f918af59da4e2590485a',
+  gas: 300000 }
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+fire trade:  trade_20
+
+new_trade called
+ ---> args[0]: trade_20  ---> args[1]: { from: '0x340821eaa595dcb9acf8f918af59da4e2590485a',
+  gas: 300000 }
+fire trade:  trade_21
+
+new_trade called
+ ---> args[0]: trade_21  ---> args[1]: { from: '0x340821eaa595dcb9acf8f918af59da4e2590485a',
+  gas: 300000 }
+fire trade:  trade_22
+
+new_trade called
+ ---> args[0]: trade_22  ---> args[1]: { from: '0x340821eaa595dcb9acf8f918af59da4e2590485a',
+  gas: 300000 }
+fire trade:  trade_23
+
+new_trade called
+ ---> args[0]: trade_23  ---> args[1]: { from: '0x340821eaa595dcb9acf8f918af59da4e2590485a',
+  gas: 300000 }
+fire trade:  trade_24
+
+new_trade called
+ ---> args[0]: trade_24  ---> args[1]: { from: '0x340821eaa595dcb9acf8f918af59da4e2590485a',
+  gas: 300000 }
+nothing to fire this time
+nothing to fire this time
+fire trade:  trade_25
+
+new_trade called
+ ---> args[0]: trade_25  ---> args[1]: { from: '0x340821eaa595dcb9acf8f918af59da4e2590485a',
+  gas: 300000 }
+fire trade:  trade_26
+
+new_trade called
+ ---> args[0]: trade_26  ---> args[1]: { from: '0x340821eaa595dcb9acf8f918af59da4e2590485a',
+  gas: 300000 }
+fire trade:  trade_27
+
+new_trade called
+ ---> args[0]: trade_27  ---> args[1]: { from: '0x340821eaa595dcb9acf8f918af59da4e2590485a',
+  gas: 300000 }
+fire trade:  trade_28
+
+new_trade called
+ ---> args[0]: trade_28  ---> args[1]: { from: '0x340821eaa595dcb9acf8f918af59da4e2590485a',
+  gas: 300000 }
+fire trade:  trade_29
+
+new_trade called
+ ---> args[0]: trade_29  ---> args[1]: { from: '0x340821eaa595dcb9acf8f918af59da4e2590485a',
+  gas: 300000 }
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+nothing to fire this time
+fire trade:  trade_30
+
+new_trade called
+ ---> args[0]: trade_30  ---> args[1]: { from: '0x340821eaa595dcb9acf8f918af59da4e2590485a',
+  gas: 300000 }
+fire trade:  trade_31
+
+new_trade called
+ ---> args[0]: trade_31  ---> args[1]: { from: '0x340821eaa595dcb9acf8f918af59da4e2590485a',
+  gas: 300000 }
+fire trade:  trade_32
+
+new_trade called
+ ---> args[0]: trade_32  ---> args[1]: { from: '0x340821eaa595dcb9acf8f918af59da4e2590485a',
+  gas: 300000 }
+fire trade:  trade_33
+
+new_trade called
+ ---> args[0]: trade_33  ---> args[1]: { from: '0x340821eaa595dcb9acf8f918af59da4e2590485a',
+  gas: 300000 }
+^C
+

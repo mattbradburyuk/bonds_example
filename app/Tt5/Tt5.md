@@ -1,5 +1,7 @@
 #Trade_test_5 (Tt5)
 
+(Note, I haven;t tracked the differences in timedelay for firing the function to check if a trade should be sent in Tt5_load_trades_basic.js which may be a factor) 
+
 ##Test 1 
 
 set up: 
@@ -184,6 +186,7 @@ setup:
 * docker geth 1.4.18,
 * csv_trade_sources_100_sequentially.csv (1 trade per block)
 * Tt5_load_trades_basic.js(first run firing new_trades(), then run again editing to fire edit_trades() )
+* tx spacing set to ?? (i think it was 5000ms though)
 
 results:
 
@@ -196,6 +199,7 @@ results:
 * docker geth 1.4.18,
 * csv_trade_sources_100_at_10_per_10_blocks.csv
 * Tt5_load_trades_basic.js (first run firing new_trades(), then run again editing to fire edit_trades() )
+* tx spacing set to ??
 
 results
 setup:
@@ -213,11 +217,70 @@ setup:
 * docker geth 1.4.18,
 * csv_trade_sources_100_at_5_per_5_blocks.csv
 * Tt5_load_trades_basic.js (first run firing new_trades(), then run again editing to fire edit_trades() )
+* tx spacing set to ??
 
 results:
 * failed after 28 new trade transactions 
-* failed after 39 new trade transactions 
 * however, didn't get the server.go error
 * all the transactions that received a transaction id were mined
 * question -> where did the transactions go
+* question -> is the limit the amount of transaction in the block or it needs more time between transaction batches to sort its self out 
+
+#Test 7 
+
+setup:
+* docker geth 1.4.18,
+* csv_trade_sources_100_at_5_per_10_blocks.csv
+* Tt5_load_trades_basic.js (first run firing new_trades(), then run again editing to fire edit_trades() )
+* tx spacing set to 2000ms
+
+results:
+* failed after 13 new trade transactions 
+* however, didn't get the server.go error
+* all the transactions that received a transaction id were mined
+* question -> where did the transactions go
+* question -> is the limit the amount of transaction in the block or it needs more time between transaction batches to sort its self out 
+
+#Test 8
+
+setup:
+* docker geth 1.4.18,
+* csv_trade_sources_100_at_5_per_10_blocks.csv
+* Tt5_load_trades_basic.js (first run firing new_trades(), then run again editing to fire edit_trades() )
+* tx spacing set to 5000ms
+
+results:
+* failed after 14 new trade transactions 
+* however, didn't get the server.go error
+* all the transactions that received a transaction id were mined
+* question -> where did the transactions go
+* question -> is the limit the amount of transaction in the block or it needs more time between transaction batches to sort its self out 
+
+
+
+
+Investigate:
+
+* Note, when restarting the test on the same blockchain no trades were accepted 
+* turns out I had forgotten to unlock the account, it was still unlocked from the deploy but then locked after acouple of minutes of the test.
+* Solution unlock the account for an hour: 
+```
+personal.unlockAccount(eth.coinbase,'mattspass',3600)
+```
+
+
+#Test 9
+
+re run earlier tests
+
+(re run test 5)
+
+* docker geth 1.4.18,
+* csv_trade_sources_100_at_10_per_10_blocks.csv
+* Tt5_load_trades_basic.js (first run firing new_trades(), then run again editing to fire edit_trades() )
+* tx spacing set to 5000
+
+result:
+
+* all new trades and edit trades run successfully
 
