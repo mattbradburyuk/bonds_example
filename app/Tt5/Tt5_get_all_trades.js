@@ -36,7 +36,7 @@ var cb = web3.eth.coinbase;
 
 var csv_output_file = "./app/Tt5/output.csv"
 
-// web3.eth.defaultBlock = 280
+// web3.eth.defaultBlock = 180
 console.log(web3.eth.defaultBlock)
 
 

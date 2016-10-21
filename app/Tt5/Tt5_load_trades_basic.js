@@ -39,18 +39,20 @@ var starting_block = web3.eth.blockNumber
 
 console.log("starting block:", starting_block)
 
+var source = './app/Tt5/csv_trade_sources_1000_at_100_per_10_blocks.csv'
+
 var data = []
 
-// new_trades()
+new_trades()
 
-edit_trades()
+// edit_trades()
 
 
 function new_trades(){
 
     var parser = parse({delimiter: ','}, callback)
 
-    fs.createReadStream('./app/Tt5/csv_trade_sources_100_at_10_per_10_blocks.csv').pipe(parser);
+    fs.createReadStream(source).pipe(parser);
 
     function callback(err, r) {
 
@@ -59,7 +61,7 @@ function new_trades(){
         // console.log(data)
         console.log("input file length: ",data.length)
 
-        var timer = setInterval(fire_txs,5000); // interval set below average block time
+        var timer = setInterval(fire_txs,500); // interval set below average block time
 
         function fire_txs(){
 
@@ -93,7 +95,7 @@ function edit_trades(){
 
     var parser = parse({delimiter: ','}, callback)
 
-    fs.createReadStream('./app/Tt5/csv_trade_sources_100_at_1_per_1_block.csv').pipe(parser);
+    fs.createReadStream(source).pipe(parser);
 
     function callback(err, r) {
 
@@ -102,7 +104,7 @@ function edit_trades(){
         // console.log(data)
         console.log(data.length)
 
-        var timer = setInterval(fire_txs,2000); // interval set below average block time
+        var timer = setInterval(fire_txs,500); // interval set below average block time
 
         function fire_txs(){
 

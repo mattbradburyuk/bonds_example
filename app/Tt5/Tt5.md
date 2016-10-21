@@ -1,6 +1,59 @@
 #Trade_test_5 (Tt5)
 
-(Note, I haven;t tracked the differences in timedelay for firing the function to check if a trade should be sent in Tt5_load_trades_basic.js which may be a factor) 
+Concentrated mostly on how to batch load trades into the Contract.
+
+main files: 
+
+csv_trade_sources_<no trades>_at_X_per_Y_blocks.scv
+* a csv file generated out of google sheets
+* column 17 has the target block to be mined in, this is used to set the firing pattern relative to the block number
+
+
+
+
+Tt5_load_trades_from_csv.js
+* Reads in th csv file containing trades
+* uses promise chains to fire the transactions at the appropriate point
+* ran into problems with linux running out of open files (see test 1 and 2 below)
+
+Tt5_load_trades_basic.js
+* a more basic firer, to compensate for the problems with Tt5_load_trades_from_csv.js
+* requires editing to either create new trades or edit existing ones: 
+
+```
+new_trades() 
+
+// edit_trades() 
+
+```
+    (ie have to run twice)
+
+
+Tt5_get_all_trades.js
+* reads all trades from the blockchain
+* outputs a csv file of the trades (output.csv)
+* displays the trades in a cli-table in the console
+* can set default block to get snap shots: 
+```
+line 39:
+// web3.eth.defaultBlock = 180   <= uncomment and change to desired block to see previous snapshot
+```
+
+
+
+#Key learnings:
+
+* The promises approach caused problems maxing out the number of open files in linux (see test 3 below)
+* Must make sure that the accounts are unlocked and stay unlocked for the whole test (Tt5_load_trades_basic.js does not have unlock function so need to do manually), eg:
+```
+personal.unlockAccount(eth.coinbase, '<password>', <time in seconds to stay unlocked>)
+``` 
+Make sure this is after the contracts have been deployed if using mushroom as the unlocking mechanism for deploy may interfere)
+
+
+
+
+#Tests
 
 ##Test 1 
 
@@ -283,4 +336,16 @@ re run earlier tests
 result:
 
 * all new trades and edit trades run successfully
+
+#Test 10
+
+up the load
+
+* docker geth 1.4.18,
+* csv_trade_sources_100_at_10_per_10_blocks.csv
+* Tt5_load_trades_basic.js (first run firing new_trades(), then run again editing to fire edit_trades() )
+* tx spacing set to 500ms
+
+new trades all ran successfully - didn't run edit as it would take to long
+
 

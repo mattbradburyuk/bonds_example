@@ -105,7 +105,7 @@ function new_and_edit(trade_data){
             .then(pass_back_results)
 
 
-// ********** not working ********
+
         function delay_firing(){
                 return new Promise(function (resolve,reject){
                     var target_block = parseInt(starting_block) + parseInt(trade_data[17])
