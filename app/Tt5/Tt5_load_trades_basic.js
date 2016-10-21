@@ -39,7 +39,8 @@ var starting_block = web3.eth.blockNumber
 
 console.log("starting block:", starting_block)
 
-var source = './app/Tt5/csv_trade_sources_1000_at_100_per_10_blocks.csv'
+var source = './app/Tt5/csv_trade_sources_1000_at_1000_per_1_block.csv'
+var interval = 50
 
 var data = []
 
@@ -61,7 +62,7 @@ function new_trades(){
         // console.log(data)
         console.log("input file length: ",data.length)
 
-        var timer = setInterval(fire_txs,500); // interval set below average block time
+        var timer = setInterval(fire_txs,interval); // interval set below average block time
 
         function fire_txs(){
 
@@ -82,13 +83,8 @@ function new_trades(){
             }else{
                 console.log("nothing to fire this time")
             }
-
-
-
         }
-
-
-        }
+    }
 }
 
 function edit_trades(){
@@ -104,7 +100,7 @@ function edit_trades(){
         // console.log(data)
         console.log(data.length)
 
-        var timer = setInterval(fire_txs,500); // interval set below average block time
+        var timer = setInterval(fire_txs,interval); // interval set below average block time
 
         function fire_txs(){
 
@@ -125,11 +121,6 @@ function edit_trades(){
             }else{
                 console.log("nothing to fire this time")
             }
-
-
-
         }
-
-
     }
 }

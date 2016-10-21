@@ -1,0 +1,1410 @@
+bonds_example $ node app/Tt5/Tt5_load_trades_basic.js
+starting block: 3
+input file length:  101
+fire trade:  trade_1
+
+new_trade called
+ ---> args[0]: trade_1  ---> args[1]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+ ---> tx_ref: 0xafb8dfb49e5dfb92b37af9a0b79b0fffe7db8231fe7ea83bffe93c6416e7a884
+fire trade:  trade_2
+
+new_trade called
+ ---> args[0]: trade_2  ---> args[1]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_3
+
+new_trade called
+ ---> args[0]: trade_3  ---> args[1]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+ ---> tx_ref: 0x2a4490caf93ed8aa427a497bbb0065db8d86d7d43e60bf412acf848b39b757de
+ ---> tx_ref: 0x248c2eec306fddfaa0d8648b30050dc774c6742ea211b7545663acbc7d47fabb
+fire trade:  trade_4
+
+new_trade called
+ ---> args[0]: trade_4  ---> args[1]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+ ---> tx_ref: 0xb86fd30b50b8e4396b16db40d581aba230473dccb7b563f304d859d6b4171af5
+fire trade:  trade_5
+
+new_trade called
+ ---> args[0]: trade_5  ---> args[1]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_6
+
+new_trade called
+ ---> args[0]: trade_6  ---> args[1]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_7
+
+new_trade called
+ ---> args[0]: trade_7  ---> args[1]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_8
+
+new_trade called
+ ---> args[0]: trade_8  ---> args[1]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_9
+
+new_trade called
+ ---> args[0]: trade_9  ---> args[1]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_10
+
+new_trade called
+ ---> args[0]: trade_10  ---> args[1]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_11
+
+new_trade called
+ ---> args[0]: trade_11  ---> args[1]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_12
+
+new_trade called
+ ---> args[0]: trade_12  ---> args[1]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_13
+
+new_trade called
+ ---> args[0]: trade_13  ---> args[1]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_14
+
+new_trade called
+ ---> args[0]: trade_14  ---> args[1]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_15
+
+new_trade called
+ ---> args[0]: trade_15  ---> args[1]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_16
+
+new_trade called
+ ---> args[0]: trade_16  ---> args[1]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_17
+
+new_trade called
+ ---> args[0]: trade_17  ---> args[1]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_18
+
+new_trade called
+ ---> args[0]: trade_18  ---> args[1]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_19
+
+new_trade called
+ ---> args[0]: trade_19  ---> args[1]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_20
+
+new_trade called
+ ---> args[0]: trade_20  ---> args[1]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_21
+
+new_trade called
+ ---> args[0]: trade_21  ---> args[1]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_22
+
+new_trade called
+ ---> args[0]: trade_22  ---> args[1]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_23
+
+new_trade called
+ ---> args[0]: trade_23  ---> args[1]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_24
+
+new_trade called
+ ---> args[0]: trade_24  ---> args[1]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_25
+
+new_trade called
+ ---> args[0]: trade_25  ---> args[1]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_26
+
+new_trade called
+ ---> args[0]: trade_26  ---> args[1]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_27
+
+new_trade called
+ ---> args[0]: trade_27  ---> args[1]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_28
+
+new_trade called
+ ---> args[0]: trade_28  ---> args[1]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_29
+
+new_trade called
+ ---> args[0]: trade_29  ---> args[1]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_30
+
+new_trade called
+ ---> args[0]: trade_30  ---> args[1]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_31
+
+new_trade called
+ ---> args[0]: trade_31  ---> args[1]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_32
+
+new_trade called
+ ---> args[0]: trade_32  ---> args[1]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_33
+
+new_trade called
+ ---> args[0]: trade_33  ---> args[1]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_34
+
+new_trade called
+ ---> args[0]: trade_34  ---> args[1]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_35
+
+new_trade called
+ ---> args[0]: trade_35  ---> args[1]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_36
+
+new_trade called
+ ---> args[0]: trade_36  ---> args[1]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_37
+
+new_trade called
+ ---> args[0]: trade_37  ---> args[1]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_38
+
+new_trade called
+ ---> args[0]: trade_38  ---> args[1]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_39
+
+new_trade called
+ ---> args[0]: trade_39  ---> args[1]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_40
+
+new_trade called
+ ---> args[0]: trade_40  ---> args[1]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_41
+
+new_trade called
+ ---> args[0]: trade_41  ---> args[1]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_42
+
+new_trade called
+ ---> args[0]: trade_42  ---> args[1]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_43
+
+new_trade called
+ ---> args[0]: trade_43  ---> args[1]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_44
+
+new_trade called
+ ---> args[0]: trade_44  ---> args[1]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_45
+
+new_trade called
+ ---> args[0]: trade_45  ---> args[1]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_46
+
+new_trade called
+ ---> args[0]: trade_46  ---> args[1]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_47
+
+new_trade called
+ ---> args[0]: trade_47  ---> args[1]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_48
+
+new_trade called
+ ---> args[0]: trade_48  ---> args[1]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_49
+
+new_trade called
+ ---> args[0]: trade_49  ---> args[1]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_50
+
+new_trade called
+ ---> args[0]: trade_50  ---> args[1]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_51
+
+new_trade called
+ ---> args[0]: trade_51  ---> args[1]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_52
+
+new_trade called
+ ---> args[0]: trade_52  ---> args[1]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_53
+
+new_trade called
+ ---> args[0]: trade_53  ---> args[1]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_54
+
+new_trade called
+ ---> args[0]: trade_54  ---> args[1]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_55
+
+new_trade called
+ ---> args[0]: trade_55  ---> args[1]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_56
+
+new_trade called
+ ---> args[0]: trade_56  ---> args[1]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_57
+
+new_trade called
+ ---> args[0]: trade_57  ---> args[1]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_58
+
+new_trade called
+ ---> args[0]: trade_58  ---> args[1]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_59
+
+new_trade called
+ ---> args[0]: trade_59  ---> args[1]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_60
+
+new_trade called
+ ---> args[0]: trade_60  ---> args[1]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_61
+
+new_trade called
+ ---> args[0]: trade_61  ---> args[1]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_62
+
+new_trade called
+ ---> args[0]: trade_62  ---> args[1]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_63
+
+new_trade called
+ ---> args[0]: trade_63  ---> args[1]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_64
+
+new_trade called
+ ---> args[0]: trade_64  ---> args[1]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_65
+
+new_trade called
+ ---> args[0]: trade_65  ---> args[1]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_66
+
+new_trade called
+ ---> args[0]: trade_66  ---> args[1]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_67
+
+new_trade called
+ ---> args[0]: trade_67  ---> args[1]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_68
+
+new_trade called
+ ---> args[0]: trade_68  ---> args[1]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_69
+
+new_trade called
+ ---> args[0]: trade_69  ---> args[1]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_70
+
+new_trade called
+ ---> args[0]: trade_70  ---> args[1]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_71
+
+new_trade called
+ ---> args[0]: trade_71  ---> args[1]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_72
+
+new_trade called
+ ---> args[0]: trade_72  ---> args[1]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_73
+
+new_trade called
+ ---> args[0]: trade_73  ---> args[1]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_74
+
+new_trade called
+ ---> args[0]: trade_74  ---> args[1]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_75
+
+new_trade called
+ ---> args[0]: trade_75  ---> args[1]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_76
+
+new_trade called
+ ---> args[0]: trade_76  ---> args[1]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_77
+
+new_trade called
+ ---> args[0]: trade_77  ---> args[1]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_78
+
+new_trade called
+ ---> args[0]: trade_78  ---> args[1]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_79
+
+new_trade called
+ ---> args[0]: trade_79  ---> args[1]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_80
+
+new_trade called
+ ---> args[0]: trade_80  ---> args[1]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_81
+
+new_trade called
+ ---> args[0]: trade_81  ---> args[1]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_82
+
+new_trade called
+ ---> args[0]: trade_82  ---> args[1]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_83
+
+new_trade called
+ ---> args[0]: trade_83  ---> args[1]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_84
+
+new_trade called
+ ---> args[0]: trade_84  ---> args[1]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_85
+
+new_trade called
+ ---> args[0]: trade_85  ---> args[1]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_86
+
+new_trade called
+ ---> args[0]: trade_86  ---> args[1]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_87
+
+new_trade called
+ ---> args[0]: trade_87  ---> args[1]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_88
+
+new_trade called
+ ---> args[0]: trade_88  ---> args[1]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_89
+
+new_trade called
+ ---> args[0]: trade_89  ---> args[1]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_90
+
+new_trade called
+ ---> args[0]: trade_90  ---> args[1]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_91
+
+new_trade called
+ ---> args[0]: trade_91  ---> args[1]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_92
+
+new_trade called
+ ---> args[0]: trade_92  ---> args[1]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_93
+
+new_trade called
+ ---> args[0]: trade_93  ---> args[1]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_94
+
+new_trade called
+ ---> args[0]: trade_94  ---> args[1]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_95
+
+new_trade called
+ ---> args[0]: trade_95  ---> args[1]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_96
+
+new_trade called
+ ---> args[0]: trade_96  ---> args[1]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_97
+
+new_trade called
+ ---> args[0]: trade_97  ---> args[1]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_98
+
+new_trade called
+ ---> args[0]: trade_98  ---> args[1]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_99
+
+new_trade called
+ ---> args[0]: trade_99  ---> args[1]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_100
+
+new_trade called
+ ---> args[0]: trade_100  ---> args[1]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+finishing at 100
+ ---> tx mined in block:  5
+ ---> tx mined in block:  5
+ ---> tx mined in block:  5
+ ---> tx mined in block:  5
+ ---> tx_ref: 0x4dd1a3ff12886b36d5b6a4062eb14b6a32f42cd57469e6cfb54c20b300d4b711
+ ---> tx_ref: 0x99c4a7ca3226e438105ae4aaf3f8c6aa052ea1ba7fe63b89ca9650100d1fd056
+ ---> tx_ref: 0x651285de34bda42ece4a0d810f266845d737c8d1151d519eca6bcf54434d36b5
+ ---> tx_ref: 0xe61b7a82b43d254293ea66fe8c84726258f137e4e4730311757c9eb9ec5e568d
+ ---> tx_ref: 0x78602cbd16cf49f4e236a94410d31285e868b9a91f26489b63ab72be4ac8eca4
+ ---> tx_ref: 0x902a72201bb73ef44dbb272a184a223c34390f3951655d4912e08c8a29af61e3
+ ---> tx_ref: 0x4b6da87e5e4903086c1f8feafd32c9f35ed6ef8fdb52cde6135908d047c87e7c
+ ---> tx_ref: 0xde6dd3ad7be2fadaf865d357535150c6f4ea884eb649d3df9515001c74b8a1d1
+ ---> tx_ref: 0xbcbdd36ea0e6b194e9e0a1140b38876eab899f835a6bfdcc14699e07469b6148
+ ---> tx_ref: 0x4e3656f1a0524d3e20977e8db1de101044565198dc086e1138e7aef03b3bce3a
+ ---> tx_ref: 0xe4094981fb3a0fad384d7910b31ac6ffb1b37e4719fb864c727beaca7ed06dfd
+ ---> tx_ref: 0x50b6df08fa9b332b0c71b97684dfa0f23c09627ba9ebd1e81a91db4e5e683f47
+ ---> tx_ref: 0x2ff6c53826da4a9ebf6eab223b9f8c8b63ec7ffb85a93702341364eb5b739364
+ ---> tx_ref: 0xdc6817b5b146deb42af7d43bc330740ed5fc2da19e6adf828b7dec727f21980a
+ ---> tx_ref: 0xd3b4385a5dfc3eac09459d475bb576fc4d09dfe600a7e4f40eb6a131ca09d4a6
+ ---> tx_ref: 0x0ecde5047f5e762ef50533f9fad26cc3dd9101c4251b1a35827aee1817d71776
+ ---> tx_ref: 0xab59a38fff06099ba4d31faefbefa6e3afe62251f0762ec198950327a5edc3d5
+ ---> tx_ref: 0xf4321c8084d020fc037315714c640f6a1a39f8ebdb282debbaca6da5fc3216b3
+ ---> tx_ref: 0xe46916dab81caaa3bd1e09a4e6f197582210c433eb010849122c1b8478f7dd8d
+ ---> tx_ref: 0x25ea1b528de0c8c6c2862d8d7d86a3c4a2b0372ba71fd3b15544472365543552
+ ---> tx_ref: 0xb74bb03b360a205dbc9369436f2906d8c8b6711a7d0b8bd99ec6f5b3c05398fa
+ ---> tx_ref: 0x4067a9a88acdfe5c536ece86316146e1371bdf9776b2c9298877ab10e393fa6b
+ ---> tx_ref: 0xe15e54ad2ee7001f2eb62ceff4a28ef0e51ac80b23bb89448d7a535d6248801d
+ ---> tx_ref: 0x7d36ff01c53241baa7cf715782513a5d7b20ba4a0a000ae6373b81978ac6645f
+ ---> tx_ref: 0x234aa20f2d1e69a873dce583a1d415d260e03ba68bbe708c7d5119a35c1b4f3b
+ ---> tx_ref: 0xa92833eacef4bd17c18f88db69c65401e015f65e53d2f71b24663417ad2671b0
+ ---> tx_ref: 0xc5a29169b5c14cd1051abe4515e68ecbb834511903147746da2805bca41c9210
+ ---> tx_ref: 0x126df88156cfe8d9e3ef43d201d12a38b1f01f4a58cdf5f4ba18541f50b211c8
+ ---> tx_ref: 0x03c928eb842bcb0cce281323b33667b5c3f7426f95f2cce2d8d06c0d92f9b462
+ ---> tx_ref: 0x7da260ec8fbcb3655a12c6b31b39df832627d60d6d313b446880a47d6ba3449d
+ ---> tx_ref: 0x38c55a964ffdce64cc90c9b7aefb6ca98c9ed89cc2f5f843553f23ea40678367
+ ---> tx_ref: 0x5022a5cd3a3eba34048a792bcc3d06adbb542b94857c781389f18ef13bf15ed4
+ ---> tx_ref: 0xb3d1c4315bf4a968ab9ff462658bd37300a58d4cd1b83cf02147226a1cd18a11
+ ---> tx_ref: 0x0fd6361fb10ebc6502759ba1577a704945efd62eb17093f1c0e8cc37f07d87ef
+ ---> tx_ref: 0xc6930391921147785dc0ce75d7c38973abd871ba0004c900310c10ab353afcc2
+ ---> tx_ref: 0x9c1457da5e7ff4a55e9f1cefcc36c740788102468c1d38473574f03068db4182
+ ---> tx_ref: 0x2a61ce9db4d316f02798453f448b861b6a368547ea0d67008d42c4be9e7f1c63
+ ---> tx_ref: 0xac92bfa2c0e7670953393017d3651fa306f22b005aa1cfb5865700a9daca7dbc
+ ---> tx_ref: 0x1b71afaee7780ea4ce9051aa2b14bf3ec13e6fa9285e4d55dd924e97ce6a91c2
+ ---> tx_ref: 0x4a7e266bf0c52a0a5018d1fc5db17d9a0518528ced07292ee6772fd943f9f99d
+ ---> tx_ref: 0x9088481d2ce35c18793eb8e63036a4e62403bf67760f955b9f74c4db029a90ab
+ ---> tx_ref: 0x53d03ff9f872dcf19bcb16983afe5ce091e4d4a5a07f0a751d93d5d6ba8ea9c5
+ ---> tx_ref: 0x1d52253f644a165eb6b931a36a8f9bcaa4d2141ca38148c6e23a7901b9c16052
+ ---> tx_ref: 0x1b3c0f923b9938d625cfdf57e07ead5db0781f804335e672d5326e67e7678106
+ ---> tx_ref: 0x6c173c7d1bac1ddbe0b940b7d727e0d462cabcab5b7dd2a083cc33e30467ab6b
+ ---> tx_ref: 0x5f3348ed7f6443086b3eaf349464edca8158d590d447e2a270ceae705ff57c12
+ ---> tx_ref: 0xd7adc5c4d0d9e52fabb6ca74f3492b51b8c7c6b35972bc4e498621572f669b47
+ ---> tx_ref: 0xa9730ec68e4f128171ca72d207168e258ab3c990671f08fccef650c27fade78d
+ ---> tx_ref: 0x47c3a02459dd992f643a0f8ba7728475b652c375fc4f8daaac052fc8f3c5235c
+ ---> tx_ref: 0x72c80dafd5f32366d24f2f1d03f169977411883c347e5b769ac429810c371d8d
+ ---> tx_ref: 0x9908da96439ea59ab80a9a8a6b2e779c78ca96e98d14c509644386733a5d8529
+ ---> tx_ref: 0xcffea950c343ae4b111cf45e3dc4d1a24f7eff29429540b5e9e738a279e690a2
+ ---> tx_ref: 0x3c184589ffc7cc95f3415615d2b1bbe87f13a456ca37cd4e9afad517a5b118de
+ ---> tx_ref: 0x8264ca6d4e783618616ce339fdee1673bd6cafc2d20e9f953ce97dbfe7c8c7e7
+ ---> tx_ref: 0xafb40b33914097003d4f6a2aaf2e4d3f79b8629c26d95281cc9c0e010f293b70
+ ---> tx_ref: 0x66c5a8cc1b0db63c73fd144fcecd0858ad1c3f9ab0a5e4f3251edb77302d3ce5
+ ---> tx_ref: 0xe7e2c4f1a2196af47bc623fedfc355a776b55f7cc367e00bfdccb5f1367b95ad
+ ---> tx_ref: 0x75e056cb5ab19e2d60924c647deeaa11cf279eb80b9304c606140fa57bb442f4
+ ---> tx_ref: 0xdea5f3d3698a25d252a24b53f02174dc903a026828cd1242185bfa7daf87dec2
+ ---> tx_ref: 0x5f38eaee8ac49b370bea64cabb16a833cda559b46439d5389a1264a86b45d05b
+ ---> tx_ref: 0xf48ec06aceb24e7a950790c79309bf8886122ab20f8a8f88b4ca0ca47085466b
+ ---> tx_ref: 0x48699bb037b515e1752994e699b571ba3f91d4368569f8a2e611db3bf86885e5
+ ---> tx_ref: 0x4d4edfb9decec3017cb26e8c3e89685000c52ecbd763b6ec2b34101de6cd7703
+ ---> tx_ref: 0xac6d9cf2e454dec1830e1c408e354683322b45adbeb4ff279d5c16eeb4e6ab34
+ ---> tx_ref: 0x30dcac9af9a5aeecc9b790ebe2d683beeacdb24df467caddfa1b2a04c39996d7
+ ---> tx_ref: 0xa134fab1f200136555bf6110aeab52cfc08bcdf57c0d9272235d139da15b8c95
+ ---> tx_ref: 0x0ed9bf153cd7ceea0a2292f8ca405106d9fb485b23f65bb4c48310634d2968b0
+ ---> tx_ref: 0x13f693157c5bbc329452875acc053a009c18b616e9a62f7dd1d4c2442c8f771f
+ ---> tx_ref: 0x14f4761e5d0da0e362a1012ce07f88ab581090d6d643c60a7c4616d72a1e0623
+ ---> tx_ref: 0x05e0446edcbcba88e4f0a01686775a61bf4a0d494138a15ac7098cc0f0c31a27
+ ---> tx_ref: 0xb9b6762839e10ea9aa9397dae7e8e7bf6f7e758c79c3bb1e9b708eb124e3ad13
+ ---> tx_ref: 0xa6bc158779a07c99beb960765b63ebe32f2d8d6263e5f3f92ae3fed49724e5a6
+ ---> tx_ref: 0x0134af1d9480b4d403aa61ef23194a62fcb9352845ab81808ef81f0475073c65
+ ---> tx_ref: 0x7fcb7cbd4f7bb00be0b3b350f93da18c6359c888c54d6a83c83352dca3730bdc
+ ---> tx_ref: 0x6d73dc88565ac4f39c10c9c591b99f29f6335d165ab5bcbcce159d9c178547c2
+ ---> tx_ref: 0x39b8959078d76848d7afb2243207907eaaeb6158b3a7385afb26e1da605823d9
+ ---> tx_ref: 0x29add6bc328910d26822bb4d0a0c574ad2dc38eb9b106faad9a20760dae6221e
+ ---> tx_ref: 0xaf0d6914b78c4aad1f5a99a17d4864b0672c7574530ea2ab10fcd5c6d24e2531
+ ---> tx_ref: 0xf9c3b05036a4c214a5a3903ba329236ce1f9aa50d081a42f30a66701fcd25c49
+ ---> tx_ref: 0x4184cce48fa04087d994fb3675f4818ced0aafd230365f26890c5160b53a796e
+ ---> tx_ref: 0xc78574f4440d253df1719fddb53071886aa7c8d97d29f9a940c2b6a670976468
+ ---> tx_ref: 0x836913f496a0184448af6a09f8c8f16d4263c81a2e8c117b88b52936ee88b6a1
+ ---> tx_ref: 0xb757363cb1d212c40879496b269bb4cc65441f99735eba2c8b8360dc8d8e8bfd
+ ---> tx_ref: 0x9b9c85c1ff2ca655163ab6fb3d92cb5ee1d48ff6e016d393cc97536d50f3c124
+ ---> tx_ref: 0x0a633bd052d1cf6f55d003dbb9d57d0eb095a0669bde6ec295d2e2a4a5a822ea
+ ---> tx_ref: 0x352d06a426a87f23ff8dc050ef16392527dfe0005b153c7c4029e81ae8648816
+ ---> tx_ref: 0x3aba33f86e26ca63ad062f58f0c6e25692f80325f04b4d9833c94edd930360ca
+ ---> tx_ref: 0x799cf2d9a6cf89bb7a976af6f3cf47738c143af7ef547f5abc2fdede0db51973
+ ---> tx_ref: 0x4e1622e9223dcf8df43cd3e33e7ec7320d1660b38626b188b93362296e4fa520
+ ---> tx_ref: 0x88a890a48a791f12c5eaf293b5d24f7c50d7a6ea58ce0e998c6d47949d41dbc3
+ ---> tx_ref: 0xd890e2495b64aac0bdf8e0e6325a042468b361b95d17f10a9305ca677e435159
+ ---> tx_ref: 0x060ac4200fc257fc647db87c720fae6bc0006fdedecd038f7a859687f569cf12
+ ---> tx mined in block:  7
+ ---> tx mined in block:  7
+ ---> tx mined in block:  7
+ ---> tx mined in block:  7
+ ---> tx mined in block:  7
+ ---> tx mined in block:  7
+ ---> tx mined in block:  7
+ ---> tx mined in block:  7
+ ---> tx mined in block:  7
+ ---> tx mined in block:  7
+ ---> tx mined in block:  7
+ ---> tx mined in block:  7
+ ---> tx mined in block:  7
+ ---> tx mined in block:  7
+ ---> tx mined in block:  7
+ ---> tx mined in block:  7
+ ---> tx mined in block:  7
+ ---> tx mined in block:  7
+ ---> tx mined in block:  7
+ ---> tx mined in block:  7
+ ---> tx mined in block:  7
+ ---> tx mined in block:  7
+ ---> tx mined in block:  7
+ ---> tx mined in block:  7
+ ---> tx mined in block:  7
+ ---> tx mined in block:  7
+ ---> tx mined in block:  7
+ ---> tx mined in block:  7
+ ---> tx mined in block:  7
+ ---> tx mined in block:  7
+ ---> tx mined in block:  7
+ ---> tx mined in block:  7
+ ---> tx mined in block:  7
+ ---> tx mined in block:  7
+ ---> tx mined in block:  7
+ ---> tx mined in block:  7
+ ---> tx mined in block:  7
+ ---> tx mined in block:  7
+ ---> tx mined in block:  7
+ ---> tx mined in block:  7
+ ---> tx mined in block:  7
+ ---> tx mined in block:  7
+ ---> tx mined in block:  7
+ ---> tx mined in block:  7
+ ---> tx mined in block:  7
+ ---> tx mined in block:  7
+ ---> tx mined in block:  7
+ ---> tx mined in block:  7
+ ---> tx mined in block:  7
+ ---> tx mined in block:  7
+ ---> tx mined in block:  7
+ ---> tx mined in block:  7
+ ---> tx mined in block:  7
+ ---> tx mined in block:  7
+ ---> tx mined in block:  7
+ ---> tx mined in block:  7
+ ---> tx mined in block:  7
+ ---> tx mined in block:  7
+ ---> tx mined in block:  7
+ ---> tx mined in block:  7
+ ---> tx mined in block:  7
+ ---> tx mined in block:  7
+ ---> tx mined in block:  7
+ ---> tx mined in block:  7
+ ---> tx mined in block:  7
+ ---> tx mined in block:  7
+ ---> tx mined in block:  7
+ ---> tx mined in block:  7
+ ---> tx mined in block:  7
+ ---> tx mined in block:  7
+ ---> tx mined in block:  7
+ ---> tx mined in block:  7
+ ---> tx mined in block:  7
+ ---> tx mined in block:  7
+ ---> tx mined in block:  7
+ ---> tx mined in block:  7
+ ---> tx mined in block:  7
+ ---> tx mined in block:  7
+ ---> tx mined in block:  7
+ ---> tx mined in block:  7
+ ---> tx mined in block:  7
+ ---> tx mined in block:  7
+ ---> tx mined in block:  7
+ ---> tx mined in block:  7
+ ---> tx mined in block:  7
+ ---> tx mined in block:  7
+ ---> tx mined in block:  7
+ ---> tx mined in block:  7
+ ---> tx mined in block:  7
+ ---> tx mined in block:  7
+ ---> tx mined in block:  7
+ ---> tx mined in block:  7
+ ---> tx_ref: 0x859ff36a154525ece64e3cd9f2cdce58443bc9a9749f58b91dd515dc935cdcfb
+ ---> tx_ref: 0x6aec90829a771109630edad3c4794e166ef3061dfed3cb3aacca20653324f662
+ ---> tx_ref: 0x30300c72fc14d9ef8f3e7cbf45cc23dfcdc775c2a5f18afa26b83de4de565376
+ ---> tx_ref: 0x7a21f7862ea5ed76655dbb38dd290121239928750b09b288a3f4e8fd20e65a92
+ ---> tx mined in block:  7
+ ---> tx mined in block:  7
+ ---> tx mined in block:  7
+ ---> tx mined in block:  7
+
+bonds_example $ node app/Tt5/Tt5_load_trades_basic.js
+starting block: 17
+101
+fire trade:  trade_1
+
+edit_trade called
+ ---> args[0]: trade_1  ---> args[1]: GB00B1VWPC84  ---> args[2]: DB  ---> args[3]: CS  ---> args[4]: 1  ---> args[5]: 107.04  ---> args[6]: 12345  ---> args[7]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+ ---> tx_ref: 0xd666dc97bf85ea62cee3182a47815d893cbb8df8c9b110127482046e36ad60e6
+fire trade:  trade_2
+
+edit_trade called
+ ---> args[0]: trade_2  ---> args[1]: DE0001141745  ---> args[2]: CITI  ---> args[3]: CS  ---> args[4]: 2  ---> args[5]: 102.5  ---> args[6]: 12345  ---> args[7]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+ ---> tx_ref: 0xb7ab760a5ea5a976615f9c09600375855407c2d695c8ae1631eee3668e275f26
+fire trade:  trade_3
+
+edit_trade called
+ ---> args[0]: trade_3  ---> args[1]: IT0005188120  ---> args[2]: DB  ---> args[3]: CITI  ---> args[4]: 3  ---> args[5]: 101.59  ---> args[6]: 12345  ---> args[7]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+ ---> tx_ref: 0x0567e0bff708d24b811f03c89bc25e911f2082882a05d4fe90edd2cb044e5a0b
+fire trade:  trade_4
+
+edit_trade called
+ ---> args[0]: trade_4  ---> args[1]: GB00B1VWPC84  ---> args[2]: CS  ---> args[3]: DB  ---> args[4]: 4  ---> args[5]: 107.24  ---> args[6]: 12345  ---> args[7]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_5
+
+edit_trade called
+ ---> args[0]: trade_5  ---> args[1]: DE0001141745  ---> args[2]: CITI  ---> args[3]: CS  ---> args[4]: 5  ---> args[5]: 102.55  ---> args[6]: 12345  ---> args[7]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_6
+
+edit_trade called
+ ---> args[0]: trade_6  ---> args[1]: IT0005188120  ---> args[2]: DB  ---> args[3]: CITI  ---> args[4]: 6  ---> args[5]: 101.69  ---> args[6]: 12345  ---> args[7]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_7
+
+edit_trade called
+ ---> args[0]: trade_7  ---> args[1]: GB00B1VWPC84  ---> args[2]: DB  ---> args[3]: CS  ---> args[4]: 7  ---> args[5]: 107.14  ---> args[6]: 12345  ---> args[7]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_8
+
+edit_trade called
+ ---> args[0]: trade_8  ---> args[1]: DE0001141745  ---> args[2]: BAML  ---> args[3]: CITI  ---> args[4]: 8  ---> args[5]: 102.85  ---> args[6]: 12345  ---> args[7]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_9
+
+edit_trade called
+ ---> args[0]: trade_9  ---> args[1]: IT0005188120  ---> args[2]: CS  ---> args[3]: DB  ---> args[4]: 9  ---> args[5]: 101.159  ---> args[6]: 12345  ---> args[7]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_10
+
+edit_trade called
+ ---> args[0]: trade_10  ---> args[1]: IT0005188120  ---> args[2]: DB  ---> args[3]: DB  ---> args[4]: 10  ---> args[5]: 102.5912  ---> args[6]: 12345  ---> args[7]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_11
+
+edit_trade called
+ ---> args[0]: trade_11  ---> args[1]: GB00B1VWPC84  ---> args[2]: CITI  ---> args[3]: CS  ---> args[4]: 11  ---> args[5]: 102.429  ---> args[6]: 12345  ---> args[7]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_12
+
+edit_trade called
+ ---> args[0]: trade_12  ---> args[1]: DE0001141745  ---> args[2]: DB  ---> args[3]: CITI  ---> args[4]: 12  ---> args[5]: 102.2668  ---> args[6]: 12345  ---> args[7]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_13
+
+edit_trade called
+ ---> args[0]: trade_13  ---> args[1]: IT0005188120  ---> args[2]: DB  ---> args[3]: DB  ---> args[4]: 13  ---> args[5]: 102.1046  ---> args[6]: 12345  ---> args[7]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_14
+
+edit_trade called
+ ---> args[0]: trade_14  ---> args[1]: IT0005188120  ---> args[2]: BAML  ---> args[3]: CS  ---> args[4]: 14  ---> args[5]: 101.9424  ---> args[6]: 12345  ---> args[7]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_15
+
+edit_trade called
+ ---> args[0]: trade_15  ---> args[1]: GB00B1VWPC84  ---> args[2]: BAML  ---> args[3]: CITI  ---> args[4]: 15  ---> args[5]: 101.7802  ---> args[6]: 12345  ---> args[7]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_16
+
+edit_trade called
+ ---> args[0]: trade_16  ---> args[1]: DE0001141745  ---> args[2]: DB  ---> args[3]: BAML  ---> args[4]: 16  ---> args[5]: 101.618  ---> args[6]: 12345  ---> args[7]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_17
+
+edit_trade called
+ ---> args[0]: trade_17  ---> args[1]: IT0005188120  ---> args[2]: CITI  ---> args[3]: DB  ---> args[4]: 17  ---> args[5]: 101.4558  ---> args[6]: 12345  ---> args[7]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_18
+
+edit_trade called
+ ---> args[0]: trade_18  ---> args[1]: IT0005188120  ---> args[2]: CITI  ---> args[3]: BAML  ---> args[4]: 18  ---> args[5]: 101.2936  ---> args[6]: 12345  ---> args[7]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_19
+
+edit_trade called
+ ---> args[0]: trade_19  ---> args[1]: GB00B1VWPC84  ---> args[2]: DB  ---> args[3]: CS  ---> args[4]: 19  ---> args[5]: 101.1314  ---> args[6]: 12345  ---> args[7]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_20
+
+edit_trade called
+ ---> args[0]: trade_20  ---> args[1]: DE0001141745  ---> args[2]: DB  ---> args[3]: BAML  ---> args[4]: 20  ---> args[5]: 100.9692  ---> args[6]: 12345  ---> args[7]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_21
+
+edit_trade called
+ ---> args[0]: trade_21  ---> args[1]: GB00B1VWPC84  ---> args[2]: DB  ---> args[3]: CS  ---> args[4]: 21  ---> args[5]: 107.04  ---> args[6]: 12345  ---> args[7]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_22
+
+edit_trade called
+ ---> args[0]: trade_22  ---> args[1]: DE0001141745  ---> args[2]: CITI  ---> args[3]: CS  ---> args[4]: 22  ---> args[5]: 102.5  ---> args[6]: 12345  ---> args[7]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_23
+
+edit_trade called
+ ---> args[0]: trade_23  ---> args[1]: IT0005188120  ---> args[2]: DB  ---> args[3]: CITI  ---> args[4]: 23  ---> args[5]: 101.59  ---> args[6]: 12345  ---> args[7]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_24
+
+edit_trade called
+ ---> args[0]: trade_24  ---> args[1]: GB00B1VWPC84  ---> args[2]: CS  ---> args[3]: DB  ---> args[4]: 24  ---> args[5]: 107.24  ---> args[6]: 12345  ---> args[7]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_25
+
+edit_trade called
+ ---> args[0]: trade_25  ---> args[1]: DE0001141745  ---> args[2]: CITI  ---> args[3]: CS  ---> args[4]: 25  ---> args[5]: 102.55  ---> args[6]: 12345  ---> args[7]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_26
+
+edit_trade called
+ ---> args[0]: trade_26  ---> args[1]: IT0005188120  ---> args[2]: DB  ---> args[3]: CITI  ---> args[4]: 26  ---> args[5]: 101.69  ---> args[6]: 12345  ---> args[7]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_27
+
+edit_trade called
+ ---> args[0]: trade_27  ---> args[1]: GB00B1VWPC84  ---> args[2]: DB  ---> args[3]: CS  ---> args[4]: 27  ---> args[5]: 107.14  ---> args[6]: 12345  ---> args[7]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_28
+
+edit_trade called
+ ---> args[0]: trade_28  ---> args[1]: DE0001141745  ---> args[2]: BAML  ---> args[3]: CITI  ---> args[4]: 28  ---> args[5]: 102.85  ---> args[6]: 12345  ---> args[7]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_29
+
+edit_trade called
+ ---> args[0]: trade_29  ---> args[1]: IT0005188120  ---> args[2]: CS  ---> args[3]: DB  ---> args[4]: 29  ---> args[5]: 101.159  ---> args[6]: 12345  ---> args[7]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_30
+
+edit_trade called
+ ---> args[0]: trade_30  ---> args[1]: IT0005188120  ---> args[2]: DB  ---> args[3]: DB  ---> args[4]: 30  ---> args[5]: 102.5912  ---> args[6]: 12345  ---> args[7]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_31
+
+edit_trade called
+ ---> args[0]: trade_31  ---> args[1]: GB00B1VWPC84  ---> args[2]: CITI  ---> args[3]: CS  ---> args[4]: 31  ---> args[5]: 102.429  ---> args[6]: 12345  ---> args[7]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_32
+
+edit_trade called
+ ---> args[0]: trade_32  ---> args[1]: DE0001141745  ---> args[2]: DB  ---> args[3]: CITI  ---> args[4]: 32  ---> args[5]: 102.2668  ---> args[6]: 12345  ---> args[7]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_33
+
+edit_trade called
+ ---> args[0]: trade_33  ---> args[1]: IT0005188120  ---> args[2]: DB  ---> args[3]: DB  ---> args[4]: 33  ---> args[5]: 102.1046  ---> args[6]: 12345  ---> args[7]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_34
+
+edit_trade called
+ ---> args[0]: trade_34  ---> args[1]: IT0005188120  ---> args[2]: BAML  ---> args[3]: CS  ---> args[4]: 34  ---> args[5]: 101.9424  ---> args[6]: 12345  ---> args[7]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_35
+
+edit_trade called
+ ---> args[0]: trade_35  ---> args[1]: GB00B1VWPC84  ---> args[2]: BAML  ---> args[3]: CITI  ---> args[4]: 35  ---> args[5]: 101.7802  ---> args[6]: 12345  ---> args[7]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_36
+
+edit_trade called
+ ---> args[0]: trade_36  ---> args[1]: DE0001141745  ---> args[2]: DB  ---> args[3]: BAML  ---> args[4]: 36  ---> args[5]: 101.618  ---> args[6]: 12345  ---> args[7]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_37
+
+edit_trade called
+ ---> args[0]: trade_37  ---> args[1]: IT0005188120  ---> args[2]: CITI  ---> args[3]: DB  ---> args[4]: 37  ---> args[5]: 101.4558  ---> args[6]: 12345  ---> args[7]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_38
+
+edit_trade called
+ ---> args[0]: trade_38  ---> args[1]: IT0005188120  ---> args[2]: CITI  ---> args[3]: BAML  ---> args[4]: 38  ---> args[5]: 101.2936  ---> args[6]: 12345  ---> args[7]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_39
+
+edit_trade called
+ ---> args[0]: trade_39  ---> args[1]: GB00B1VWPC84  ---> args[2]: DB  ---> args[3]: CS  ---> args[4]: 39  ---> args[5]: 101.1314  ---> args[6]: 12345  ---> args[7]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_40
+
+edit_trade called
+ ---> args[0]: trade_40  ---> args[1]: DE0001141745  ---> args[2]: DB  ---> args[3]: BAML  ---> args[4]: 40  ---> args[5]: 100.9692  ---> args[6]: 12345  ---> args[7]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_41
+
+edit_trade called
+ ---> args[0]: trade_41  ---> args[1]: GB00B1VWPC84  ---> args[2]: DB  ---> args[3]: CS  ---> args[4]: 41  ---> args[5]: 107.04  ---> args[6]: 12345  ---> args[7]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_42
+
+edit_trade called
+ ---> args[0]: trade_42  ---> args[1]: DE0001141745  ---> args[2]: CITI  ---> args[3]: CS  ---> args[4]: 42  ---> args[5]: 102.5  ---> args[6]: 12345  ---> args[7]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_43
+
+edit_trade called
+ ---> args[0]: trade_43  ---> args[1]: IT0005188120  ---> args[2]: DB  ---> args[3]: CITI  ---> args[4]: 43  ---> args[5]: 101.59  ---> args[6]: 12345  ---> args[7]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_44
+
+edit_trade called
+ ---> args[0]: trade_44  ---> args[1]: GB00B1VWPC84  ---> args[2]: CS  ---> args[3]: DB  ---> args[4]: 44  ---> args[5]: 107.24  ---> args[6]: 12345  ---> args[7]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_45
+
+edit_trade called
+ ---> args[0]: trade_45  ---> args[1]: DE0001141745  ---> args[2]: CITI  ---> args[3]: CS  ---> args[4]: 45  ---> args[5]: 102.55  ---> args[6]: 12345  ---> args[7]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_46
+
+edit_trade called
+ ---> args[0]: trade_46  ---> args[1]: IT0005188120  ---> args[2]: DB  ---> args[3]: CITI  ---> args[4]: 46  ---> args[5]: 101.69  ---> args[6]: 12345  ---> args[7]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_47
+
+edit_trade called
+ ---> args[0]: trade_47  ---> args[1]: GB00B1VWPC84  ---> args[2]: DB  ---> args[3]: CS  ---> args[4]: 47  ---> args[5]: 107.14  ---> args[6]: 12345  ---> args[7]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_48
+
+edit_trade called
+ ---> args[0]: trade_48  ---> args[1]: DE0001141745  ---> args[2]: BAML  ---> args[3]: CITI  ---> args[4]: 48  ---> args[5]: 102.85  ---> args[6]: 12345  ---> args[7]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_49
+
+edit_trade called
+ ---> args[0]: trade_49  ---> args[1]: IT0005188120  ---> args[2]: CS  ---> args[3]: DB  ---> args[4]: 49  ---> args[5]: 101.159  ---> args[6]: 12345  ---> args[7]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_50
+
+edit_trade called
+ ---> args[0]: trade_50  ---> args[1]: IT0005188120  ---> args[2]: DB  ---> args[3]: DB  ---> args[4]: 50  ---> args[5]: 102.5912  ---> args[6]: 12345  ---> args[7]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_51
+
+edit_trade called
+ ---> args[0]: trade_51  ---> args[1]: GB00B1VWPC84  ---> args[2]: CITI  ---> args[3]: CS  ---> args[4]: 51  ---> args[5]: 102.429  ---> args[6]: 12345  ---> args[7]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_52
+
+edit_trade called
+ ---> args[0]: trade_52  ---> args[1]: DE0001141745  ---> args[2]: DB  ---> args[3]: CITI  ---> args[4]: 52  ---> args[5]: 102.2668  ---> args[6]: 12345  ---> args[7]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_53
+
+edit_trade called
+ ---> args[0]: trade_53  ---> args[1]: IT0005188120  ---> args[2]: DB  ---> args[3]: DB  ---> args[4]: 53  ---> args[5]: 102.1046  ---> args[6]: 12345  ---> args[7]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_54
+
+edit_trade called
+ ---> args[0]: trade_54  ---> args[1]: IT0005188120  ---> args[2]: BAML  ---> args[3]: CS  ---> args[4]: 54  ---> args[5]: 101.9424  ---> args[6]: 12345  ---> args[7]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_55
+
+edit_trade called
+ ---> args[0]: trade_55  ---> args[1]: GB00B1VWPC84  ---> args[2]: BAML  ---> args[3]: CITI  ---> args[4]: 55  ---> args[5]: 101.7802  ---> args[6]: 12345  ---> args[7]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_56
+
+edit_trade called
+ ---> args[0]: trade_56  ---> args[1]: DE0001141745  ---> args[2]: DB  ---> args[3]: BAML  ---> args[4]: 56  ---> args[5]: 101.618  ---> args[6]: 12345  ---> args[7]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_57
+
+edit_trade called
+ ---> args[0]: trade_57  ---> args[1]: IT0005188120  ---> args[2]: CITI  ---> args[3]: DB  ---> args[4]: 57  ---> args[5]: 101.4558  ---> args[6]: 12345  ---> args[7]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_58
+
+edit_trade called
+ ---> args[0]: trade_58  ---> args[1]: IT0005188120  ---> args[2]: CITI  ---> args[3]: BAML  ---> args[4]: 58  ---> args[5]: 101.2936  ---> args[6]: 12345  ---> args[7]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_59
+
+edit_trade called
+ ---> args[0]: trade_59  ---> args[1]: GB00B1VWPC84  ---> args[2]: DB  ---> args[3]: CS  ---> args[4]: 59  ---> args[5]: 101.1314  ---> args[6]: 12345  ---> args[7]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_60
+
+edit_trade called
+ ---> args[0]: trade_60  ---> args[1]: DE0001141745  ---> args[2]: DB  ---> args[3]: BAML  ---> args[4]: 60  ---> args[5]: 100.9692  ---> args[6]: 12345  ---> args[7]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_61
+
+edit_trade called
+ ---> args[0]: trade_61  ---> args[1]: GB00B1VWPC84  ---> args[2]: DB  ---> args[3]: CS  ---> args[4]: 61  ---> args[5]: 107.04  ---> args[6]: 12345  ---> args[7]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_62
+
+edit_trade called
+ ---> args[0]: trade_62  ---> args[1]: DE0001141745  ---> args[2]: CITI  ---> args[3]: CS  ---> args[4]: 62  ---> args[5]: 102.5  ---> args[6]: 12345  ---> args[7]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_63
+
+edit_trade called
+ ---> args[0]: trade_63  ---> args[1]: IT0005188120  ---> args[2]: DB  ---> args[3]: CITI  ---> args[4]: 63  ---> args[5]: 101.59  ---> args[6]: 12345  ---> args[7]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_64
+
+edit_trade called
+ ---> args[0]: trade_64  ---> args[1]: GB00B1VWPC84  ---> args[2]: CS  ---> args[3]: DB  ---> args[4]: 64  ---> args[5]: 107.24  ---> args[6]: 12345  ---> args[7]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_65
+
+edit_trade called
+ ---> args[0]: trade_65  ---> args[1]: DE0001141745  ---> args[2]: CITI  ---> args[3]: CS  ---> args[4]: 65  ---> args[5]: 102.55  ---> args[6]: 12345  ---> args[7]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_66
+
+edit_trade called
+ ---> args[0]: trade_66  ---> args[1]: IT0005188120  ---> args[2]: DB  ---> args[3]: CITI  ---> args[4]: 66  ---> args[5]: 101.69  ---> args[6]: 12345  ---> args[7]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_67
+
+edit_trade called
+ ---> args[0]: trade_67  ---> args[1]: GB00B1VWPC84  ---> args[2]: DB  ---> args[3]: CS  ---> args[4]: 67  ---> args[5]: 107.14  ---> args[6]: 12345  ---> args[7]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_68
+
+edit_trade called
+ ---> args[0]: trade_68  ---> args[1]: DE0001141745  ---> args[2]: BAML  ---> args[3]: CITI  ---> args[4]: 68  ---> args[5]: 102.85  ---> args[6]: 12345  ---> args[7]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_69
+
+edit_trade called
+ ---> args[0]: trade_69  ---> args[1]: IT0005188120  ---> args[2]: CS  ---> args[3]: DB  ---> args[4]: 69  ---> args[5]: 101.159  ---> args[6]: 12345  ---> args[7]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+ ---> tx mined in block:  19
+fire trade:  trade_70
+
+edit_trade called
+ ---> args[0]: trade_70  ---> args[1]: IT0005188120  ---> args[2]: DB  ---> args[3]: DB  ---> args[4]: 70  ---> args[5]: 102.5912  ---> args[6]: 12345  ---> args[7]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+ ---> tx mined in block:  19
+ ---> tx mined in block:  19
+fire trade:  trade_71
+
+edit_trade called
+ ---> args[0]: trade_71  ---> args[1]: GB00B1VWPC84  ---> args[2]: CITI  ---> args[3]: CS  ---> args[4]: 71  ---> args[5]: 102.429  ---> args[6]: 12345  ---> args[7]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_72
+
+edit_trade called
+ ---> args[0]: trade_72  ---> args[1]: DE0001141745  ---> args[2]: DB  ---> args[3]: CITI  ---> args[4]: 72  ---> args[5]: 102.2668  ---> args[6]: 12345  ---> args[7]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+ ---> tx_ref: 0xca2a0cb4da07ddc89bd29c09c82386a634b6ea39788d10012ad916c512636c59
+ ---> tx_ref: 0x80ce31b4025454766e4c3ddb07b833990415a18457fbfc6f7f1f3e776dd40edc
+ ---> tx_ref: 0xcabb5bebc0918720434ad4187d71b389594218621adb16a5a4e584b4f17d0c3a
+ ---> tx_ref: 0xaf634a3de7c2b9d461674ce2ac5adc5425162cb6d283a08eb7af16e13a730580
+ ---> tx_ref: 0x63a502f0065f399ba0cdfc9f64f152fe145278321c78cbe1cfa7359020c724bb
+ ---> tx_ref: 0x3eca7c21bb1086467a63e6f8feed963e00ee1887bcb514501b1b12e828101300
+ ---> tx_ref: 0xc25031d964e77324ae2528ae0c66da6b6e4178e7c0816b1c9eae72134f4fc1ce
+ ---> tx_ref: 0x602bfa4cc01b0803be46b4a2337257a303b986b01efc0ca05af064ffc1c7bf5f
+ ---> tx_ref: 0x7443f58eafc251653312049219f87b4c40610378f87ad693c38546f94b068996
+ ---> tx_ref: 0x6b3089f143bc287022600066fcc449effe2384593fbd7832411d29231e5ab9ce
+ ---> tx_ref: 0xceebbc7c0c16d10338a8e8a142cc540d65c219df01280f20548beaa80c9240b3
+ ---> tx_ref: 0x51b883dd26272c52f498972964b6ec8bcaa5b9643ef5fa30f242e740b3b38aeb
+ ---> tx_ref: 0x09f270ee6c9d97121bd05b803fa285a31232e72998f71ae51bbbb6f6eea1a3c0
+ ---> tx_ref: 0xc510a2f59ae694dae1da131d5dbaa0521c652b51800e183f23c1f1f878f8483e
+ ---> tx_ref: 0xfa241958e2251864938d911828c112114d07ceff34eeef5f9fa6050397a8a76e
+ ---> tx_ref: 0x0e712d78a6ea29a14cadfa42fb78c6927b0d1a7ccec83592e8f31c23a5c8474e
+ ---> tx_ref: 0xde8536ab4de4dac6f0c322169a5bef68e90d564f61c63df647eac1de957cf60c
+ ---> tx_ref: 0x575937d6a0a01295e0752103bb43b73dc90b43d4693615cfda6a9c95854f8e8d
+ ---> tx_ref: 0x1e474250ba0e4cda733563d617abef2b156bd98b127e24c40dd8adbe7cd36b3e
+ ---> tx_ref: 0x0c2acc86ccc103f22d70cad80de8f0ade342636a262b11702b73d551558474a0
+ ---> tx_ref: 0x04808aadf14d3bc4b14e8a6ae9c8bfd06182491fc179454653587f0ef7882644
+ ---> tx_ref: 0x38c51da0ffb0e5883bee4778e409e27b0c7a725e582e03c743b5e081b7cb6ade
+ ---> tx_ref: 0x611f7c26a3b2a20e8decb0dc9de5e9197010ae12cd2cbe2a6597fb1dc05d7ba3
+ ---> tx_ref: 0x1245fe9418cf4a5a4a500f136c3432c6520c03dd10317a93992414eaf91fcad7
+ ---> tx_ref: 0x91e387c1fdff42090997262624fd1ce6a4f623d299a27c041654c5a25bd01290
+ ---> tx_ref: 0x549637c70298d7452e774d1e8ef6d6d8e7cad6e49f5ad13c0f4c475c3aeee586
+ ---> tx_ref: 0xc616156cacbec829c25d5b792fe03919666025cd639e696193772b75b247fac6
+ ---> tx_ref: 0xd7aa025bf1b7547cf7c12d2b9a94220611e078860d260b611e8b0e84d0144d15
+ ---> tx_ref: 0x68a8a01d9613ffd65950117a365a78edd8e338d77833304a286b8f2ad24e5dcb
+ ---> tx_ref: 0xf8f3da1b4c19d8c021d909917d80656cf4db40deec70bc51bc99e2b7c5e937ed
+ ---> tx_ref: 0xecaa50c09cbe84ac87b737d226e490dbc573f8cab74dc5dc7afcd78904ad20f2
+ ---> tx_ref: 0x4d3eb15fc80359615656625c82807f71d4778ef54fa66f09e790f3e0231c5aad
+ ---> tx_ref: 0x7e472fed479a00d4097b8aab9f91a6553d9ac4499180e905017238f287126d95
+ ---> tx_ref: 0x6cb5e3487bcb511ab1e430d0814855f7dcdd7f93fb15ee7f7fdbe7b13bae4344
+ ---> tx_ref: 0x414357c22281518f9b8c5aaa99c6c4cf4c8575ced3c87c146ff681f42b67293f
+ ---> tx_ref: 0xbff320f2ce0c5fc9303a09bbf38a67d0b90115426000d18698bf1dd3317d9667
+ ---> tx_ref: 0xeff39bfd329cb6b10b642bb8b80a94bd59a2f7f35fc264c7dfcd096190096ba2
+ ---> tx_ref: 0x2150881673479ad9adcb34789a4a766f6585581d26eb20493367dbcbf3c5f180
+ ---> tx_ref: 0xeb6615ca8cde119e2e947e29415c5b56e83e5302cbc41bb32a29243e357dba5c
+ ---> tx_ref: 0x07491a65034a60e3d7aa809c8f4b5089ddb5ee77a3ad9b5888466fbb554fc448
+ ---> tx_ref: 0x31d579d5bde9ee628321926febb53f094246f89c956239c179c30dfa3d4f2866
+ ---> tx_ref: 0x3a85c470fcae208eca9143aec27f00641f00635c80d4239a885d14c3c317415c
+ ---> tx_ref: 0xeee8e38f2b33ab3b9483c30ed3b264416253022f2a1d326fffeac26e55cb7e59
+ ---> tx_ref: 0x3c5fc891229778b21cb5b5e8d486cc57b8bf941b2622fa63e751036fba6e964d
+ ---> tx_ref: 0x170094a0b8022f9a5614a201dd55475b8cd8e14fb29584f44a9a60ac896532e6
+ ---> tx_ref: 0xf989ced2df4b8391ed47e129647a84fb0dbf0d9c41b95877efc2608e834cbdb2
+ ---> tx_ref: 0x78188e39c4a1eea07993e9cf94e84ab8e2044f6446b78b9656930db49438dd72
+fire trade:  trade_73
+
+edit_trade called
+ ---> args[0]: trade_73  ---> args[1]: IT0005188120  ---> args[2]: DB  ---> args[3]: DB  ---> args[4]: 73  ---> args[5]: 102.1046  ---> args[6]: 12345  ---> args[7]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+ ---> tx_ref: 0x1450c4a1463b4da230e7bb9139218006e3de99ca19248ca561c635144b3a9791
+ ---> tx_ref: 0xf65184b97a4b6e1705820c215bb816bc57d2ef82662026266f95c3956a580775
+ ---> tx_ref: 0x9ce51f31449f5b3993ea8bf5e85c00ed0f41f1713166d3131d7bead11c7212cb
+ ---> tx_ref: 0x2ad5f150965828dc3bdea093dc361c0d14453f43d40c9897c78f6a15cad3a163
+ ---> tx_ref: 0x929d9b204af7a3ffcc1b9efc2a12ca051a1ddc420509c52e709f50a78c31a443
+ ---> tx_ref: 0xc4f131fbce4f26b20a30e08c956b1dd78c4ca8bb9c04c4e5b823cbd527ce8ada
+ ---> tx_ref: 0xb97c96a43f6d810f795b59129ee2ab56990c4053c37bbbb961fbec221c405a8b
+ ---> tx_ref: 0x9a01c5e2b0372df194fb84fd4d0c9b5fc7e5aaf2bbe071b50d48aebffca6e370
+ ---> tx_ref: 0x9cd8087a6a3581d57cd77e7bc56608fb6544f63e1aefe0e304a25d051ccc8b7e
+ ---> tx_ref: 0x3e2f993bfb708bb8fbbb100e95e04d8ffd4640402a179b5043160c1822354343
+ ---> tx_ref: 0x1cf9a76e20ab41f774c4dc4729e7969ae16e634d119e9b78896772bb71d455a8
+ ---> tx_ref: 0x17b8a9861c7230f5b88c9ea60c24ef65098c372b26c32cb27ecf957795771800
+ ---> tx_ref: 0x236e92d20d28d2c6a1afccafadd7b5e2731364806afc17b8d130c51208fcd3be
+ ---> tx_ref: 0x7df01c090857613bc4a6d322cefb9658f0fd6991baf293c97fb2eaa9a4bbe41c
+ ---> tx_ref: 0x197b2b1a556371e9cc8f176d82831a9d12f0ad4185fd7caa3e2e494bae7cc89c
+ ---> tx_ref: 0x766736055d6f05205c4500e14c9280d8ae8bcf93a9d65e5c1124e2cf662b7780
+ ---> tx_ref: 0x3c57b70dfb0bbbfa8601aa6884e9f8bdceede71247a118cf6d6c2c12e895c762
+ ---> tx_ref: 0xd46a17b352a39e01baa3fe1c68496594ccd6ed24bee3c22b7b028e594e191529
+ ---> tx_ref: 0x048532997dbb35912f33ab6c2a10b689b9b3022b418e520faafcbbfcb2183a2b
+ ---> tx_ref: 0x0f947cb8bb9edb0d281fc057565e73ee01569d5ec3407440203b929be6968cc5
+ ---> tx_ref: 0xd447ed133db5edbe7fdbab48cc7d4bfe6c3c450dfac4a4f5d1c5fca39ae0c93c
+ ---> tx_ref: 0xf013616a9330f63134bb67b94ac6eff3c7200aee06b05feb13cbb0e650464830
+fire trade:  trade_74
+
+edit_trade called
+ ---> args[0]: trade_74  ---> args[1]: IT0005188120  ---> args[2]: BAML  ---> args[3]: CS  ---> args[4]: 74  ---> args[5]: 101.9424  ---> args[6]: 12345  ---> args[7]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_75
+
+edit_trade called
+ ---> args[0]: trade_75  ---> args[1]: GB00B1VWPC84  ---> args[2]: BAML  ---> args[3]: CITI  ---> args[4]: 75  ---> args[5]: 101.7802  ---> args[6]: 12345  ---> args[7]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_76
+
+edit_trade called
+ ---> args[0]: trade_76  ---> args[1]: DE0001141745  ---> args[2]: DB  ---> args[3]: BAML  ---> args[4]: 76  ---> args[5]: 101.618  ---> args[6]: 12345  ---> args[7]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+ ---> tx mined in block:  21
+ ---> tx mined in block:  21
+ ---> tx mined in block:  21
+ ---> tx mined in block:  21
+ ---> tx mined in block:  21
+ ---> tx mined in block:  21
+ ---> tx mined in block:  21
+ ---> tx mined in block:  21
+ ---> tx mined in block:  21
+ ---> tx mined in block:  21
+ ---> tx mined in block:  21
+ ---> tx mined in block:  21
+ ---> tx mined in block:  21
+ ---> tx mined in block:  21
+ ---> tx mined in block:  21
+ ---> tx mined in block:  21
+ ---> tx mined in block:  21
+ ---> tx mined in block:  21
+ ---> tx mined in block:  21
+ ---> tx mined in block:  21
+ ---> tx mined in block:  21
+ ---> tx mined in block:  21
+ ---> tx mined in block:  21
+ ---> tx mined in block:  21
+ ---> tx mined in block:  21
+ ---> tx mined in block:  21
+ ---> tx mined in block:  21
+ ---> tx mined in block:  21
+ ---> tx mined in block:  21
+ ---> tx mined in block:  21
+ ---> tx mined in block:  21
+ ---> tx mined in block:  21
+ ---> tx mined in block:  21
+ ---> tx mined in block:  21
+ ---> tx mined in block:  21
+ ---> tx mined in block:  21
+ ---> tx mined in block:  21
+ ---> tx mined in block:  21
+ ---> tx mined in block:  21
+ ---> tx mined in block:  21
+ ---> tx mined in block:  21
+ ---> tx mined in block:  21
+ ---> tx mined in block:  21
+ ---> tx mined in block:  21
+ ---> tx mined in block:  21
+ ---> tx mined in block:  21
+ ---> tx mined in block:  21
+ ---> tx mined in block:  21
+ ---> tx mined in block:  21
+ ---> tx mined in block:  21
+ ---> tx mined in block:  21
+ ---> tx mined in block:  21
+ ---> tx mined in block:  21
+ ---> tx mined in block:  21
+ ---> tx mined in block:  21
+ ---> tx mined in block:  21
+ ---> tx mined in block:  21
+ ---> tx mined in block:  21
+ ---> tx mined in block:  21
+ ---> tx mined in block:  21
+fire trade:  trade_77
+
+edit_trade called
+ ---> args[0]: trade_77  ---> args[1]: IT0005188120  ---> args[2]: CITI  ---> args[3]: DB  ---> args[4]: 77  ---> args[5]: 101.4558  ---> args[6]: 12345  ---> args[7]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+ ---> tx mined in block:  21
+ ---> tx mined in block:  21
+ ---> tx mined in block:  21
+ ---> tx mined in block:  21
+ ---> tx mined in block:  21
+ ---> tx mined in block:  21
+ ---> tx mined in block:  21
+ ---> tx mined in block:  21
+ ---> tx mined in block:  21
+fire trade:  trade_78
+
+edit_trade called
+ ---> args[0]: trade_78  ---> args[1]: IT0005188120  ---> args[2]: CITI  ---> args[3]: BAML  ---> args[4]: 78  ---> args[5]: 101.2936  ---> args[6]: 12345  ---> args[7]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+ ---> tx_ref: 0x5954a64b03c8ec7742367e41e32da42a1c19f078641d7276b101ea16cb93a0c1
+fire trade:  trade_79
+
+edit_trade called
+ ---> args[0]: trade_79  ---> args[1]: GB00B1VWPC84  ---> args[2]: DB  ---> args[3]: CS  ---> args[4]: 79  ---> args[5]: 101.1314  ---> args[6]: 12345  ---> args[7]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+ ---> tx_ref: 0x0a40d26f3a868bc2917439a830b349deacf22064e04174f29515366d736e9cc0
+ ---> tx_ref: 0xc6ede86dc4af521cb4df808f7f07b9cf1352c1a056f0994b56587619e3b7f7ef
+ ---> tx_ref: 0x060d2e37e3532baef74ebdbc1818ddd0fea8ce41a9754ce649fa6365b12cc7d4
+ ---> tx_ref: 0x1cb749827c21a14c3dd74c4f96d9fd5242d700727323c2fcc8e635d4f3c829c6
+ ---> tx_ref: 0x39a2a2582191b5310b1dc5df4394d48376a4613a9da1f74c99a90f3a212103d8
+ ---> tx_ref: 0x06a8d022f1609850757103896d54c9060306aa2b812a6be5dc394265f6059117
+fire trade:  trade_80
+
+edit_trade called
+ ---> args[0]: trade_80  ---> args[1]: DE0001141745  ---> args[2]: DB  ---> args[3]: BAML  ---> args[4]: 80  ---> args[5]: 100.9692  ---> args[6]: 12345  ---> args[7]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+ ---> tx mined in block:  21
+fire trade:  trade_81
+
+edit_trade called
+ ---> args[0]: trade_81  ---> args[1]: GB00B1VWPC84  ---> args[2]: DB  ---> args[3]: CS  ---> args[4]: 81  ---> args[5]: 107.04  ---> args[6]: 12345  ---> args[7]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_82
+
+edit_trade called
+ ---> args[0]: trade_82  ---> args[1]: DE0001141745  ---> args[2]: CITI  ---> args[3]: CS  ---> args[4]: 82  ---> args[5]: 102.5  ---> args[6]: 12345  ---> args[7]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_83
+
+edit_trade called
+ ---> args[0]: trade_83  ---> args[1]: IT0005188120  ---> args[2]: DB  ---> args[3]: CITI  ---> args[4]: 83  ---> args[5]: 101.59  ---> args[6]: 12345  ---> args[7]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_84
+
+edit_trade called
+ ---> args[0]: trade_84  ---> args[1]: GB00B1VWPC84  ---> args[2]: CS  ---> args[3]: DB  ---> args[4]: 84  ---> args[5]: 107.24  ---> args[6]: 12345  ---> args[7]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_85
+
+edit_trade called
+ ---> args[0]: trade_85  ---> args[1]: DE0001141745  ---> args[2]: CITI  ---> args[3]: CS  ---> args[4]: 85  ---> args[5]: 102.55  ---> args[6]: 12345  ---> args[7]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+ ---> tx mined in block:  24
+ ---> tx mined in block:  24
+ ---> tx mined in block:  24
+ ---> tx mined in block:  24
+fire trade:  trade_86
+
+edit_trade called
+ ---> args[0]: trade_86  ---> args[1]: IT0005188120  ---> args[2]: DB  ---> args[3]: CITI  ---> args[4]: 86  ---> args[5]: 101.69  ---> args[6]: 12345  ---> args[7]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+ ---> tx mined in block:  24
+ ---> tx mined in block:  24
+fire trade:  trade_87
+
+edit_trade called
+ ---> args[0]: trade_87  ---> args[1]: GB00B1VWPC84  ---> args[2]: DB  ---> args[3]: CS  ---> args[4]: 87  ---> args[5]: 107.14  ---> args[6]: 12345  ---> args[7]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+ ---> tx_ref: 0xa37ea0f49266f231c4d9c549fe4ac831c6429437fd60e09f367a7091ed9a834c
+ ---> tx_ref: 0x4e3ef743125d0b557298c50270cbaa87979c4a6af174a1c69a94b839b01a4f21
+ ---> tx_ref: 0xe7e27629796a86e33c890309d488a20c5c9f23cecf7d7d42f4ccd94a336dd47c
+ ---> tx_ref: 0x791aad11748652c44ae7742aa0fe52917ca58d64ae034400c0ff81d3e5a0cd68
+ ---> tx_ref: 0x2d0b6e5e81ab79f70d896a2d64c82acafe33c0160c0e9feec33914fe30ad0206
+ ---> tx_ref: 0x71fa5363c1413df2ea43150d810f1b85e4e65e5f5c33e98f45c4bac0a417ba0c
+ ---> tx_ref: 0xbad596db5b9754482c1e456533f7a043d85e3673e0508f6ffcfaa16b49566daa
+fire trade:  trade_88
+
+edit_trade called
+ ---> args[0]: trade_88  ---> args[1]: DE0001141745  ---> args[2]: BAML  ---> args[3]: CITI  ---> args[4]: 88  ---> args[5]: 102.85  ---> args[6]: 12345  ---> args[7]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+ ---> tx_ref: 0x7a4b59a17efd017eabbe333c333e81a7b4c958622b7e9800216154aa4582bc3b
+ ---> tx_ref: 0xa464f7ba50b32e3337a65b591cebcb25d7d47cc27626792cbe3abd83beab9236
+fire trade:  trade_89
+
+edit_trade called
+ ---> args[0]: trade_89  ---> args[1]: IT0005188120  ---> args[2]: CS  ---> args[3]: DB  ---> args[4]: 89  ---> args[5]: 101.159  ---> args[6]: 12345  ---> args[7]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_90
+
+edit_trade called
+ ---> args[0]: trade_90  ---> args[1]: IT0005188120  ---> args[2]: DB  ---> args[3]: CS  ---> args[4]: 90  ---> args[5]: 102.5912  ---> args[6]: 12345  ---> args[7]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+ ---> tx mined in block:  26
+ ---> tx mined in block:  26
+ ---> tx mined in block:  26
+fire trade:  trade_91
+
+edit_trade called
+ ---> args[0]: trade_91  ---> args[1]: GB00B1VWPC84  ---> args[2]: CITI  ---> args[3]: CS  ---> args[4]: 91  ---> args[5]: 102.429  ---> args[6]: 12345  ---> args[7]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+ ---> tx mined in block:  26
+ ---> tx mined in block:  26
+ ---> tx mined in block:  26
+ ---> tx mined in block:  26
+ ---> tx mined in block:  26
+ ---> tx mined in block:  26
+fire trade:  trade_92
+
+edit_trade called
+ ---> args[0]: trade_92  ---> args[1]: DE0001141745  ---> args[2]: DB  ---> args[3]: CITI  ---> args[4]: 92  ---> args[5]: 102.2668  ---> args[6]: 12345  ---> args[7]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+ ---> tx_ref: 0x0a3c53617b24f9d6c921c46165f084216867dd7ac3777333cc0db702016d9d7d
+ ---> tx_ref: 0x808c5875b3859c8b16db5bfe90613cf7e300dcb020d060cdb752da54b9f50c4a
+ ---> tx_ref: 0xab6ec12c5797c439ffefd435e04d1e590c1819ef65774e92c93f6b5e6453ae13
+ ---> tx_ref: 0x64d464d802f9ee34e5ea931c263b1c1be7142cc2eff736059b89ac68cb59de77
+fire trade:  trade_93
+
+edit_trade called
+ ---> args[0]: trade_93  ---> args[1]: IT0005188120  ---> args[2]: DB  ---> args[3]: CS  ---> args[4]: 93  ---> args[5]: 102.1046  ---> args[6]: 12345  ---> args[7]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+ ---> tx_ref: 0x37b738b16d1491ac18b44367e0b94b2248d8807a65ab402f7690f495a496b81c
+fire trade:  trade_94
+
+edit_trade called
+ ---> args[0]: trade_94  ---> args[1]: IT0005188120  ---> args[2]: BAML  ---> args[3]: CS  ---> args[4]: 94  ---> args[5]: 101.9424  ---> args[6]: 12345  ---> args[7]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_95
+
+edit_trade called
+ ---> args[0]: trade_95  ---> args[1]: GB00B1VWPC84  ---> args[2]: BAML  ---> args[3]: CITI  ---> args[4]: 95  ---> args[5]: 101.7802  ---> args[6]: 12345  ---> args[7]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_96
+
+edit_trade called
+ ---> args[0]: trade_96  ---> args[1]: DE0001141745  ---> args[2]: DB  ---> args[3]: BAML  ---> args[4]: 96  ---> args[5]: 101.618  ---> args[6]: 12345  ---> args[7]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_97
+
+edit_trade called
+ ---> args[0]: trade_97  ---> args[1]: IT0005188120  ---> args[2]: CITI  ---> args[3]: DB  ---> args[4]: 97  ---> args[5]: 101.4558  ---> args[6]: 12345  ---> args[7]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_98
+
+edit_trade called
+ ---> args[0]: trade_98  ---> args[1]: IT0005188120  ---> args[2]: CITI  ---> args[3]: BAML  ---> args[4]: 98  ---> args[5]: 101.2936  ---> args[6]: 12345  ---> args[7]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_99
+
+edit_trade called
+ ---> args[0]: trade_99  ---> args[1]: GB00B1VWPC84  ---> args[2]: DB  ---> args[3]: CS  ---> args[4]: 99  ---> args[5]: 101.1314  ---> args[6]: 12345  ---> args[7]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+fire trade:  trade_100
+
+edit_trade called
+ ---> args[0]: trade_100  ---> args[1]: DE0001141745  ---> args[2]: DB  ---> args[3]: BAML  ---> args[4]: 100  ---> args[5]: 100.9692  ---> args[6]: 12345  ---> args[7]: { from: '0xe17717f0a5226cfdad140aa3b9b7899eecf5ab37',
+  gas: 300000 }
+finishing at 100
+ ---> tx mined in block:  28
+ ---> tx mined in block:  28
+ ---> tx mined in block:  28
+ ---> tx mined in block:  28
+ ---> tx mined in block:  28
+ ---> tx_ref: 0xbbc37f5049ca799afc72ee50f4598dbcff086c24066b0e378b5258677f02dc17
+ ---> tx_ref: 0x09d6a43a42ffc1df4e3cef8eb5d56a7550d27535ee8f2ea785f7eb6be51e3b6d
+ ---> tx_ref: 0x3a1068f414f1159bd0d8063681067b5736fbc2aaf7a372ff0db2d8e8a90ccb92
+ ---> tx_ref: 0xd2ac82e88ea01359aeb846cac28c5747ac0055f34baf78780ec78570e709ec34
+ ---> tx_ref: 0x132a05b9a69c7cdc091e7ddd53c5e76bb9800144520b58e07c8cd48e5e712f39
+ ---> tx_ref: 0xdad096f054cad105db39bbfba5e90fcf13b5f2085be2e324b26eafced7a0d157
+ ---> tx_ref: 0x03ad9369ff2fc0a689461f754c13ae7c012ae146a8f57618369b1f7045ca611f
+ ---> tx mined in block:  31
+ ---> tx mined in block:  31
+ ---> tx mined in block:  31
+ ---> tx mined in block:  31
+ ---> tx mined in block:  31
+ ---> tx mined in block:  31
+ ---> tx mined in block:  31
+

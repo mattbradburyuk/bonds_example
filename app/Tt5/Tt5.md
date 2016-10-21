@@ -2,6 +2,9 @@
 
 Concentrated mostly on how to batch load trades into the Contract.
 
+All tests done against a single dockerised geth
+
+
 main files: 
 
 csv_trade_sources_<no trades>_at_X_per_Y_blocks.scv
@@ -38,6 +41,52 @@ Tt5_get_all_trades.js
 line 39:
 // web3.eth.defaultBlock = 180   <= uncomment and change to desired block to see previous snapshot
 ```
+
+# Steps to run a clean test:
+
+1) deploy new geth
+2) log on to geth with docker exec
+3) open console
+```
+root@cdf87b2c2654:~# cd go-ethereum/build/bin/
+root@cdf87b2c2654:~/go-ethereum/build/bin# ./geth attach
+Welcome to the Geth JavaScript console!
+
+instance: Geth/v1.4.18-stable-c72f5459/linux/go1.6.2
+coinbase: 0xc71bb89ce21c21c8f83f9490a37fa0876953b49a
+at block: 4 (Fri, 21 Oct 2016 14:50:54 UTC)
+ datadir: /root/.ethereum
+ modules: admin:1.0 debug:1.0 eth:1.0 miner:1.0 net:1.0 personal:1.0 rpc:1.0 txpool:1.0 web3:1.0
+
+> 
+```
+
+4) deploy and generate helpers from cli
+```
+$ node mushroom.js deploy
+$ node mushroom.js helpers
+```
+5) (if using Tt5_load_trades_basic.js) unlock account in console for an hour 
+```
+> personal.unlockAccount(eth.coinbase,'<password>', 3600)
+```
+6) start mining from console
+```
+> miner.start()
+```
+7) If using Tt5_load_trades_basic.js, toggle the new_trade/edit_trade call on line 47/49
+
+7) fire loading script:
+```
+$ Tt5_load_trades_basic.js
+or
+$ Tt5_load_trades_from_csv.js
+```
+
+7) Review the ethereum logs to see what's going on
+* filter on 'commit new work' will show txns going into a block as they are mined
+* filter on 'too many' will show errors caused by exceeding the open file limit in linux
+
 
 
 
@@ -322,7 +371,7 @@ personal.unlockAccount(eth.coinbase,'mattspass',3600)
 ```
 
 
-#Test 9
+##Test 9
 
 re run earlier tests
 
@@ -337,7 +386,7 @@ result:
 
 * all new trades and edit trades run successfully
 
-#Test 10
+##Test 10
 
 up the load
 
@@ -348,4 +397,45 @@ up the load
 
 new trades all ran successfully - didn't run edit as it would take to long
 
+
+##Test 11
+
+How many trades can ethereum process in one go + how long to clear them
+
+* docker geth 1.4.18,
+* csv_trade_sources_100_at_100_per_1_block.csv
+* Tt5_load_trades_basic.js (first run firing new_trades(), then run again editing to fire edit_trades() )
+* tx spacing set to 50ms
+
+results:
+* all trades and edits processed
+* 4 blocks to clear all new trades
+* 12 blocks to clear edit trades
+
+
+##Test 12
+
+Can the interval get reduced further -> 5ms
+
+* docker geth 1.4.18,
+* csv_trade_sources_100_at_100_per_1_block.csv
+* Tt5_load_trades_basic.js (first run firing new_trades(), then run again editing to fire edit_trades() )
+* tx spacing set to 5ms
+
+results:
+* all trades and edits processed
+* 14 blocks to clear all new trades
+* 4 blocks to clear edit trades
+
+Hence, reducing interval doesnt; improve rate of acceptance of trades into geth, there must be another limiting factor.
+
+
+##Test 13
+
+How many tades can geth take in one go? 
+
+* docker geth 1.4.18,
+* csv_trade_sources_1000_at_1000_per_1_block.csv
+* Tt5_load_trades_basic.js (first run firing new_trades(), then run again editing to fire edit_trades() )
+* tx spacing set to 50ms
 
