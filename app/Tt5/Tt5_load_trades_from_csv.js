@@ -59,7 +59,7 @@ function get_csv_data() {
 
         var parser = parse({delimiter: ','}, callback)
 
-        fs.createReadStream('./app/Tt5/csv_trades_source.csv').pipe(parser);
+        fs.createReadStream('./app/Tt5/csv_trade_sources_1000_at_10_per_10_blocks.csv').pipe(parser);
 
         function callback(err, data) {
             resolve(data)

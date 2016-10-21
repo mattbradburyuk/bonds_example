@@ -25,6 +25,7 @@ var contract_config = require(cc_path);
 
 const web3  = new Web3();
 var url = 'http://'+contract_config.rpc.host+':'+ contract_config.rpc.port;
+console.log(url)
 web3.setProvider(new web3.providers.HttpProvider(url));
 var rpc_client = jayson.client.http(url);
 

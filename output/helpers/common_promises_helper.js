@@ -67,14 +67,14 @@ module.exports = {
 
                 console.log('Password input received...');
 
-                web3.personal.unlockAccount(web3.eth.accounts[0], result.password, callback);  // unlock accounts
+                web3.personal.unlockAccount(web3.eth.accounts[0], result.password, 3600,callback);  // unlock accounts
 
             });
             function callback(e, r) {
                 if (e) {
                     reject("unlock_acc error");
                 } else {
-                    console.log(" --->account unlocked");
+                    console.log(" --->account unlocked (for 1 hour)");
                     resolve(pass_through);
                 }
             }
